@@ -1,0 +1,5 @@
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Creatures\bin\Debug\Creatures.dll
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Creatures\bin\Debug\Creatures.pdb
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Creatures\obj\Debug\Creatures.csprojResolveAssemblyReference.cache
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Creatures\obj\Debug\Creatures.dll
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Creatures\obj\Debug\Creatures.pdb

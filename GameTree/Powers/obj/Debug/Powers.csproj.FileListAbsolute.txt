@@ -1,0 +1,5 @@
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Powers\bin\Debug\Powers.dll
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Powers\bin\Debug\Powers.pdb
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Powers\obj\Debug\Powers.csprojResolveAssemblyReference.cache
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Powers\obj\Debug\Powers.dll
+C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\Powers\obj\Debug\Powers.pdb
