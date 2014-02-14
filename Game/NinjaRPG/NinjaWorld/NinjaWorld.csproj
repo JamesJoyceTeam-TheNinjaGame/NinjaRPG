@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EFD9D10-FDDF-4B1C-B43B-9AFC00BA67EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NinjaWorld</RootNamespace>
+    <AssemblyName>NinjaWorld</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcademyArena.cs" />
+    <Compile Include="Arena.cs" />
+    <Compile Include="Assassin.cs" />
+    <Compile Include="AttackTypeEnum.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="Bot.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="DreamJobArena.cs" />
+    <Compile Include="FightRulesEnum.cs" />
+    <Compile Include="GymArena.cs" />
+    <Compile Include="Home.cs" />
+    <Compile Include="JobArena.cs" />
+    <Compile Include="JobOffice.cs" />
+    <Compile Include="Recreation.cs" />
+    <Compile Include="CommercialBuilding.cs" />
+    <Compile Include="Creatures.cs" />
+    <Compile Include="EnergizerEnum.cs" />
+    <Compile Include="Energizers.cs" />
+    <Compile Include="Evil.cs" />
+    <Compile Include="HitCalculator.cs" />
+    <Compile Include="ICommercial.cs" />
+    <Compile Include="ImproperlyDefinedBuildingException.cs" />
+    <Compile Include="ImproperlyDefinedCreatureException.cs" />
+    <Compile Include="ImproperlyDefinedItemException.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="Jedi.cs" />
+    <Compile Include="Ninja.cs" />
+    <Compile Include="Powers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialPowers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WorldDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

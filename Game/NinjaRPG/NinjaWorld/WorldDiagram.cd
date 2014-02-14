@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NinjaWorld.Items">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Items.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Powers">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAKAAAAAAAAIABA=</HashCode>
+      <FileName>Powers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.ImproperlyDefinedItemException" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImproperlyDefinedItemException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Energizers">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="NinjaWorld.Items" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.699" />
+        <Point X="4" Y="3.125" />
+        <Point X="5" Y="3.125" />
+        <Point X="5" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energizers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NinjaWorld.SpecialPowers">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecialPowers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NinjaWorld.Creatures">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAACACAAAgAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Creatures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Ninja">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAKAxAAAYACEAAiBBIAAAEhAAAEAAAAAAEEAAAAAA=</HashCode>
+      <FileName>Ninja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Evil">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Jedi">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAASAAAAAAIAAAICCAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jedi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Bot">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAAAAAAAAAAACCAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Assassin">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAASAAAAAAIAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assassin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Boss">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.ImproperlyDefinedCreatureException" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImproperlyDefinedCreatureException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.HitCalculator">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>HitCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Building">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Building.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.ImproperlyDefinedBuildingException" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImproperlyDefinedBuildingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.CommercialBuilding">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>CommercialBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Recreation">
+    <Position X="4.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.JobOffice">
+    <Position X="6.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Arena">
+    <Position X="8" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.JobArena">
+    <Position X="6.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.AcademyArena">
+    <Position X="8" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AcademyArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.GymArena">
+    <Position X="9.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GymArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.DreamJobArena">
+    <Position X="11.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DreamJobArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Home">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NinjaWorld.ICommercial">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICommercial.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NinjaWorld.EnergizerEnum">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAggAIAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>EnergizerEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NinjaWorld.AttackTypeEnum">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttackTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NinjaWorld.FightRulesEnum">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>FightRulesEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
