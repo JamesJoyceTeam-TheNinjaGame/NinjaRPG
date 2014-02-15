@@ -39,18 +39,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcademyArena.cs" />
+    <Compile Include="Academy.cs" />
     <Compile Include="Arena.cs" />
     <Compile Include="Assassin.cs" />
     <Compile Include="AttackTypeEnum.cs" />
+    <Compile Include="BalancedJob.cs" />
+    <Compile Include="BalancedJobsEnum.cs" />
     <Compile Include="Boss.cs" />
     <Compile Include="Bot.cs" />
     <Compile Include="Building.cs" />
-    <Compile Include="DreamJobArena.cs" />
+    <Compile Include="DreamJob.cs" />
     <Compile Include="FightRulesEnum.cs" />
-    <Compile Include="GymArena.cs" />
+    <Compile Include="Gym.cs" />
+    <Compile Include="HeadworkEnum.cs" />
     <Compile Include="Home.cs" />
-    <Compile Include="JobArena.cs" />
+    <Compile Include="Job.cs" />
     <Compile Include="JobOffice.cs" />
     <Compile Include="CommercialBuilding.cs" />
     <Compile Include="Creatures.cs" />
@@ -64,7 +67,10 @@
     <Compile Include="ImproperlyDefinedItemException.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Jedi.cs" />
+    <Compile Include="MentalJob.cs" />
     <Compile Include="Ninja.cs" />
+    <Compile Include="PhysicalJob.cs" />
+    <Compile Include="PhysicalWorkEnum.cs" />
     <Compile Include="Powers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recreations.cs" />

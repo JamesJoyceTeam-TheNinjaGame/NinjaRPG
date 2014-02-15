@@ -40,55 +40,55 @@
   <Class Name="NinjaWorld.SpecialPowers">
     <Position X="2.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
       <FileName>SpecialPowers.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="NinjaWorld.Creatures">
-    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Position X="12.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AwAAACACAAAgAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
       <FileName>Creatures.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Ninja">
-    <Position X="8" Y="4.75" Width="1.5" />
+    <Position X="10.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QBAAKAxAAAYACEAAiBBIAABEBAAAEAAAAAAEEAAAAAA=</HashCode>
       <FileName>Ninja.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Evil">
-    <Position X="11.75" Y="4.75" Width="1.5" />
+    <Position X="14.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Evil.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Jedi">
-    <Position X="13.5" Y="6.75" Width="1.5" />
+    <Position X="16" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAAASAAAAAAIAAAICCAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>Jedi.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Bot">
-    <Position X="11.75" Y="6.75" Width="1.5" />
+    <Position X="14.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAAACAAAAAAAAAAACCAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>Bot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Assassin">
-    <Position X="10" Y="6.75" Width="1.5" />
+    <Position X="12.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAASAAAAAAIAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assassin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Boss">
-    <Position X="13.5" Y="11.25" Width="1.5" />
+    <Position X="16" Y="11.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Boss.cs</FileName>
@@ -132,7 +132,7 @@
   <Class Name="NinjaWorld.JobOffice">
     <Position X="4.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>JobOffice.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -143,32 +143,25 @@
       <FileName>Arena.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.JobArena">
-    <Position X="6.25" Y="15.5" Width="1.5" />
+  <Class Name="NinjaWorld.Academy">
+    <Position X="8" Y="12.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>JobArena.cs</FileName>
+      <FileName>Academy.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.AcademyArena">
-    <Position X="8" Y="15.5" Width="1.5" />
+  <Class Name="NinjaWorld.Gym">
+    <Position X="9.75" Y="12.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AcademyArena.cs</FileName>
+      <FileName>Gym.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.GymArena">
-    <Position X="9.75" Y="15.5" Width="1.5" />
+  <Class Name="NinjaWorld.DreamJob">
+    <Position X="11.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GymArena.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="NinjaWorld.DreamJobArena">
-    <Position X="11.5" Y="15.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DreamJobArena.cs</FileName>
+      <FileName>DreamJob.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Home">
@@ -185,6 +178,34 @@
       <FileName>Recreations.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NinjaWorld.Job">
+    <Position X="14" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACABAAAABAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Job.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.BalancedJob">
+    <Position X="14" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BalancedJob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.MentalJob">
+    <Position X="12.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MentalJob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.PhysicalJob">
+    <Position X="15.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicalJob.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="NinjaWorld.ICommercial">
     <Position X="0.5" Y="3.5" Width="1.5" />
@@ -212,6 +233,27 @@
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>FightRulesEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NinjaWorld.BalancedJobEnum">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAKACAAAAAQAAAAA=</HashCode>
+      <FileName>BalancedJobsEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NinjaWorld.PhysicalWorkEnum">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABEAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicalWorkEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NinjaWorld.HeadworkEnum">
+    <Position X="0.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAQAAAAAA=</HashCode>
+      <FileName>HeadworkEnum.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
