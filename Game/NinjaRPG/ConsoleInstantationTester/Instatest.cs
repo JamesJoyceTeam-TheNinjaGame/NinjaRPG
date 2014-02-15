@@ -1,17 +1,18 @@
 ﻿namespace ConsoleInstantationTester
 {
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NinjaWorld;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using NinjaWorld;
 
-    class Instatest
+    public class Instatest
     {
-        static void Main()
+        public static void Main()
         {
-            Ninja Ninja = new Ninja("Gogo");
-            Console.WriteLine(Ninja.Cash);
+            Ninja ninja = new Ninja("Gogo");
+
+            Console.WriteLine(ninja.Cash);
         }
     }
 }

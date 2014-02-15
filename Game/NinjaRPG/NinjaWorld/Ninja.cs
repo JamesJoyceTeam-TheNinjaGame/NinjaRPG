@@ -117,6 +117,10 @@
                     return true;
                 }
             }
+            else if (item is Recreations)
+            {
+                this.TotalEnergy += (item as Recreations).EnergyUpgrade;
+            }
             else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
             {
                 this.BagOfItems.Add(item as ICommercial);
@@ -130,7 +134,7 @@
             return false;
         }
 
-        // TODO: DONE ! Energizer Used
+        // TODO: DONE ! Energizer Used // Recreation USED
         public ICommercial UseItem(ICommercial item)
         {
             if (item is Energizers)

@@ -52,7 +52,6 @@
     <Compile Include="Home.cs" />
     <Compile Include="JobArena.cs" />
     <Compile Include="JobOffice.cs" />
-    <Compile Include="Recreation.cs" />
     <Compile Include="CommercialBuilding.cs" />
     <Compile Include="Creatures.cs" />
     <Compile Include="EnergizerEnum.cs" />
@@ -68,6 +67,7 @@
     <Compile Include="Ninja.cs" />
     <Compile Include="Powers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recreations.cs" />
     <Compile Include="SpecialPowers.cs" />
   </ItemGroup>
   <ItemGroup>
