@@ -1,6 +1,8 @@
 ﻿namespace NinjaWorld
 {
-    public interface ICommercial
+    using System;
+
+    public interface ICommercial : ICloneable
     {
         int Price { get; set; }
 

@@ -1,10 +1,10 @@
 ﻿namespace NinjaWorld
 {
-    public class Energizers : Items, ICommercial
+    public class EnergizingItems : Items, ICommercial
     {
         private const int PricePerHeal = 1;
-        
-        public Energizers(EnergizerEnum energizer, string name)
+
+        public EnergizingItems(EnergizerEnum energizer, string name)
             : base(name)
         {
             this.Energizer = energizer;
@@ -17,5 +17,10 @@
         public int HealingPoints { get; private set; }
 
         public int Price { get; set; }
+
+        public object Clone()
+        {
+            return new EnergizingItems(this.Energizer, this.Name);
+        }
     }
 }

@@ -88,11 +88,11 @@
             this.Cash += cash;
         }
 
-        public bool PayCash(int cash)
+        public bool PayForItem(ICommercial commercialItem)
         {
-            if (this.Cash >= cash)
+            if (this.Cash >= commercialItem.Price)
             {
-                this.Cash -= cash;
+                this.Cash -= commercialItem.Price;
                 return true;
             }
             else
@@ -120,6 +120,7 @@
             else if (item is Recreations)
             {
                 this.TotalEnergy += (item as Recreations).EnergyUpgrade;
+                return true;
             }
             else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
             {
@@ -137,9 +138,9 @@
         // TODO: DONE ! Energizer Used // Recreation USED
         public ICommercial UseItem(ICommercial item)
         {
-            if (item is Energizers)
+            if (item is EnergizingItems)
             {
-                this.CurrentEnergy += (item as Energizers).HealingPoints;
+                this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
             }
 
             this.BagOfItems.Remove(item);

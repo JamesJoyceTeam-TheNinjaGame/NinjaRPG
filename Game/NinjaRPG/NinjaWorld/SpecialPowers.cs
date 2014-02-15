@@ -1,5 +1,7 @@
 ﻿namespace NinjaWorld
 {
+    using System;
+
     public class SpecialPowers : Powers, ICommercial
     {
         private int price;
@@ -26,6 +28,11 @@
 
                 this.price = value;
             }
+        }
+
+        public object Clone()
+        {
+            return new SpecialPowers(this.AttackType, this.Name, this.Price, this.AttackPower, this.SuccessRate);
         }
     }
 }

@@ -21,7 +21,7 @@
       <FileName>ImproperlyDefinedItemException.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.Energizers">
+  <Class Name="NinjaWorld.EnergizingItems">
     <Position X="4.25" Y="3.5" Width="1.5" />
     <InheritanceLine Type="NinjaWorld.Items" FixedToPoint="true">
       <Path>
@@ -32,7 +32,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAACAAQAgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAQAgAAAAAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
       <FileName>Energizers.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -55,7 +55,7 @@
   <Class Name="NinjaWorld.Ninja">
     <Position X="8" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QBAAKAxAAAYACEAAiBBIAAAEhAAAEAAAAAAEEAAAAAA=</HashCode>
+      <HashCode>QBAAKAxAAAYACEAAiBBIAABEBAAAEAAAAAAEEAAAAAA=</HashCode>
       <FileName>Ninja.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -125,7 +125,7 @@
   <Class Name="NinjaWorld.CommercialBuilding">
     <Position X="2.75" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
       <FileName>CommercialBuilding.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -181,7 +181,7 @@
   <Class Name="NinjaWorld.Recreations">
     <Position X="6" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAgAABABAAAAAABEEABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAgAABABAAAAAABEEABAAAABA=</HashCode>
       <FileName>Recreations.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

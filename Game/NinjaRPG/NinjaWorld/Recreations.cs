@@ -23,5 +23,10 @@
         public int EnergyUpgrade { get; private set; }
 
         public int Price { get; set; }
+
+        public object Clone()
+        {
+            return new Recreations(this.Name);
+        }
     }
 }
