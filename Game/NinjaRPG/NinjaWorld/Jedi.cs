@@ -12,11 +12,11 @@
         private const int ForceSuccessMax = 80;
         private const int ForceSuccessMin = 55;
 
-        public Jedi(string name, int totalEnergy)
-            : base(name, totalEnergy)
+        public Jedi(int level)
+            : base(RandomeEvilName.RandomName(RandomeEvilName.JediNames), level)
         {
-            this.MentalPower = totalEnergy / EnergyToMentalPowerRatio;
-            this.ForcePower = totalEnergy / EnergyToForcePowerRatio;
+            this.MentalPower = this.TotalEnergy / EnergyToMentalPowerRatio;
+            this.ForcePower = this.TotalEnergy / EnergyToForcePowerRatio;
             this.MentalSuccess = new Random().Next(MentalSuccessMin, MentalSuccessMax + 1);
             this.ForceSuccess = new Random().Next(ForceSuccessMin, ForceSuccessMax + 1);
         }
