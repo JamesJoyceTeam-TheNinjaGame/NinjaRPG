@@ -1,5 +1,0 @@
-C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\WorldMap\bin\Debug\WorldMap.dll
-C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\WorldMap\bin\Debug\WorldMap.pdb
-C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\WorldMap\obj\Debug\WorldMap.csprojResolveAssemblyReference.cache
-C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\WorldMap\obj\Debug\WorldMap.dll
-C:\Users\Rusekov\Documents\Visual Studio 2013\OOP\GameTree\WorldMap\obj\Debug\WorldMap.pdb
