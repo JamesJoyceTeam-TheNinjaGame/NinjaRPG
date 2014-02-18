@@ -26,7 +26,7 @@
 
         public object Clone()
         {
-            return new Recreations(this.Name);
+            return new Recreations((string)this.Name.Clone());
         }
     }
 }

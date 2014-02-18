@@ -132,20 +132,22 @@
                     .ToList();
                 return true;
             }
-            
+
             return false;
         }
 
         // TODO: DONE ! Energizer Used // Recreation USED
-        public ICommercial UseItem(ICommercial item)
+        public Items UseItem(Items item)
         {
-            if (item is EnergizingItems)
+            if (item is ICommercial)
             {
-                this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
+                if (item is EnergizingItems)
+                {
+                    this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
+                }
+                this.BagOfItems.Remove(item as ICommercial);            
             }
-
-            this.BagOfItems.Remove(item);
-            return item;            
+            return item;
         }
     }
 }

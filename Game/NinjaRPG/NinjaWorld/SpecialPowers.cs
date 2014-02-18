@@ -32,7 +32,7 @@
 
         public object Clone()
         {
-            return new SpecialPowers(this.AttackType, this.Name, this.Price, this.AttackPower, this.SuccessRate);
+            return new SpecialPowers(this.AttackType, (string)this.Name.Clone(), this.Price, this.AttackPower, this.SuccessRate);
         }
     }
 }

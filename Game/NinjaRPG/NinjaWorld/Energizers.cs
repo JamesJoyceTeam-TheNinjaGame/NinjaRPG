@@ -20,7 +20,7 @@
 
         public object Clone()
         {
-            return new EnergizingItems(this.Energizer, this.Name);
+            return new EnergizingItems(this.Energizer, (string)this.Name.Clone());
         }
     }
 }
