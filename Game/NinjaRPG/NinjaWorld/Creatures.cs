@@ -8,13 +8,15 @@
         private const int MinimalTotalEnergy = 50;
      
         private string name;
+        private int totalEnergy;
         private int currentEnergy;
 
-        public Creatures(string name)
+        public Creatures(string name, int totalEnergy)
         {
             this.Name = name;
             this.CreatureType = this.GetType().Name;
-            this.CurrentEnergy = this.TotalEnergy;
+            this.TotalEnergy = totalEnergy;
+            this.CurrentEnergy = this.totalEnergy;
         }
 
         public int CurrentEnergy
@@ -31,9 +33,9 @@
                     value = 0;
                 }
 
-                if (value > this.TotalEnergy)
+                if (value > this.totalEnergy)
                 {
-                    value = this.TotalEnergy;
+                    value = this.totalEnergy;
                 }
 
                 this.currentEnergy = value;
@@ -60,7 +62,23 @@
 
         public string CreatureType { get; private set; }               
 
-        public int TotalEnergy { get; protected set; }
+        public int TotalEnergy
+        {
+            get 
+            { 
+                return this.totalEnergy; 
+            }
+
+            set 
+            {
+                if (value < MinimalTotalEnergy || value > MaximalTotalEnergy)
+                {
+                    throw new ImproperlyDefinedCreatureException(string.Format("Total energy could not be less than {0} or more than {1}", MaximalTotalEnergy, MaximalTotalEnergy));
+                }
+
+                this.totalEnergy = value; 
+            }
+        }
   
         public bool IsAlive()
         {

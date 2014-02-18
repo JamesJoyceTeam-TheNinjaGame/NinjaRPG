@@ -8,10 +8,10 @@
         private const int ForceSuccessMax = 80;
         private const int ForceSuccessMin = 60;
 
-        public Assassin(int level)
-            : base(RandomeEvilName.RandomName(RandomeEvilName.RobotNames), level)
+        public Assassin(string name, int totalEnergy)
+            : base(name, totalEnergy)
         {
-            this.ForcePower = this.TotalEnergy / EnergyToForcePowerRatio;
+            this.ForcePower = totalEnergy / EnergyToForcePowerRatio;
             this.ForceSuccess = new Random().Next(ForceSuccessMin, ForceSuccessMax + 1);
         }
 

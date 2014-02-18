@@ -10,9 +10,12 @@
         {
         }
 
+        // TODO: Implement JobOffice
         public void ApplyForJob(Ninja ninja, Job chosenJob)
         {
-            Evil enemy = this.ChooseEnemy(chosenJob);
+            // TODO: Implement Logic to choose propper Enemy!
+            Jedi enemy = new Jedi("FOnki", 100); 
+            //// the one above is sample.
             
             Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, enemy);
 
@@ -21,10 +24,6 @@
             if (fight.IsNinjaWiner)
             {                
                 this.RewardNinja(ninja, chosenJob);
-            }
-            else
-            {
-                // ToDo: ??any string message for the looser
             }
         }
 
@@ -67,20 +66,6 @@
 
             return listOfJobs;
         }
-
-        private Evil ChooseEnemy(Job chosenJob)
-        {
-            if (chosenJob.JobFihtRules == FightRulesEnum.BrutalFight)
-            {
-                return new Assassin(chosenJob.JobLevel);
-            }
-            else if (chosenJob.JobFihtRules == FightRulesEnum.MentalFight)
-            {
-                return new Bot(chosenJob.JobLevel);
-            }
-
-            return new Jedi(chosenJob.JobLevel);
-        }        
 
         private void RewardNinja(Ninja ninja, Job chosenJob)
         {

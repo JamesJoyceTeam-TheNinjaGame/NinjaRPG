@@ -5,17 +5,16 @@
     public class Boss : Jedi
     {
         private const string BossName = "The Boss";        
-        private const int BossHealPerHitRation = 10;
-        private const int BossLevel = 50;
+        private const int BoosHealPerHitRation = 10;
 
         public Boss()
-            : base(BossLevel)
+            : base(BossName, Creatures.MaximalTotalEnergy)
         {
         }
 
         public int Heal(int hitPower)
         {
-            return hitPower / BossHealPerHitRation;
+            return hitPower / BoosHealPerHitRation;
         }
     }
 }

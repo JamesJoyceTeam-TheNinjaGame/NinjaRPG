@@ -18,6 +18,6 @@
 
         public string Possition { get; protected set; }
 
-        public int JobLevel { get; protected set; }
+        protected int JobLevel { get; set; }
     }
 }
