@@ -25,14 +25,15 @@
             this.TotalStepsToNextForceLevel = InitialTotalSteps;
             this.TotalStepsToNextMentalLevel = InitialTotalSteps;
             this.Cash = 50;
-            this.ForcePowers = new Powers[MaxForceLevel];
-            this.MentalPowers = new Powers[MaxMentalLevel];
+            this.ForcePowers = new List<Powers>();
+            this.MentalPowers = new List<Powers>();
             this.BagOfItems = new List<ICommercial>();
+            this.GetItem(Academy.ListOfPowers[0]);
         }
 
-        public Powers[] ForcePowers { get; private set; }
+        public List<Powers> ForcePowers { get; private set; }
 
-        public Powers[] MentalPowers { get; private set; }
+        public List<Powers> MentalPowers { get; private set; }
 
         public List<ICommercial> BagOfItems { get; private set; }
 
@@ -67,7 +68,7 @@
             }
         }
 
-        public void UpMental()
+        public bool UpMentalLevel()
         {
             if (this.MentalLevel < MaxMentalLevel &&
                this.CurrentStepMentalLevel == this.TotalStepsToNextMentalLevel)
@@ -75,6 +76,7 @@
                 this.MentalLevel++;
                 this.TotalStepsToNextMentalLevel++;
                 this.CurrentStepMentalLevel = InitialStep;
+                return true;
 
                 // TODO: Event? Accept next mental Item
             }
@@ -82,6 +84,7 @@
             {
                 this.CurrentStepMentalLevel++;
             }
+            return false;
         }
 
         public void GetCash(int cash)
@@ -109,12 +112,12 @@
             {
                 if ((item as Powers).AttackType == AttackTypeEnum.ForceAttack)
                 {
-                    this.ForcePowers[this.ForceLevel - InitialLevel] = item as Powers;
+                    this.ForcePowers.Add(item as Powers);
                     return true;
                 }
                 else if ((item as Powers).AttackType == AttackTypeEnum.MindAttack)
                 {
-                    this.MentalPowers[this.MentalLevel - InitialLevel] = item as Powers;
+                    this.MentalPowers.Add(item as Powers);
                     return true;
                 }
             }

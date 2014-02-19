@@ -55,7 +55,7 @@
   <Class Name="NinjaWorld.Ninja">
     <Position X="10.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QBAAKAxAAAYACEAAiBBIAABEBAAAEAAAAAAEEAAAAAA=</HashCode>
+      <HashCode>QBAAKAxAAAYACEAACBBIAABEBAAEEAAAAAAEEAAAAAA=</HashCode>
       <FileName>Ninja.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -132,7 +132,7 @@
   <Class Name="NinjaWorld.JobOffice">
     <Position X="4.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <HashCode>ABAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>JobOffice.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -146,7 +146,7 @@
   <Class Name="NinjaWorld.Academy">
     <Position X="8" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Academy.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -210,7 +210,7 @@
   <Class Name="NinjaWorld.RandomeEvilName">
     <Position X="16" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>BBAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>RandomeEvilName.cs</FileName>
     </TypeIdentifier>
   </Class>
