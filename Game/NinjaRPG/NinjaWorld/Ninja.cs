@@ -29,6 +29,7 @@
             this.MentalPowers = new List<Powers>();
             this.BagOfItems = new List<ICommercial>();
             this.GetItem(Academy.ListOfPowers[0]);
+            this.GetItem(Gym.ListOfPowers[0]);
         }
 
         public List<Powers> ForcePowers { get; private set; }
@@ -51,7 +52,7 @@
 
         public int CurrentStepMentalLevel { get; private set; }
 
-        public void UpForce()
+        public bool UpForceLevel()
         {
             if (this.ForceLevel < MaxForceLevel &&
                 this.CurrentStepForceLevel == this.TotalStepsToNextForceLevel)
@@ -59,13 +60,14 @@
                 this.ForceLevel++;
                 this.TotalStepsToNextForceLevel++;
                 this.CurrentStepForceLevel = InitialStep;
-
-                // TODO: Event? Accept next power Item
+                return true;
             }
             else if (this.CurrentStepForceLevel < this.TotalStepsToNextForceLevel)
             {
                 this.CurrentStepForceLevel++;
             }
+
+            return false;
         }
 
         public bool UpMentalLevel()
@@ -77,13 +79,12 @@
                 this.TotalStepsToNextMentalLevel++;
                 this.CurrentStepMentalLevel = InitialStep;
                 return true;
-
-                // TODO: Event? Accept next mental Item
             }
             else if (this.CurrentStepMentalLevel < this.TotalStepsToNextMentalLevel)
             {
                 this.CurrentStepMentalLevel++;
             }
+
             return false;
         }
 
@@ -139,7 +140,6 @@
             return false;
         }
 
-        // TODO: DONE ! Energizer Used // Recreation USED
         public Items UseItem(Items item)
         {
             if (item is ICommercial)
@@ -148,8 +148,10 @@
                 {
                     this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
                 }
+
                 this.BagOfItems.Remove(item as ICommercial);            
             }
+
             return item;
         }
     }
