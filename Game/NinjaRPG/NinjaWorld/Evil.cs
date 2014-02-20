@@ -4,13 +4,12 @@
 
     public abstract class Evil : Creatures
     {
-        private const int TotalEnergyToLevelRation = 10; 
+        private const int TotalEnergyToLevelRation = 100; 
 
         public Evil(string name, int level)
-            : base(name)
+            : base(name, level * TotalEnergyToLevelRation)
         {
             this.Level = level;
-            this.TotalEnergy = level * TotalEnergyToLevelRation;
         }
 
         protected int Level { get; private set; }    

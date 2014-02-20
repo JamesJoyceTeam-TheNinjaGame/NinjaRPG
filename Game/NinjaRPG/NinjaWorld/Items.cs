@@ -21,7 +21,7 @@
 
             private set
             {
-                if (!Regex.IsMatch(value, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
+                if (!Regex.IsMatch(value, @"\b[A-Za-z][A-Za-z][A-Za-z]+\w\b"))
                 {
                     throw new ImproperlyDefinedItemException(string.Format("{0} name must be at least 3 symbols and could contain only latin letters", this.ItemType));
                 }

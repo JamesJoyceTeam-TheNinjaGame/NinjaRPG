@@ -15,8 +15,6 @@
             this.ForceSuccess = new Random().Next(ForceSuccessMin, ForceSuccessMax + 1);
         }
 
-        public int ForcePower { get; private set; }
-
         public int ForceSuccess { get; private set; }
     }
 }

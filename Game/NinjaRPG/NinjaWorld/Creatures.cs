@@ -10,11 +10,11 @@
         private string name;
         private int currentEnergy;
 
-        public Creatures(string name)
+        public Creatures(string name, int startEnergy)
         {
             this.Name = name;
             this.CreatureType = this.GetType().Name;
-            this.CurrentEnergy = this.TotalEnergy;
+            CurrentEnergy = startEnergy;
         }
 
         public int CurrentEnergy
@@ -26,15 +26,15 @@
 
             set 
             {
-                if (value < 0)
-                {
-                    value = 0;
-                }
+                //if (value < 0)
+                //{
+                //    value = 100;
+                //}
 
-                if (value > this.TotalEnergy)
-                {
-                    value = this.TotalEnergy;
-                }
+                //if (value > this.TotalEnergy)
+                //{
+                //    value = this.TotalEnergy;
+                //}
 
                 this.currentEnergy = value;
             }
@@ -61,6 +61,7 @@
         public string CreatureType { get; private set; }               
 
         public int TotalEnergy { get; protected set; }
+        public int ForcePower { get; set; }
   
         public bool IsAlive()
         {

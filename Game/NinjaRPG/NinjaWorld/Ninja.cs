@@ -15,7 +15,7 @@
         private const int MaxItems = 20;
 
         public Ninja(string name)
-            : base(name)
+            : base(name, StartEnergy)
         {
             this.TotalEnergy = StartEnergy;
             this.ForceLevel = InitialLevel;

@@ -2,6 +2,7 @@
 {
     public enum EnergizerEnum
     {        
+        None = 0,
         Cola = 20,
         Coffee = 50,
         IceCream = 100,

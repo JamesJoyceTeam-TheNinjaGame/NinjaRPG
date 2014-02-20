@@ -10,23 +10,23 @@
         {
         }
 
-        public void ApplyForJob(Ninja ninja, Job chosenJob)
-        {
-            Evil enemy = this.ChooseEnemy(chosenJob);
+        //public void ApplyForJob(Ninja ninja, Job chosenJob)
+        //{
+        //    Evil enemy = this.ChooseEnemy(chosenJob);
             
-            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, enemy);
+        //    //Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, enemy);
 
-            fight.Fight();
+        //    //fight.Fight();
 
-            if (fight.IsNinjaWiner)
-            {                
-                this.RewardNinja(ninja, chosenJob);
-            }
-            else
-            {
-                // ToDo: ??any string message for the looser
-            }
-        }
+        //    if (fight.IsNinjaWiner)
+        //    {                
+        //        this.RewardNinja(ninja, chosenJob);
+        //    }
+        //    else
+        //    {
+        //        // ToDo: ??any string message for the looser
+        //    }
+        //}
 
         public List<Job> GenerateJobsFor(Ninja ninja)
         {
