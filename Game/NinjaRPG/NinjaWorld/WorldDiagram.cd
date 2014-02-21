@@ -51,47 +51,47 @@
   <Class Name="NinjaWorld.Creatures">
     <Position X="12.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AwAAAAACAAAgAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
+      <HashCode>AwAAAAACAAggAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
       <FileName>Creatures.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Ninja">
     <Position X="10.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QBAAKARAAAYACEAACFBIAABEBAAEEAAAAAAEEAAAAAA=</HashCode>
+      <HashCode>QBAAKARAAAYACEAACFBIAABEBIAEEAAAAAAEEAAAAAA=</HashCode>
       <FileName>Ninja.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Evil">
     <Position X="14.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Evil.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Jedi">
     <Position X="16" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAASAAAAAAIAAAICCAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQQAAASAAAAAgIAgAECKAACAAAAAAQAIAAAAA=</HashCode>
       <FileName>Jedi.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Bot">
     <Position X="14.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAACAAAAAAAAAAACCAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQQAAAAAAAAAgAAAAECKAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Bot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Assassin">
     <Position X="12.5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAASAAAAAAIAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAASAAAAAgIAgAAAIAACAAAAAAAAIAAAAA=</HashCode>
       <FileName>Assassin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Boss">
-    <Position X="16" Y="11.25" Width="1.5" />
+    <Position X="16.25" Y="12" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAAAAAKAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Boss.cs</FileName>
@@ -107,7 +107,7 @@
   <Class Name="NinjaWorld.HitCalculator">
     <Position X="0.5" Y="9.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAABCAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <HashCode>AAAAABCAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HitCalculator.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -142,14 +142,14 @@
   <Class Name="NinjaWorld.Arena">
     <Position X="6.25" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAAAAAAAAAIAAAAAAAAABAAAAAAIAAAAAAEAACAAAA=</HashCode>
       <FileName>Arena.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Academy">
     <Position X="8" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Academy.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -220,7 +220,7 @@
   <Class Name="NinjaWorld.Randomizer">
     <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Randomizer.cs</FileName>
     </TypeIdentifier>
   </Class>

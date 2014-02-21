@@ -19,16 +19,28 @@
             new Powers(AttackTypeEnum.ForceAttack, "Ninjutsu", 110, 95)
         };
 
+        private const string ArenaName = "The Gym";
+
         public Gym(string name)
-            : base(name)
+            : base(ArenaName)
         {
         }
 
-        public void OfferReward(Ninja ninja)
+        public void WorkOut(Ninja ninja)
         {
-            if (ninja.UpForceLevel())
+            Evil enemy = new Assassin (ninja.MentalLevel + 1);
+
+            Arena fight = new Arena(string.Format("Training {0}", ListOfPowers[ninja.MentalLevel]), FightRulesEnum.MentalFight, ninja, enemy);
+
+            fight.Fight();
+
+            if (fight.IsNinjaWiner)
             {
-                ninja.GetItem(ListOfPowers[ninja.ForceLevel]);
+                ninja.UpForceLevel();
+            }
+            else
+            {
+                // ToDo: for Andrei: ??any string message for the looser
             }
         }
     }
