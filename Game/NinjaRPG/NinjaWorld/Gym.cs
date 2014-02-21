@@ -22,7 +22,7 @@
         private const string ArenaName = "The Gym";
 
         public Gym(string name)
-            : base(ArenaName)
+            : base(name)
         {
         }
 

@@ -29,8 +29,8 @@ namespace NinjaWorld
         /// <summary>
         /// Initializes a new instance of the <see cref="Academy"/> class with constant name
         /// </summary>
-        public Academy()
-            : base(ArenaName)
+        public Academy(string name)
+            : base(name)
         {            
         }
 
