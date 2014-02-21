@@ -4,7 +4,8 @@
 
     public abstract class Evil : Creatures
     {
-        private const int TotalEnergyToLevelRation = 10; 
+        // Fixed form 10 to 100
+        private const int TotalEnergyToLevelRation = 100; 
 
         public Evil(string name, int level)
             : base(name)
@@ -13,6 +14,8 @@
             this.TotalEnergy = level * TotalEnergyToLevelRation;
         }
 
-        protected int Level { get; private set; }    
+        protected int Level { get; private set; }
+
+        public abstract int Attack(FightRulesEnum rules);
     }
 }

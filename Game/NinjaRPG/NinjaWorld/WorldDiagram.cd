@@ -9,6 +9,9 @@
   </Class>
   <Class Name="NinjaWorld.Powers">
     <Position X="2.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAKAAAAAAAAIABA=</HashCode>
       <FileName>Powers.cs</FileName>
@@ -55,7 +58,7 @@
   <Class Name="NinjaWorld.Ninja">
     <Position X="10.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QBAAKAxAAAYACEAACBBIAABEBAAEEAAAAAAEEAAAAAA=</HashCode>
+      <HashCode>QBAAKARAAAYACEAACFBIAABEBAAEEAAAAAAEEAAAAAA=</HashCode>
       <FileName>Ninja.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -104,7 +107,7 @@
   <Class Name="NinjaWorld.HitCalculator">
     <Position X="0.5" Y="9.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>AAAAABCAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAA=</HashCode>
       <FileName>HitCalculator.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -146,14 +149,14 @@
   <Class Name="NinjaWorld.Academy">
     <Position X="8" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Academy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Gym">
     <Position X="9.75" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Gym.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -212,6 +215,13 @@
     <TypeIdentifier>
       <HashCode>BBAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>RandomeEvilName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.Randomizer">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Randomizer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="NinjaWorld.ICommercial">
