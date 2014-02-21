@@ -2,38 +2,21 @@
 {
     using System;
 
-    /// <summary>
-    /// Calculates the damage power of ninja and enemy hits
-    /// </summary>
-    public static class HitCalculator
+    public class HitCalculator
     {
-        private const int HitPrecision = 10;
-        private const int WrontHitPenaltyDenominator = 4;
-
-        /// <summary>
-        /// Calculate and returns the damage to be removed
-        /// </summary>
-        /// <param name="power">attack power</param>
-        /// <param name="rules">attack success</param>
-        /// <returns>damage to be removed from hitted enemy</returns>
-        public static int DynamicDamageCalculator(Powers power, FightRulesEnum rules)
+        protected int DynamicPowerHit(int maxPower, int averageSuccess)
         {
-                        int powerNumerator = new int();
-            for (int i = 0; i < HitPrecision; i++)
+            Random rand = new Random();
+            int result = new int();
+            for (int i = 0; i < 10; i++)
             {
-                if (Randomizer.Rand.Next(0, 101) <= power.SuccessRate)
+                if (rand.Next(0, averageSuccess + 1) <= averageSuccess)
                 {
-                    powerNumerator += power.AttackPower;
+                    result += maxPower;
                 }
             }
-            
-            if ((power.AttackType == AttackTypeEnum.ForceAttack && rules == FightRulesEnum.MentalFight) ||
-            (power.AttackType == AttackTypeEnum.MindAttack && rules == FightRulesEnum.BrutalFight))
-            {
-                return powerNumerator / (HitPrecision * WrontHitPenaltyDenominator);
-            }
 
-            return powerNumerator / HitPrecision;
+            return result / 10;
         }
     }
 }

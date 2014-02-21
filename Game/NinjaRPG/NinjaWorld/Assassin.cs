@@ -7,23 +7,16 @@
         private const int EnergyToForcePowerRatio = 15;
         private const int ForceSuccessMax = 80;
         private const int ForceSuccessMin = 60;
-        private const string ForceAttackName = "Brutal Attack";
-
-        private Powers forceAttack;
-        private int forcePower;
-        private int forceSuccess;
 
         public Assassin(int level)
             : base(RandomeEvilName.RandomName(RandomeEvilName.RobotNames), level)
         {
-            this.forcePower = this.TotalEnergy / EnergyToForcePowerRatio;
-            this.forceSuccess = Randomizer.Rand.Next(ForceSuccessMin, ForceSuccessMax + 1);
-            this.forceAttack = new Powers(AttackTypeEnum.ForceAttack, ForceAttackName, this.forcePower, this.forceSuccess);
+            this.ForcePower = this.TotalEnergy / EnergyToForcePowerRatio;
+            this.ForceSuccess = new Random().Next(ForceSuccessMin, ForceSuccessMax + 1);
         }
 
-        public override int Attack(FightRulesEnum rules)
-        {
-            return HitCalculator.DynamicDamageCalculator(forceAttack, rules);
-        }
+        public int ForcePower { get; private set; }
+
+        public int ForceSuccess { get; private set; }
     }
 }

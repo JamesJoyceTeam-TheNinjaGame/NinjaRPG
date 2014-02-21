@@ -8,8 +8,8 @@
         private const int MaxForceLevel = 10;
         private const int MaxMentalLevel = 10;
         private const int StartEnergy = 100;
-        private const int InitialLevel = 1; // check one more time if it should be 0
-        private const int InitialStep = 1; // check one more time if it should be 0
+        private const int InitialLevel = 1;
+        private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
         private const int InitialCash = 50;
         private const int MaxItems = 20;
@@ -24,7 +24,7 @@
             this.CurrentStepMentalLevel = InitialStep;
             this.TotalStepsToNextForceLevel = InitialTotalSteps;
             this.TotalStepsToNextMentalLevel = InitialTotalSteps;
-            this.Cash = InitialCash;
+            this.Cash = 50;
             this.ForcePowers = new List<Powers>();
             this.MentalPowers = new List<Powers>();
             this.BagOfItems = new List<ICommercial>();
@@ -140,7 +140,7 @@
             return false;
         }
 
-        private Items UseItem(Items item)
+        public Items UseItem(Items item)
         {
             if (item is ICommercial)
             {
@@ -153,19 +153,6 @@
             }
 
             return item;
-        }
-
-        public int Attack(Items item, FightRulesEnum rules)
-        {
-            var power = this.UseItem(item) as Powers;
-            if(power == null)
-            {
-                return 0;
-            }
-            else
-            {
-                return HitCalculator.DynamicDamageCalculator(power, rules);
-            }
         }
     }
 }

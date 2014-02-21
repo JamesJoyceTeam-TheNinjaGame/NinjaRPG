@@ -20,7 +20,6 @@
             Console.WriteLine(trd);
 
             Console.WriteLine(ninja.Cash);
-
         }
     }
 }

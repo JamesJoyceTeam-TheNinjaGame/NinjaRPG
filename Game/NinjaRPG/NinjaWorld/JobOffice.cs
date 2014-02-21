@@ -14,7 +14,7 @@
         {
             Evil enemy = this.ChooseEnemy(chosenJob);
             
-            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, ninja, enemy);
+            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, enemy);
 
             fight.Fight();
 

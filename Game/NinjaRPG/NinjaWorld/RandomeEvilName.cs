@@ -19,10 +19,9 @@
             "Jose Aldo", "Mirko 'Cro Cop'", "Rich Franklin", "Quinton 'Rampage' Jackson", "Wanderlei Silva", "Jon Jones", "Ken Shamrock", "Mauricio 'Shogun' Rua", "Royce Gracie", "Tito Ortiz", "Frank Shamrock", "Dan Henderson", "Vitor Belfort", "Takanori Gomi", "Fedor Emelianenko", "Antonio Rodrigo Nogueira ", "Chuck Liddell", "Kazushi Sakuraba", "Bas Rutten", "Randy Couture", "Mark Coleman", "Matt Hughes", "BJ Penn ", "Georges St. Pierre", "Anderson 'The Spider' Silva", "Alistair Overeem", "Andy Hug", "Badr Hari", "Branko Cikatić", "Ernesto Hoost", "Keijiro Maeda", "Mark Hunt", "Mighty Mo", "Peter Aerts", "Remy Bonjasky", "Semmy Schilt", "Kubrat Pulev", "Mike Tyson"
         };
 
-        public static string 
-            RandomName(string[] names)
+        public static string RandomName(string[] names)
         {
-            int random = Randomizer.Rand.Next(0, names.Length);
+            int random = new Random().Next(0, names.Length);
 
             return names[random];
         }
