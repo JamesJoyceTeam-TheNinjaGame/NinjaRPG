@@ -74,6 +74,7 @@
     <Compile Include="Powers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomeEvilName.cs" />
+    <Compile Include="Randomizer.cs" />
     <Compile Include="Recreations.cs" />
     <Compile Include="SpecialPowers.cs" />
   </ItemGroup>

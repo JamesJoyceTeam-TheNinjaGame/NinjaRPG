@@ -7,16 +7,23 @@
         private const int EnergyToMentalPowerRatio = 20;
         private const int MentalSuccessMax = 70;
         private const int MentalSuccessMin = 40;
+        private const string MentalAttackName = "Brain Attack";
+
+        private Powers mentalAttack;
+        private int mentalPower;
+        private int mentalSuccess;
 
         public Bot(int level)
             : base(RandomeEvilName.RandomName(RandomeEvilName.RobotNames), level)
         {
-            this.MentalPower = this.TotalEnergy / EnergyToMentalPowerRatio;
-            this.MentalSuccess = new Random().Next(MentalSuccessMin, MentalSuccessMax + 1);
+            this.mentalPower = this.TotalEnergy / EnergyToMentalPowerRatio;
+            this.mentalSuccess = Randomizer.Rand.Next(MentalSuccessMin, MentalSuccessMax + 1);
+            this.mentalAttack = new Powers(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
         }
 
-        public int MentalPower { get; private set; }
-
-        public int MentalSuccess { get; private set; }
+        public override int Attack(FightRulesEnum rules)
+        {
+            return HitCalculator.DynamicDamageCalculator(mentalAttack, rules);
+        }
     }
 }

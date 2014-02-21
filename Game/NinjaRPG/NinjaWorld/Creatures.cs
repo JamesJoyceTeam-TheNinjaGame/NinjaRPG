@@ -73,5 +73,10 @@
                 return false;
             }
         }
+
+        public void GetDamage(int attackPower)
+        {
+            this.currentEnergy -= attackPower;
+        }
     }
 }
