@@ -49,6 +49,7 @@
     <Compile Include="Bot.cs" />
     <Compile Include="Building.cs" />
     <Compile Include="DreamJob.cs" />
+    <Compile Include="FastFood.cs" />
     <Compile Include="FightRulesEnum.cs" />
     <Compile Include="Gym.cs" />
     <Compile Include="HeadworkEnum.cs" />

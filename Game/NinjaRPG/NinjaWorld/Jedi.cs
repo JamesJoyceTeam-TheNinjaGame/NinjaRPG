@@ -37,11 +37,11 @@
         {
             if (Randomizer.Rand.Next(2) == 1)
             {
-                return HitCalculator.DynamicDamageCalculator(forceAttack, rules);
+                return HitCalculator.DynamicDamageCalculator(this.forceAttack, rules);
             }
             else
             {
-                return HitCalculator.DynamicDamageCalculator(mentalAttack, rules);
+                return HitCalculator.DynamicDamageCalculator(this.mentalAttack, rules);
             }
         }
     }

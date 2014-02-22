@@ -70,30 +70,30 @@
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Jedi">
-    <Position X="16" Y="7.25" Width="1.5" />
+    <Position X="16" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQQAAASAAAAAgIAgAECKAACAAAAAAQAIAAAAA=</HashCode>
       <FileName>Jedi.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Bot">
-    <Position X="14.25" Y="7.25" Width="1.5" />
+    <Position X="14.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQQAAAAAAAAAgAAAAECKAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Bot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Assassin">
-    <Position X="12.5" Y="7.25" Width="1.5" />
+    <Position X="12.5" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAASAAAAAgIAgAAAIAACAAAAAAAAIAAAAA=</HashCode>
       <FileName>Assassin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Boss">
-    <Position X="16.25" Y="12" Width="1.5" />
+    <Position X="16" Y="12.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAKAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAAAAAAKAAAAAAAAAAIAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Boss.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -156,19 +156,19 @@
   <Class Name="NinjaWorld.Gym">
     <Position X="9.75" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Gym.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.DreamJob">
     <Position X="11.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAEABBAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DreamJob.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Home">
-    <Position X="0.5" Y="11.25" Width="1.5" />
+    <Position X="0.5" Y="12" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>Home.cs</FileName>
@@ -224,7 +224,14 @@
       <FileName>Randomizer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="NinjaWorld.ICommercial">
+  <Class Name="NinjaWorld.FastFood">
+    <Position X="2.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAQA=</HashCode>
+      <FileName>FastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NinjaWorld.ICommercial" Collapsed="true">
     <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -253,14 +260,14 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="NinjaWorld.BalancedJobEnum">
-    <Position X="0.5" Y="13" Width="1.5" />
+    <Position X="0.5" Y="13.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAKACAAAAAQAAAAA=</HashCode>
       <FileName>BalancedJobsEnum.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="NinjaWorld.PhysicalWorkEnum">
-    <Position X="0.5" Y="15" Width="1.5" />
+    <Position X="0.5" Y="15.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAABEAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>PhysicalWorkEnum.cs</FileName>

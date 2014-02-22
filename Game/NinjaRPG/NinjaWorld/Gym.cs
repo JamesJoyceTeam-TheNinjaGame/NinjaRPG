@@ -28,7 +28,7 @@
 
         public void WorkOut(Ninja ninja)
         {
-            Evil enemy = new Assassin (ninja.MentalLevel + 1);
+            Evil enemy = new Assassin(ninja.MentalLevel + 1);
 
             Arena fight = new Arena(string.Format("Training {0}", ListOfPowers[ninja.MentalLevel]), FightRulesEnum.MentalFight, ninja, enemy);
 

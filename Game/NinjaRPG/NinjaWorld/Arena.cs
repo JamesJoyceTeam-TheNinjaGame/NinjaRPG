@@ -7,7 +7,7 @@
     {
         private Evil creature;
         private Ninja ninja;
-        public FightRulesEnum fightRules;
+        private FightRulesEnum fightRules;
         
         /// <summary>
         /// Initializes a new instance of the <see cref="Arena"/> class.
@@ -29,10 +29,10 @@
         /// </summary>
         public bool IsNinjaWiner { get; private set; }
 
-        // Todo: Andrey = Pick ITEM ??
+        // Todo: Andrey = Pick ITEM ?? // for now leaving this hack
         public Items NinjaPickItem()
         {
-            return ninja.ForcePowers[0];
+            return this.ninja.ForcePowers[0];
         }
 
         /// <summary>
@@ -41,10 +41,10 @@
         /// <returns>return true if still fighting</returns>        
         public bool Fight()
         {
-            if (ninja.IsAlive())
+            if (this.ninja.IsAlive())
             {
-                int damage = ninja.Attack(this.NinjaPickItem(), fightRules);
-                creature.GetDamage(damage);
+                int damage = this.ninja.Attack(this.NinjaPickItem(), this.fightRules);
+                this.creature.GetDamage(damage);
             }
             else
             {
@@ -52,10 +52,10 @@
                 return false;
             }
 
-            if (creature.IsAlive())
+            if (this.creature.IsAlive())
             {
-                int damage = creature.Attack(this.fightRules);
-                ninja.GetDamage(damage);
+                int damage = this.creature.Attack(this.fightRules);
+                this.ninja.GetDamage(damage);
             }
             else
             {

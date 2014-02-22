@@ -23,7 +23,7 @@
 
         public override int Attack(FightRulesEnum rules)
         {
-            return HitCalculator.DynamicDamageCalculator(forceAttack, rules);
+            return HitCalculator.DynamicDamageCalculator(this.forceAttack, rules);
         }
     }
 }

@@ -140,6 +140,19 @@
             return false;
         }
 
+        public int Attack(Items item, FightRulesEnum rules)
+        {
+            var power = this.UseItem(item) as Powers;
+            if (power == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return HitCalculator.DynamicDamageCalculator(power, rules);
+            }
+        }
+        
         private Items UseItem(Items item)
         {
             if (item is ICommercial)
@@ -149,23 +162,10 @@
                     this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
                 }
 
-                this.BagOfItems.Remove(item as ICommercial);            
+                this.BagOfItems.Remove(item as ICommercial);
             }
 
             return item;
-        }
-
-        public int Attack(Items item, FightRulesEnum rules)
-        {
-            var power = this.UseItem(item) as Powers;
-            if(power == null)
-            {
-                return 0;
-            }
-            else
-            {
-                return HitCalculator.DynamicDamageCalculator(power, rules);
-            }
         }
     }
 }
