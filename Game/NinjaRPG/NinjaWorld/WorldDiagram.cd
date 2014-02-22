@@ -238,6 +238,13 @@
       <FileName>ShoppingMall.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="NinjaWorld.Playground">
+    <Position X="6.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Playground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="NinjaWorld.ICommercial" Collapsed="true">
     <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
