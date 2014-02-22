@@ -77,6 +77,7 @@
     <Compile Include="RandomeEvilName.cs" />
     <Compile Include="Randomizer.cs" />
     <Compile Include="Recreations.cs" />
+    <Compile Include="ShoppingMall.cs" />
     <Compile Include="SpecialPowers.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -36,7 +36,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAACAAQAgAAAAAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
-      <FileName>Energizers.cs</FileName>
+      <FileName>EnergizingItems.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -227,8 +227,15 @@
   <Class Name="NinjaWorld.FastFood">
     <Position X="2.75" Y="16.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAQA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAQA=</HashCode>
       <FileName>FastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NinjaWorld.ShoppingMall">
+    <Position X="4.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAgA=</HashCode>
+      <FileName>ShoppingMall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="NinjaWorld.ICommercial" Collapsed="true">
