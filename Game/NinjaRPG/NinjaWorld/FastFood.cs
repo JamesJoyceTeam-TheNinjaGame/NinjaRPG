@@ -9,7 +9,7 @@
     /// </summary>
     public sealed class FastFood : CommercialBuilding
     {
-        private static readonly List<ICommercial> AllGoods = new List<ICommercial>()
+        private static List<ICommercial> AllGoods = new List<ICommercial>()
         {
             new EnergizingItems(EnergizerEnum.Bgurger, "Big Max"),
             new EnergizingItems(EnergizerEnum.Coffee, "LaVisio"),
