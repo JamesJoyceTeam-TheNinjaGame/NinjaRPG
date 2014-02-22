@@ -11,12 +11,11 @@
             new Powers(AttackTypeEnum.ForceAttack, "Judo", 30, 80),
             new Powers(AttackTypeEnum.ForceAttack, "Aikido", 40, 70),
             new Powers(AttackTypeEnum.ForceAttack, "Taekwondo", 50, 80),
-            new Powers(AttackTypeEnum.ForceAttack, "Krav Maga", 60, 75),
-            new Powers(AttackTypeEnum.ForceAttack, "Kung fu", 70, 80),
-            new Powers(AttackTypeEnum.ForceAttack, "Karate", 80, 80),
-            new Powers(AttackTypeEnum.ForceAttack, "Jujitsu", 90, 85),
-            new Powers(AttackTypeEnum.ForceAttack, "Muay Thai", 100, 90),
-            new Powers(AttackTypeEnum.ForceAttack, "Ninjutsu", 110, 95)
+            new Powers(AttackTypeEnum.ForceAttack, "Kung fu", 60, 75),
+            new Powers(AttackTypeEnum.ForceAttack, "Karate", 70, 80),
+            new Powers(AttackTypeEnum.ForceAttack, "Jujitsu", 80, 80),
+            new Powers(AttackTypeEnum.ForceAttack, "Muay Thai", 90, 85),
+            new Powers(AttackTypeEnum.ForceAttack, "Ninjutsu", 100, 90)
         };
 
         private const string ArenaName = "The Gym";
