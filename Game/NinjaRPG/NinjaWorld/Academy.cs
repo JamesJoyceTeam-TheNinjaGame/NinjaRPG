@@ -12,16 +12,15 @@ namespace NinjaWorld
         public static readonly List<Powers> ListOfPowers = new List<Powers>()
         {
             new Powers(AttackTypeEnum.MindAttack, "Diversion", 10, 80),
-            new Powers(AttackTypeEnum.MindAttack, "Loops and Conditional Statements", 20, 80),
-            new Powers(AttackTypeEnum.MindAttack, "Numeral Systems", 30, 90),
-            new Powers(AttackTypeEnum.MindAttack, "Classes and Objects", 40, 80),
-            new Powers(AttackTypeEnum.MindAttack, "Exception Handling", 50, 75),
-            new Powers(AttackTypeEnum.MindAttack, "Class Hierarchies", 60, 75),
-            new Powers(AttackTypeEnum.MindAttack, "Inheritance", 70, 80),
-            new Powers(AttackTypeEnum.MindAttack, "Abstraction", 80, 80),
-            new Powers(AttackTypeEnum.MindAttack, "Encapsulation", 90, 90),
-            new Powers(AttackTypeEnum.MindAttack, "Polymorphism", 100, 90),
-            new Powers(AttackTypeEnum.MindAttack, "Design Patterns", 110, 100)
+            new Powers(AttackTypeEnum.MindAttack, "Numeral Systems", 20, 80),
+            new Powers(AttackTypeEnum.MindAttack, "Classes and Objects", 30, 90),
+            new Powers(AttackTypeEnum.MindAttack, "Exception Handling", 40, 80),
+            new Powers(AttackTypeEnum.MindAttack, "Recursion", 50, 75),
+            new Powers(AttackTypeEnum.MindAttack, "Inheritance", 60, 75),
+            new Powers(AttackTypeEnum.MindAttack, "Abstraction", 70, 80),
+            new Powers(AttackTypeEnum.MindAttack, "Encapsulation", 80, 80),
+            new Powers(AttackTypeEnum.MindAttack, "Polymorphism", 90, 90),
+            new Powers(AttackTypeEnum.MindAttack, "Design Patterns", 100, 90)
         };
 
         private const string ArenaName = "Telerik Academy";

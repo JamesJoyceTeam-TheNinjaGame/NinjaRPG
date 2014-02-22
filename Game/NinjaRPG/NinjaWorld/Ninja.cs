@@ -5,8 +5,8 @@
 
     public class Ninja : Creatures
     {
-        private const int MaxForceLevel = 10;
-        private const int MaxMentalLevel = 10;
+        private const int MaxForceLevel = 9;
+        private const int MaxMentalLevel = 9;
         private const int StartEnergy = 100;
         private const int InitialLevel = 1; // check one more time if it should be 0
         private const int InitialStep = 1; // check one more time if it should be 0
