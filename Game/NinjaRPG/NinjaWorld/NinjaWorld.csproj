@@ -59,7 +59,7 @@
     <Compile Include="CommercialBuilding.cs" />
     <Compile Include="Creatures.cs" />
     <Compile Include="EnergizerEnum.cs" />
-    <Compile Include="Energizers.cs" />
+    <Compile Include="EnergizingItems.cs" />
     <Compile Include="Evil.cs" />
     <Compile Include="HitCalculator.cs" />
     <Compile Include="ICommercial.cs" />

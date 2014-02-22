@@ -9,7 +9,7 @@
     /// </summary>
     public sealed class FastFood : CommercialBuilding
     {
-        private static List<ICommercial> AllGoods = new List<ICommercial>()
+        private static List<ICommercial> allGoods = new List<ICommercial>()
         {
             new EnergizingItems(EnergizerEnum.Bgurger, "Big Max"),
             new EnergizingItems(EnergizerEnum.Coffee, "LaVisio"),
@@ -22,7 +22,7 @@
         private static readonly Lazy<FastFood> Lazy = new Lazy<FastFood>(() => new FastFood());
 
         private FastFood()
-            : base("Fast Food", AllGoods)
+            : base("Fast Food", allGoods)
         {
         }
 
