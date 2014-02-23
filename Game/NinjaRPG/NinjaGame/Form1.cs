@@ -7,8 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NinjaWorld;
 using NinjaGame.Properties;
+using NinjaWorld;
+using NinjaWorld.Buildings;
+using NinjaWorld.Creatures;
+using NinjaWorld.Items;
+using NinjaWorld.Jobs;
 
 namespace NinjaGame
 {
