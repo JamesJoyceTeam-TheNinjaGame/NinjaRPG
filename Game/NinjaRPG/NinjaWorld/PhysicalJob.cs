@@ -17,7 +17,7 @@
         {
             this.JobLevel = (int)job;
             this.Possition = JobPositions[job];
-            this.JobFihtRules = FightRulesEnum.BrutalFight;
+            this.JobFightRules = FightRulesEnum.BrutalFight;
         }
     }
 }

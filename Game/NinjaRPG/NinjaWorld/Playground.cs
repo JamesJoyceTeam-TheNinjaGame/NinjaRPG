@@ -10,11 +10,11 @@
 
         private static List<ICommercial> recreationGoods = new List<ICommercial>() 
         {
-            new Recreations("PlayingPoker"),
-            new Recreations("VideoGames"),
-            new Recreations("Bowling"),
-            new Recreations("Billiards"),
-            new Recreations("Dance")
+            new Recreation("PlayingPoker"),
+            new Recreation("VideoGames"),
+            new Recreation("Bowling"),
+            new Recreation("Billiards"),
+            new Recreation("Dance")
         }.OrderBy(rec => rec.Price).ToList();
 
          private Playground()

@@ -14,11 +14,11 @@
         private const int ForceSuccessMin = 55;
         private const string ForceAttackName = "Brutal Attack";
 
-        private Powers mentalAttack;
+        private Power mentalAttack;
         private int mentalPower;
         private int mentalSuccess;
 
-        private Powers forceAttack;
+        private Power forceAttack;
         private int forcePower;
         private int forceSuccess;
 
@@ -29,8 +29,8 @@
             this.forcePower = this.TotalEnergy / EnergyToForcePowerRatio;
             this.mentalSuccess = Randomizer.Rand.Next(MentalSuccessMin, MentalSuccessMax + 1);
             this.forceSuccess = Randomizer.Rand.Next(ForceSuccessMin, ForceSuccessMax + 1);
-            this.forceAttack = new Powers(AttackTypeEnum.ForceAttack, ForceAttackName, this.forcePower, this.forceSuccess);
-            this.mentalAttack = new Powers(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
+            this.forceAttack = new Power(AttackTypeEnum.ForceAttack, ForceAttackName, this.forcePower, this.forceSuccess);
+            this.mentalAttack = new Power(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
         }
 
         public override int Attack(FightRulesEnum rules)

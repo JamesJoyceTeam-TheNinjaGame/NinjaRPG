@@ -5,8 +5,10 @@
 
     public class JobOffice : Building
     {
-        public JobOffice(string name)
-            : base(name)
+        private const string BuildingName = "Job Office";        
+
+        public JobOffice()
+            : base(BuildingName)
         {
         }
 
@@ -14,7 +16,7 @@
         {
             Evil enemy = this.ChooseEnemy(chosenJob);
             
-            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFihtRules, ninja, enemy);
+            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFightRules, ninja, enemy);
 
             fight.Fight();
 
@@ -70,11 +72,11 @@
 
         private Evil ChooseEnemy(Job chosenJob)
         {
-            if (chosenJob.JobFihtRules == FightRulesEnum.BrutalFight)
+            if (chosenJob.JobFightRules == FightRulesEnum.BrutalFight)
             {
                 return new Assassin(chosenJob.JobLevel);
             }
-            else if (chosenJob.JobFihtRules == FightRulesEnum.MentalFight)
+            else if (chosenJob.JobFightRules == FightRulesEnum.MentalFight)
             {
                 return new Bot(chosenJob.JobLevel);
             }

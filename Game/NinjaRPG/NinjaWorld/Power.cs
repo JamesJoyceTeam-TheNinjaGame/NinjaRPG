@@ -1,11 +1,11 @@
 ﻿namespace NinjaWorld
 {
-    public class Powers : Items, IAttack, IItem
+    public class Power : Item, IAttack, IItem
     {
         private int attack;
         private int success;
 
-        public Powers(AttackTypeEnum attackType, string name, int attackPower, int successRate)
+        public Power(AttackTypeEnum attackType, string name, int attackPower, int successRate)
             : base(name)
         {
             this.SuccessRate = successRate;

@@ -29,7 +29,7 @@
             if (ninja.PayForItem(commercialItem))
             {
                 // If ninja accepts the item he takes it
-                if (ninja.GetItem(commercialItem as Items))
+                if (ninja.GetItem(commercialItem as Item))
                 {
                     int index = this.goods.IndexOf(commercialItem);
                     this.goods.RemoveAt(index);

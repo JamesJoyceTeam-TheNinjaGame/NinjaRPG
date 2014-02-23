@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="NinjaWorld.Items">
+  <Class Name="NinjaWorld.Item">
     <Position X="5.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
-      <FileName>Items.cs</FileName>
+      <FileName>Item.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="NinjaWorld.Powers">
+  <Class Name="NinjaWorld.Power">
     <Position X="4.25" Y="3.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
-    <InheritanceLine Type="NinjaWorld.Items" ManuallyRouted="true">
-      <Path>
-        <Point X="6.5" Y="2.699" />
-        <Point X="6.5" Y="3.115" />
-        <Point X="5" Y="3.115" />
-        <Point X="5" Y="3.75" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAKAAAAAAAAIABA=</HashCode>
-      <FileName>Powers.cs</FileName>
+      <FileName>Power.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -34,35 +26,27 @@
       <FileName>ImproperlyDefinedItemException.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.EnergizingItems">
-    <Position X="6" Y="3.75" Width="1.5" />
-    <InheritanceLine Type="NinjaWorld.Items" ManuallyRouted="true" FixedToPoint="true">
-      <Path>
-        <Point X="6.5" Y="2.699" />
-        <Point X="6.5" Y="3.094" />
-        <Point X="6.75" Y="3.094" />
-        <Point X="6.75" Y="3.75" />
-      </Path>
-    </InheritanceLine>
+  <Class Name="NinjaWorld.Energizer">
+    <Position X="6" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAQAgAAAAAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
-      <FileName>EnergizingItems.cs</FileName>
+      <HashCode>AAABAACAAQAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAABA=</HashCode>
+      <FileName>Energizer.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="NinjaWorld.SpecialPowers">
+  <Class Name="NinjaWorld.SpecialPower">
     <Position X="4.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>SpecialPowers.cs</FileName>
+      <FileName>SpecialPower.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="NinjaWorld.Creatures">
+  <Class Name="NinjaWorld.Creature">
     <Position X="12.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AwAAAAACAAggAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
-      <FileName>Creatures.cs</FileName>
+      <HashCode>AQAAAAAAAAggAAAAAAAAAAQAAAQEAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Creature.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Ninja">
@@ -103,7 +87,7 @@
   <Class Name="NinjaWorld.Boss">
     <Position X="16" Y="12.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAKAAAAAAAAAAIAAgAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAQAAAAIAAAAAAAAAAIAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Boss.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -115,14 +99,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.HitCalculator">
-    <Position X="6" Y="7" Width="1.5" />
+    <Position X="6.5" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABCAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HitCalculator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Building">
-    <Position X="3.75" Y="9.75" Width="1.5" />
+    <Position X="3.75" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Building.cs</FileName>
@@ -145,7 +129,7 @@
   <Class Name="NinjaWorld.JobOffice">
     <Position X="4.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <HashCode>ABAAFAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>JobOffice.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -159,21 +143,21 @@
   <Class Name="NinjaWorld.Academy">
     <Position X="8" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Academy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.Gym">
     <Position X="9.75" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Gym.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NinjaWorld.DreamJob">
     <Position X="11.5" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEABBAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABAEAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DreamJob.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -184,26 +168,18 @@
       <FileName>Home.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NinjaWorld.Recreations">
+  <Class Name="NinjaWorld.Recreation">
     <Position X="7.75" Y="3.75" Width="1.5" />
-    <InheritanceLine Type="NinjaWorld.Items" ManuallyRouted="true">
-      <Path>
-        <Point X="6.5" Y="2.699" />
-        <Point X="6.5" Y="3.102" />
-        <Point X="8.5" Y="3.102" />
-        <Point X="8.5" Y="3.75" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAgAABABAAAAAABEEABAAAABA=</HashCode>
-      <FileName>Recreations.cs</FileName>
+      <HashCode>AAAAAAAQAQAAAAAAAQAAAAABABAAAAAAAEEABAAAABA=</HashCode>
+      <FileName>Recreation.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="NinjaWorld.Job">
     <Position X="14" Y="12.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAACABAAAABAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAABAAEABAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
       <FileName>Job.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -263,17 +239,10 @@
       <FileName>Playground.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="NinjaWorld.InitialSettings">
-    <Position X="3.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>InitialSettings.cs</FileName>
-    </TypeIdentifier>
-  </Struct>
   <Interface Name="NinjaWorld.ICommercial">
     <Position X="2.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ICommercial.cs</FileName>
     </TypeIdentifier>
   </Interface>
@@ -285,7 +254,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="NinjaWorld.IItem">
-    <Position X="1.5" Y="3" Width="1.5" />
+    <Position X="1.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>IItem.cs</FileName>

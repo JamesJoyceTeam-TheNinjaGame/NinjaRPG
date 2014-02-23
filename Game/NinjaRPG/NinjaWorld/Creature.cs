@@ -2,15 +2,12 @@
 {
     using System.Text.RegularExpressions;
 
-    public abstract class Creatures
-    {
-        protected const int MaximalTotalEnergy = 5000;
-        private const int MinimalTotalEnergy = 50;
-     
+    public abstract class Creature
+    {     
         private string name;
         private int currentEnergy;
 
-        public Creatures(string name)
+        public Creature(string name)
         {
             this.Name = name;
             this.CreatureType = this.GetType().Name;
@@ -74,9 +71,9 @@
             }
         }
 
-        public void GetDamage(int attackPower)
+        public void ReceiveDamage(int damage)
         {
-            this.currentEnergy -= attackPower;
+            this.currentEnergy -= damage;
         }
     }
 }

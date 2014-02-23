@@ -2,11 +2,11 @@
 {
     public class DreamJob : Building
     {
-        private const string ArenaName = "Dream Job";
+        private const string BuildingName = "Dream Job";
         private static bool isBossDefeated = false;
 
         public DreamJob()
-            : base(ArenaName)
+            : base(BuildingName)
         {
         }
 
@@ -16,7 +16,7 @@
             {
                 Evil enemy = new Boss();
 
-                Arena fight = new Arena(string.Format("Going for the {0}", ArenaName), FightRulesEnum.BalancedFight, ninja, enemy);
+                Arena fight = new Arena(string.Format("Going for the {0}", BuildingName), FightRulesEnum.BalancedFight, ninja, enemy);
 
                 fight.Fight();
 

@@ -22,7 +22,7 @@
             {
                 if (!Regex.IsMatch(value, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
                 {
-                    throw new ImproperlyDefinedItemException(string.Format("{0} name must be at least 3 symbols and could contain only latin letters", this.GetType().Name));
+                    throw new ImproperlyDefinedBuildingException(string.Format("{0} name must be at least 3 symbols and could contain only latin letters", this.GetType().Name));
                 }
 
                 this.name = value;

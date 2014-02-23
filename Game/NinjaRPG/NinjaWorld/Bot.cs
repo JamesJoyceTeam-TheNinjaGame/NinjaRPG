@@ -9,7 +9,7 @@
         private const int MentalSuccessMin = 40;
         private const string MentalAttackName = "Brain Attack";
 
-        private Powers mentalAttack;
+        private Power mentalAttack;
         private int mentalPower;
         private int mentalSuccess;
 
@@ -18,7 +18,7 @@
         {
             this.mentalPower = this.TotalEnergy / EnergyToMentalPowerRatio;
             this.mentalSuccess = Randomizer.Rand.Next(MentalSuccessMin, MentalSuccessMax + 1);
-            this.mentalAttack = new Powers(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
+            this.mentalAttack = new Power(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
         }
 
         public override int Attack(FightRulesEnum rules)

@@ -2,11 +2,11 @@
 {
     using System;
 
-    public class SpecialPowers : Powers, ICommercial, IAttack, IItem
+    public class SpecialPower : Power, ICommercial, IAttack, IItem
     {
         private int price;
 
-        public SpecialPowers(AttackTypeEnum attackType, string name, int price, int attackPower, int successRate)
+        public SpecialPower(AttackTypeEnum attackType, string name, int price, int attackPower, int successRate)
             : base(attackType, name, attackPower, successRate)
         {
             this.Price = price;
@@ -32,7 +32,7 @@
 
         public object Clone()
         {
-            return new SpecialPowers(this.AttackType, this.Name, this.Price, this.AttackPower, this.SuccessRate);
+            return new SpecialPower(this.AttackType, this.Name, this.Price, this.AttackPower, this.SuccessRate);
         }
     }
 }

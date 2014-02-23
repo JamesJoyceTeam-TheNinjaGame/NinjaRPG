@@ -44,7 +44,7 @@
             if (this.ninja.IsAlive())
             {
                 int damage = this.ninja.Attack(this.NinjaPickItem(), this.fightRules);
-                this.creature.GetDamage(damage);
+                this.creature.ReceiveDamage(damage);
             }
             else
             {
@@ -55,7 +55,7 @@
             if (this.creature.IsAlive())
             {
                 int damage = this.creature.Attack(this.fightRules);
-                this.ninja.GetDamage(damage);
+                this.ninja.ReceiveDamage(damage);
             }
             else
             {

@@ -3,13 +3,13 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class Ninja : Creatures
+    public class Ninja : Creature
     {
-        private const int MaxForceLevel = 9;
-        private const int MaxMentalLevel = 9;
+        private const int MaxForceLevel = 10;
+        private const int MaxMentalLevel = 10;
         private const int StartEnergy = 100;
-        private const int InitialLevel = 1; // check one more time if it should be 0
-        private const int InitialStep = 1; // check one more time if it should be 0
+        private const int InitialLevel = 1;
+        private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
         private const int InitialCash = 50;
         private const int MaxItems = 20;
@@ -108,10 +108,9 @@
 
         public bool GetItem(IItem item)
         {
-            // TODO: Be very careful to not overlap powers here!
-            if (item is Recreations)
+            if (item is Recreation)
             {
-                this.TotalEnergy += (item as Recreations).EnergyUpgrade;
+                this.TotalEnergy += (item as Recreation).UpgradeTotalEnergy;
                 
                 return true;
             }
@@ -164,9 +163,9 @@
         {
             if (item is ICommercial)
             {
-                if (item is EnergizingItems)
+                if (item is Energizer)
                 {
-                    this.CurrentEnergy += (item as EnergizingItems).HealingPoints;
+                    this.CurrentEnergy += (item as Energizer).HealingPoints;
                 }
 
                 this.BagOfItems.Remove(item as ICommercial);

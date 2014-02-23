@@ -12,7 +12,7 @@
             this.Wage = this.JobLevel * new Random().Next(LowestBaseWage, HighestBaseWage + 1);
         }
 
-        public FightRulesEnum JobFihtRules { get; protected set; }
+        public FightRulesEnum JobFightRules { get; protected set; }
 
         public int Wage { get; protected set; }
 

@@ -18,7 +18,7 @@
         /// <returns>damage to be removed from hitted enemy</returns>
         public static int DynamicDamageCalculator(IAttack power, FightRulesEnum rules)
         {
-                        int powerNumerator = new int();
+            int powerNumerator = new int();
             for (int i = 0; i < HitPrecision; i++)
             {
                 if (Randomizer.Rand.Next(0, 101) <= power.SuccessRate)

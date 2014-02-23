@@ -2,11 +2,11 @@
 {
     using System.Text.RegularExpressions;
 
-    public abstract class Items : IItem
+    public abstract class Item : IItem
     {
         private string name;        
         
-        public Items(string name)
+        public Item(string name)
         {
             this.Name = name;
         }

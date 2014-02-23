@@ -13,12 +13,12 @@
 
         private static List<ICommercial> allGoods = new List<ICommercial>()
         {
-            new EnergizingItems(EnergizerEnum.Bgurger, "Big Max"),
-            new EnergizingItems(EnergizerEnum.Coffee, "LaVisio"),
-            new EnergizingItems(EnergizerEnum.Cola, "dr.Peter"),
-            new EnergizingItems(EnergizerEnum.EnergyDrink, "Doberman"),
-            new EnergizingItems(EnergizerEnum.IceCream, "Icegida"),
-            new EnergizingItems(EnergizerEnum.Pizza, "A la Programa")
+            new Energizer(EnergizerEnum.Bgurger, "Big Max"),
+            new Energizer(EnergizerEnum.Coffee, "LaVisio"),
+            new Energizer(EnergizerEnum.Cola, "dr.Peter"),
+            new Energizer(EnergizerEnum.EnergyDrink, "Doberman"),
+            new Energizer(EnergizerEnum.IceCream, "Icegida"),
+            new Energizer(EnergizerEnum.Pizza, "A la Programa")
         }.OrderBy(en => en.Price).ToList();
 
         private FastFood()
