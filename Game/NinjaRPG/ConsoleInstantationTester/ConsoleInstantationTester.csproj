@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bag.cs" />
     <Compile Include="Instatest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

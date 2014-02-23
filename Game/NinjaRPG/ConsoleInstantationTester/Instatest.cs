@@ -20,6 +20,21 @@
             Console.WriteLine(trd);
 
             Console.WriteLine(ninja.Cash);
+
+            Bag<IItem> check = new Bag<IItem>() { 
+            
+                new SpecialPower(AttackTypeEnum.ForceAttack, "Name", 12, 12, 12),
+                new Recreation("recreation"),
+                new Energizer(EnergizerEnum.Bgurger, "energy")
+            };
+
+            check.Insert(0, new Recreation("ssss"));
+            check.
+
+            foreach (IItem item in check)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
