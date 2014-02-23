@@ -9,7 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NinjaGame.Properties;
 using NinjaWorld;
-using System.Text.RegularExpressions;
+using NinjaWorld.Buildings;
+using NinjaWorld.Creatures;
+using NinjaWorld.Items;
+using NinjaWorld.Jobs;
 
 namespace NinjaGame
 {
@@ -129,7 +132,7 @@ namespace NinjaGame
             {
                 mentalPowerButtons[i].Visible = true;
             }
-            
+
             int forceIndex = 0;
             int mentalIndex = 0;
             int energyIndex = 0;
@@ -682,12 +685,12 @@ namespace NinjaGame
             }
             else
             {
-                ninja = new Ninja(txtName.Text);
-                btnOK.Visible = false;
-                lblName.Text = txtName.Text;
-                txtName.Visible = false;
-                lblName.Visible = true;
-            }
+            ninja = new Ninja(txtName.Text);
+            btnOK.Visible = false;
+            lblName.Text = txtName.Text;
+            txtName.Visible = false;
+            lblName.Visible = true;
+        }
         }
 
         bool isFirstClick = true;
