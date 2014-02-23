@@ -423,6 +423,16 @@ namespace NinjaGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HomeSweetHome {
+            get {
+                object obj = ResourceManager.GetObject("HomeSweetHome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap houseNoBackGround {
             get {
                 object obj = ResourceManager.GetObject("houseNoBackGround", resourceCulture);

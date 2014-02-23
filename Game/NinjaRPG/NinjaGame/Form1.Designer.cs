@@ -48,6 +48,13 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.prgrsEnergy = new System.Windows.Forms.ProgressBar();
             this.pnlHome = new System.Windows.Forms.Panel();
+            this.lblMentalLevelValue = new System.Windows.Forms.Label();
+            this.lblForceLevelValue = new System.Windows.Forms.Label();
+            this.lblMinEnergy = new System.Windows.Forms.Label();
+            this.lblMaxMental = new System.Windows.Forms.Label();
+            this.lblMinMental = new System.Windows.Forms.Label();
+            this.lblMentalLevel = new System.Windows.Forms.Label();
+            this.prgrsMental = new System.Windows.Forms.ProgressBar();
             this.picHomeEnergizers10 = new System.Windows.Forms.PictureBox();
             this.picHomeEnergizers8 = new System.Windows.Forms.PictureBox();
             this.picHomeEnergizers6 = new System.Windows.Forms.PictureBox();
@@ -98,20 +105,19 @@
             this.picHomeSpecialForce5 = new System.Windows.Forms.PictureBox();
             this.picHomeSpecialForce3 = new System.Windows.Forms.PictureBox();
             this.picHomeSpecialForce1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.lblMaxprogress = new System.Windows.Forms.Label();
+            this.lblMaxForce = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
-            this.lblMinProgress = new System.Windows.Forms.Label();
+            this.lblMinForce = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
-            this.lblProgressBar = new System.Windows.Forms.Label();
-            this.prgrsProgressBar = new System.Windows.Forms.ProgressBar();
+            this.lblForceLevel = new System.Windows.Forms.Label();
+            this.prgrsForce = new System.Windows.Forms.ProgressBar();
             this.lblLevelValue = new System.Windows.Forms.Label();
             this.lblLevelStatus = new System.Windows.Forms.Label();
             this.lblCashValue = new System.Windows.Forms.Label();
             this.lblCashStatus = new System.Windows.Forms.Label();
-            this.lblValue = new System.Windows.Forms.Label();
-            this.lblEnergyStatus = new System.Windows.Forms.Label();
+            this.lblMaxEnergy = new System.Windows.Forms.Label();
+            this.lblEnergyLevel = new System.Windows.Forms.Label();
             this.prgrEnergy = new System.Windows.Forms.ProgressBar();
             this.lblEnergizers = new System.Windows.Forms.Label();
             this.lblSpecialMentalPowers = new System.Windows.Forms.Label();
@@ -254,6 +260,8 @@
             this.btnOK = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers8)).BeginInit();
@@ -305,7 +313,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnlFight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy8)).BeginInit();
@@ -382,6 +389,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).BeginInit();
             this.pnlCinema.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHome
@@ -518,15 +527,21 @@
             this.prgrsEnergy.BackColor = System.Drawing.Color.White;
             this.prgrsEnergy.ForeColor = System.Drawing.Color.Lime;
             resources.ApplyResources(this.prgrsEnergy, "prgrsEnergy");
-            this.prgrsEnergy.Maximum = 5;
             this.prgrsEnergy.Name = "prgrsEnergy";
             this.prgrsEnergy.Step = 1;
-            this.prgrsEnergy.Value = 5;
+            this.prgrsEnergy.Value = 100;
             // 
             // pnlHome
             // 
             this.pnlHome.BackColor = System.Drawing.Color.PaleTurquoise;
             resources.ApplyResources(this.pnlHome, "pnlHome");
+            this.pnlHome.Controls.Add(this.lblMentalLevelValue);
+            this.pnlHome.Controls.Add(this.lblForceLevelValue);
+            this.pnlHome.Controls.Add(this.lblMinEnergy);
+            this.pnlHome.Controls.Add(this.lblMaxMental);
+            this.pnlHome.Controls.Add(this.lblMinMental);
+            this.pnlHome.Controls.Add(this.lblMentalLevel);
+            this.pnlHome.Controls.Add(this.prgrsMental);
             this.pnlHome.Controls.Add(this.picHomeEnergizers10);
             this.pnlHome.Controls.Add(this.picHomeEnergizers8);
             this.pnlHome.Controls.Add(this.picHomeEnergizers6);
@@ -577,27 +592,69 @@
             this.pnlHome.Controls.Add(this.picHomeSpecialForce5);
             this.pnlHome.Controls.Add(this.picHomeSpecialForce3);
             this.pnlHome.Controls.Add(this.picHomeSpecialForce1);
-            this.pnlHome.Controls.Add(this.pictureBox4);
-            this.pnlHome.Controls.Add(this.lblMaxprogress);
+            this.pnlHome.Controls.Add(this.lblMaxForce);
             this.pnlHome.Controls.Add(this.btnBack);
-            this.pnlHome.Controls.Add(this.lblMinProgress);
+            this.pnlHome.Controls.Add(this.lblMinForce);
             this.pnlHome.Controls.Add(this.btnSave);
             this.pnlHome.Controls.Add(this.btnLoad);
-            this.pnlHome.Controls.Add(this.lblProgressBar);
-            this.pnlHome.Controls.Add(this.prgrsProgressBar);
+            this.pnlHome.Controls.Add(this.lblForceLevel);
+            this.pnlHome.Controls.Add(this.prgrsForce);
             this.pnlHome.Controls.Add(this.lblLevelValue);
             this.pnlHome.Controls.Add(this.lblLevelStatus);
             this.pnlHome.Controls.Add(this.lblCashValue);
             this.pnlHome.Controls.Add(this.lblCashStatus);
-            this.pnlHome.Controls.Add(this.lblValue);
-            this.pnlHome.Controls.Add(this.lblEnergyStatus);
+            this.pnlHome.Controls.Add(this.lblMaxEnergy);
+            this.pnlHome.Controls.Add(this.lblEnergyLevel);
             this.pnlHome.Controls.Add(this.prgrEnergy);
             this.pnlHome.Controls.Add(this.lblEnergizers);
             this.pnlHome.Controls.Add(this.lblSpecialMentalPowers);
             this.pnlHome.Controls.Add(this.lblSpecialForcePowers);
             this.pnlHome.Controls.Add(this.lblMentalPowers);
             this.pnlHome.Controls.Add(this.lblForcePowers);
+            this.pnlHome.Controls.Add(this.panel1);
             this.pnlHome.Name = "pnlHome";
+            // 
+            // lblMentalLevelValue
+            // 
+            resources.ApplyResources(this.lblMentalLevelValue, "lblMentalLevelValue");
+            this.lblMentalLevelValue.Name = "lblMentalLevelValue";
+            // 
+            // lblForceLevelValue
+            // 
+            resources.ApplyResources(this.lblForceLevelValue, "lblForceLevelValue");
+            this.lblForceLevelValue.Name = "lblForceLevelValue";
+            // 
+            // lblMinEnergy
+            // 
+            resources.ApplyResources(this.lblMinEnergy, "lblMinEnergy");
+            this.lblMinEnergy.Name = "lblMinEnergy";
+            // 
+            // lblMaxMental
+            // 
+            resources.ApplyResources(this.lblMaxMental, "lblMaxMental");
+            this.lblMaxMental.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMaxMental.Name = "lblMaxMental";
+            // 
+            // lblMinMental
+            // 
+            resources.ApplyResources(this.lblMinMental, "lblMinMental");
+            this.lblMinMental.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMinMental.Name = "lblMinMental";
+            // 
+            // lblMentalLevel
+            // 
+            resources.ApplyResources(this.lblMentalLevel, "lblMentalLevel");
+            this.lblMentalLevel.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMentalLevel.Name = "lblMentalLevel";
+            // 
+            // prgrsMental
+            // 
+            this.prgrsMental.BackColor = System.Drawing.Color.White;
+            this.prgrsMental.ForeColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.prgrsMental, "prgrsMental");
+            this.prgrsMental.Maximum = 5;
+            this.prgrsMental.Name = "prgrsMental";
+            this.prgrsMental.Step = 1;
             // 
             // picHomeEnergizers10
             // 
@@ -919,18 +976,11 @@
             this.picHomeSpecialForce1.Name = "picHomeSpecialForce1";
             this.picHomeSpecialForce1.TabStop = false;
             // 
-            // pictureBox4
+            // lblMaxForce
             // 
-            this.pictureBox4.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaBig;
-            resources.ApplyResources(this.pictureBox4, "pictureBox4");
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.TabStop = false;
-            // 
-            // lblMaxprogress
-            // 
-            resources.ApplyResources(this.lblMaxprogress, "lblMaxprogress");
-            this.lblMaxprogress.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblMaxprogress.Name = "lblMaxprogress";
+            resources.ApplyResources(this.lblMaxForce, "lblMaxForce");
+            this.lblMaxForce.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMaxForce.Name = "lblMaxForce";
             // 
             // btnBack
             // 
@@ -939,11 +989,11 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // lblMinProgress
+            // lblMinForce
             // 
-            resources.ApplyResources(this.lblMinProgress, "lblMinProgress");
-            this.lblMinProgress.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblMinProgress.Name = "lblMinProgress";
+            resources.ApplyResources(this.lblMinForce, "lblMinForce");
+            this.lblMinForce.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMinForce.Name = "lblMinForce";
             // 
             // btnSave
             // 
@@ -960,20 +1010,20 @@
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
-            // lblProgressBar
+            // lblForceLevel
             // 
-            resources.ApplyResources(this.lblProgressBar, "lblProgressBar");
-            this.lblProgressBar.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblProgressBar.Name = "lblProgressBar";
+            resources.ApplyResources(this.lblForceLevel, "lblForceLevel");
+            this.lblForceLevel.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblForceLevel.Name = "lblForceLevel";
             // 
-            // prgrsProgressBar
+            // prgrsForce
             // 
-            this.prgrsProgressBar.BackColor = System.Drawing.Color.White;
-            this.prgrsProgressBar.ForeColor = System.Drawing.Color.Lime;
-            resources.ApplyResources(this.prgrsProgressBar, "prgrsProgressBar");
-            this.prgrsProgressBar.Maximum = 5;
-            this.prgrsProgressBar.Name = "prgrsProgressBar";
-            this.prgrsProgressBar.Step = 1;
+            this.prgrsForce.BackColor = System.Drawing.Color.White;
+            this.prgrsForce.ForeColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.prgrsForce, "prgrsForce");
+            this.prgrsForce.Maximum = 5;
+            this.prgrsForce.Name = "prgrsForce";
+            this.prgrsForce.Step = 1;
             // 
             // lblLevelValue
             // 
@@ -999,17 +1049,17 @@
             this.lblCashStatus.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblCashStatus.Name = "lblCashStatus";
             // 
-            // lblValue
+            // lblMaxEnergy
             // 
-            resources.ApplyResources(this.lblValue, "lblValue");
-            this.lblValue.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblValue.Name = "lblValue";
+            resources.ApplyResources(this.lblMaxEnergy, "lblMaxEnergy");
+            this.lblMaxEnergy.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblMaxEnergy.Name = "lblMaxEnergy";
             // 
-            // lblEnergyStatus
+            // lblEnergyLevel
             // 
-            resources.ApplyResources(this.lblEnergyStatus, "lblEnergyStatus");
-            this.lblEnergyStatus.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblEnergyStatus.Name = "lblEnergyStatus";
+            resources.ApplyResources(this.lblEnergyLevel, "lblEnergyLevel");
+            this.lblEnergyLevel.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblEnergyLevel.Name = "lblEnergyLevel";
             // 
             // prgrEnergy
             // 
@@ -2081,14 +2131,29 @@
             resources.ApplyResources(this.lblName, "lblName");
             this.lblName.Name = "lblName";
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::NinjaGame.Properties.Resources.HomeSweetHome;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Name = "panel1";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaBig;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
             // frmStart
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
-            this.Controls.Add(this.pnlFight);
             this.Controls.Add(this.pnlHome);
+            this.Controls.Add(this.pnlFight);
             this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlCinema);
             this.Controls.Add(this.pnlPizza);
@@ -2169,7 +2234,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnlFight.ResumeLayout(false);
             this.pnlFight.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy10)).EndInit();
@@ -2250,6 +2314,8 @@
             this.pnlCinema.ResumeLayout(false);
             this.pnlCinema.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2280,11 +2346,11 @@
         private System.Windows.Forms.Label lblSpecialForcePowers;
         private System.Windows.Forms.Label lblMentalPowers;
         private System.Windows.Forms.Label lblForcePowers;
-        private System.Windows.Forms.Label lblValue;
-        private System.Windows.Forms.Label lblEnergyStatus;
+        private System.Windows.Forms.Label lblMaxEnergy;
+        private System.Windows.Forms.Label lblEnergyLevel;
         private System.Windows.Forms.ProgressBar prgrEnergy;
-        private System.Windows.Forms.Label lblProgressBar;
-        private System.Windows.Forms.ProgressBar prgrsProgressBar;
+        private System.Windows.Forms.Label lblForceLevel;
+        private System.Windows.Forms.ProgressBar prgrsForce;
         private System.Windows.Forms.Label lblLevelValue;
         private System.Windows.Forms.Label lblLevelStatus;
         private System.Windows.Forms.Label lblCashValue;
@@ -2292,8 +2358,8 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnLoad;
-        private System.Windows.Forms.Label lblMaxprogress;
-        private System.Windows.Forms.Label lblMinProgress;
+        private System.Windows.Forms.Label lblMaxForce;
+        private System.Windows.Forms.Label lblMinForce;
         private System.Windows.Forms.Panel pnlFight;
         private System.Windows.Forms.Label lblFight;
         private System.Windows.Forms.Panel pnlMall;
@@ -2311,7 +2377,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnCinemaWatchMovie;
         private System.Windows.Forms.Button btnCinemaPlayBilliard;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnCinemaBack;
         private System.Windows.Forms.PictureBox btnMallShurikan;
         private System.Windows.Forms.Label label11;
@@ -2481,6 +2546,15 @@
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblMinEnergy;
+        private System.Windows.Forms.Label lblMaxMental;
+        private System.Windows.Forms.Label lblMinMental;
+        private System.Windows.Forms.Label lblMentalLevel;
+        private System.Windows.Forms.ProgressBar prgrsMental;
+        private System.Windows.Forms.Label lblMentalLevelValue;
+        private System.Windows.Forms.Label lblForceLevelValue;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

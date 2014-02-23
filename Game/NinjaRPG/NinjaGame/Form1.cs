@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NinjaWorld;
 using NinjaGame.Properties;
+using NinjaWorld;
+using System.Text.RegularExpressions;
 
 namespace NinjaGame
 {
@@ -31,6 +32,18 @@ namespace NinjaGame
         private void btnHome_Click(object sender, EventArgs e)
         {
             pnlHome.Visible = true;
+
+            lblCashValue.Text = ninja.Cash.ToString();
+            lblLevelValue.Text = ninja.ForceLevel.ToString();
+            prgrsForce.Value = ninja.CurrentStepForceLevel;
+            prgrsMental.Value = ninja.CurrentStepMentalLevel;
+            prgrsEnergy.Value = ninja.CurrentEnergy;
+            lblForceLevelValue.Text = ninja.ForceLevel.ToString();
+            lblMentalLevelValue.Text = ninja.MentalLevel.ToString();
+            lblMaxForce.Text = ninja.TotalStepsToNextMentalLevel.ToString();
+            lblMaxMental.Text = ninja.TotalStepsToNextMentalLevel.ToString();
+            lblMaxEnergy.Text = ninja.TotalEnergy.ToString();
+
 
             forcePowerButtons = new PictureBox[10]
             {
@@ -116,7 +129,7 @@ namespace NinjaGame
             {
                 mentalPowerButtons[i].Visible = true;
             }
-
+            
             int forceIndex = 0;
             int mentalIndex = 0;
             int energyIndex = 0;
@@ -663,11 +676,18 @@ namespace NinjaGame
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            ninja = new Ninja(txtName.Text);
-            btnOK.Visible = false;
-            lblName.Text = txtName.Text;
-            txtName.Visible = false;
-            lblName.Visible = true;
+            if (!Regex.IsMatch(txtName.Text, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
+            {
+                MessageBox.Show("Name must be at least 3 symbols and could contain only latin letters");
+            }
+            else
+            {
+                ninja = new Ninja(txtName.Text);
+                btnOK.Visible = false;
+                lblName.Text = txtName.Text;
+                txtName.Visible = false;
+                lblName.Visible = true;
+            }
         }
 
         bool isFirstClick = true;
