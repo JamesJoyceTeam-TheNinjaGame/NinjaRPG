@@ -5,6 +5,9 @@
     using System.Linq;
     using System.Text;
     using NinjaWorld;
+    using NinjaWorld.Creatures;
+    using NinjaWorld.Items;
+    using NinjaWorld.Buildings;
 
     public class Instatest
     {
@@ -20,6 +23,20 @@
             Console.WriteLine(trd);
 
             Console.WriteLine(ninja.Cash);
+
+            Power one = new Power(AttackTypeEnum.ForceAttack, "SssS", 3, 3);
+            Power two = new Power(AttackTypeEnum.ForceAttack, "SaaaS", 3, 3);
+
+            List<Power> sheld = new List<Power>()
+            {
+                one,
+                two
+            };
+
+            foreach (var item in sheld)
+            {
+                Console.WriteLine(item.AttackType);
+            }
         }
     }
 }
