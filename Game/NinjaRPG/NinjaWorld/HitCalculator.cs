@@ -16,7 +16,7 @@
         /// <param name="power">attack power</param>
         /// <param name="rules">attack success</param>
         /// <returns>damage to be removed from hitted enemy</returns>
-        public static int DynamicDamageCalculator(Powers power, FightRulesEnum rules)
+        public static int DynamicDamageCalculator(IAttack power, FightRulesEnum rules)
         {
                         int powerNumerator = new int();
             for (int i = 0; i < HitPrecision; i++)

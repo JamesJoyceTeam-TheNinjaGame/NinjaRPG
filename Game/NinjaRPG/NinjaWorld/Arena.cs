@@ -30,7 +30,7 @@
         public bool IsNinjaWiner { get; private set; }
 
         // Todo: Andrey = Pick ITEM ?? // for now leaving this hack
-        public Items NinjaPickItem()
+        public IItem NinjaPickItem()
         {
             return this.ninja.ForcePowers[0];
         }

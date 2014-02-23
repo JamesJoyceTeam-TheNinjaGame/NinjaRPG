@@ -9,6 +9,8 @@
     /// </summary>
     public sealed class FastFood : CommercialBuilding
     {
+        private static readonly Lazy<FastFood> Lazy = new Lazy<FastFood>(() => new FastFood());
+
         private static List<ICommercial> allGoods = new List<ICommercial>()
         {
             new EnergizingItems(EnergizerEnum.Bgurger, "Big Max"),
@@ -18,8 +20,6 @@
             new EnergizingItems(EnergizerEnum.IceCream, "Icegida"),
             new EnergizingItems(EnergizerEnum.Pizza, "A la Programa")
         }.OrderBy(en => en.Price).ToList();
-
-        private static readonly Lazy<FastFood> Lazy = new Lazy<FastFood>(() => new FastFood());
 
         private FastFood()
             : base("Fast Food", allGoods)

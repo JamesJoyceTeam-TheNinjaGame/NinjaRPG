@@ -25,16 +25,16 @@
             this.TotalStepsToNextForceLevel = InitialTotalSteps;
             this.TotalStepsToNextMentalLevel = InitialTotalSteps;
             this.Cash = InitialCash;
-            this.ForcePowers = new List<Powers>();
-            this.MentalPowers = new List<Powers>();
+            this.ForcePowers = new List<IAttack>();
+            this.MentalPowers = new List<IAttack>();
             this.BagOfItems = new List<ICommercial>();
             this.GetItem(Academy.ListOfPowers[0]);
             this.GetItem(Gym.ListOfPowers[0]);
         }
 
-        public List<Powers> ForcePowers { get; private set; }
+        public List<IAttack> ForcePowers { get; private set; }
 
-        public List<Powers> MentalPowers { get; private set; }
+        public List<IAttack> MentalPowers { get; private set; }
 
         public List<ICommercial> BagOfItems { get; private set; }
 
@@ -106,25 +106,13 @@
             }
         }
 
-        public bool GetItem(Items item)
+        public bool GetItem(IItem item)
         {
             // TODO: Be very careful to not overlap powers here!
-            if (item is Powers && !(item is SpecialPowers))
-            {
-                if ((item as Powers).AttackType == AttackTypeEnum.ForceAttack)
-                {
-                    this.ForcePowers.Add(item as Powers);
-                    return true;
-                }
-                else if ((item as Powers).AttackType == AttackTypeEnum.MindAttack)
-                {
-                    this.MentalPowers.Add(item as Powers);
-                    return true;
-                }
-            }
-            else if (item is Recreations)
+            if (item is Recreations)
             {
                 this.TotalEnergy += (item as Recreations).EnergyUpgrade;
+                
                 return true;
             }
             else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
@@ -134,15 +122,34 @@
                     .OrderBy(it => it.GetType().Name)
                     .ThenBy(it => it.Price)
                     .ToList();
+                
                 return true;
+            }
+            else if (item is IAttack)
+            {
+                var newAttack = item as IAttack;
+             
+                if (newAttack.AttackType == AttackTypeEnum.ForceAttack)
+                {
+                    this.ForcePowers.Add(newAttack);
+                
+                    return true;
+                }
+                else if (newAttack.AttackType == AttackTypeEnum.MindAttack)
+                {
+                    this.MentalPowers.Add(newAttack);
+                    
+                    return true;
+                }
             }
 
             return false;
         }
 
-        public int Attack(Items item, FightRulesEnum rules)
+        public int Attack(IItem item, FightRulesEnum rules)
         {
-            var power = this.UseItem(item) as Powers;
+            var power = this.UseItem(item) as IAttack;
+            
             if (power == null)
             {
                 return 0;
@@ -153,7 +160,7 @@
             }
         }
         
-        private Items UseItem(Items item)
+        private IItem UseItem(IItem item)
         {
             if (item is ICommercial)
             {

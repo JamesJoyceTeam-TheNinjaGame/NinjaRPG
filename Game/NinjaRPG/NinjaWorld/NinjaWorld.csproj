@@ -54,6 +54,9 @@
     <Compile Include="Gym.cs" />
     <Compile Include="HeadworkEnum.cs" />
     <Compile Include="Home.cs" />
+    <Compile Include="IAttack.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="InitialSettings.cs" />
     <Compile Include="Job.cs" />
     <Compile Include="JobOffice.cs" />
     <Compile Include="CommercialBuilding.cs" />

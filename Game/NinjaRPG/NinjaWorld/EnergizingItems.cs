@@ -1,6 +1,6 @@
 ﻿namespace NinjaWorld
 {
-    public class EnergizingItems : Items, ICommercial
+    public class EnergizingItems : Items, ICommercial, IItem
     {
         private const int PricePerHeal = 1;
 

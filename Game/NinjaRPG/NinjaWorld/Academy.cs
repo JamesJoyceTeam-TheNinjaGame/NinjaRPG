@@ -9,7 +9,7 @@ namespace NinjaWorld
     /// </summary>
     public class Academy : Building
     {      
-        public static readonly List<Powers> ListOfPowers = new List<Powers>()
+        public static readonly List<IAttack> ListOfPowers = new List<IAttack>()
         {
             new Powers(AttackTypeEnum.MindAttack, "Diversion", 10, 80),
             new Powers(AttackTypeEnum.MindAttack, "Numeral Systems", 20, 80),

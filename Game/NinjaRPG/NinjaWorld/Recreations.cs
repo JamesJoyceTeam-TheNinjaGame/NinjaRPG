@@ -1,6 +1,6 @@
 ﻿namespace NinjaWorld
 {
-    public class Recreations : Items, ICommercial
+    public class Recreations : Items, ICommercial, IItem
     {
         private const int IntlPricePerEnergy = 1;
         private const int PriceInflation = 1;

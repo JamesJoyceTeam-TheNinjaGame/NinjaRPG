@@ -1,6 +1,6 @@
 ﻿namespace NinjaWorld
 {
-    public class Powers : Items
+    public class Powers : Items, IAttack, IItem
     {
         private int attack;
         private int success;
@@ -13,7 +13,7 @@
             this.AttackType = attackType;
         }
 
-        public AttackTypeEnum AttackType { get; private set; }
+        public AttackTypeEnum AttackType { get; set; }
 
         public int SuccessRate
         {
