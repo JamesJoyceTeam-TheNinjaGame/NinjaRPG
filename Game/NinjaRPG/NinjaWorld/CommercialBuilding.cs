@@ -20,7 +20,8 @@
                 return new List<ICommercial>(this.goods);
             }
         }
-
+        
+        // TODO: Remove or Implement Turnover.
         public int Turnover { get; private set; }
 
         public void Sell(ICommercial commercialItem, Ninja ninja)
