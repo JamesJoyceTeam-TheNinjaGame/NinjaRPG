@@ -14,8 +14,12 @@
         private const int InitialLevel = 1;
         private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
-        private const int InitialCash = 50;
-        private const int MaxItems = 20;
+        private const int InitialCash = 100050;
+        private const int MaxItems = 30;
+        private const int MaxItemsPerCategory = 10;
+        private int forceItems;
+        private int mentalItems;
+        private int energyItems;
 
         public Ninja(string name)
             : base(name, StartEnergy)
@@ -32,6 +36,9 @@
             this.BagOfItems = new List<ICommercial>();
             this.GetItem(new Power(AttackTypeEnum.ForceAttack, "Fist Fight", 10, 60));
             this.GetItem(new Power(AttackTypeEnum.MindAttack, "Diversion", 10, 80));
+            forceItems = 0;
+            mentalItems = 0;
+            energyItems = 0;
         }
 
         public IList<IAttack> ForcePowers { get; private set; }
@@ -103,8 +110,46 @@
         {
             if (this.Cash >= commercialItem.Price)
             {
+                //TODO : THIS SHOULD NOT BE HERE!
+                // also it will not work couse there is not counter--
+                // There is no sense to make abstract bag that keep different types of items if the you can put exactly 3 types of Items and only
+                // 10 items by type.
+                
+                
+                //if ((commercialItem is Energizer))
+                //{
+                //    if (energyItems >= MaxItemsPerCategory)
+                //    {
+                //        throw new ArgumentException("Your list with energy items is full");
+                //    }
+                //    else
+                //    {
+                //        energyItems++;
+                //    }
+                //}
+                //else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.ForceAttack)
+                //    {
+                //        if (forceItems >= MaxItemsPerCategory)
+                //        {
+                //            throw new ArgumentException("Your list with special power items is full");
+                //        }
+                //        else
+                //        {
+                //            forceItems++;
+                //        }
+                //    }
+                // else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.MindAttack)
+                // {
+                //     if (mentalItems >= MaxItemsPerCategory)
+                //        {
+                //            throw new ArgumentException("Your list with special mental items is full");
+                //        }
+                //     else
+                //     {
+                //         mentalItems++;
+                //     }
+                // }
                 this.Cash -= commercialItem.Price;
-                BagOfItems.Add(commercialItem);
                 return true;
             }
             else
@@ -123,11 +168,8 @@
             }
             else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
             {
+                //TODO: NEED TO CHECK IF THERE IS A PLACE IN THE BAG here.
                 this.BagOfItems.Add(item as ICommercial);
-                this.BagOfItems = this.BagOfItems
-                    .OrderBy(it => it.GetType().Name)
-                    .ThenBy(it => it.Price)
-                    .ToList();
                 
                 return true;
             }

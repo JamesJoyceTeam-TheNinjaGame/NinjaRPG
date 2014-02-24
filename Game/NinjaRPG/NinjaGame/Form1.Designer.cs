@@ -1607,7 +1607,7 @@
             resources.ApplyResources(this.btnFightSpecialForce1, "btnFightSpecialForce1");
             this.btnFightSpecialForce1.Name = "btnFightSpecialForce1";
             this.btnFightSpecialForce1.TabStop = false;
-            this.btnFightSpecialForce1.Click += new System.EventHandler(this.pictureBox63_Click);
+            this.btnFightSpecialForce1.Click += new System.EventHandler(this.btnFightSpecialForce1_Click);
             // 
             // pnlRing
             // 
@@ -2153,10 +2153,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
-            this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlMall);
-            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlFight);
+            this.Controls.Add(this.pnlPizza);
+            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlCinema);
             this.Controls.Add(this.prgrsEnergy);
             this.Controls.Add(this.lblSchool);
