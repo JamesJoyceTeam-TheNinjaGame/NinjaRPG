@@ -579,6 +579,957 @@
   <data name="pnlHome.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="&gt;&gt;lblMentalLevelValue.Name" xml:space="preserve">
+    <value>lblMentalLevelValue</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevelValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevelValue.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevelValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevelValue.Name" xml:space="preserve">
+    <value>lblForceLevelValue</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevelValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevelValue.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevelValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblMinEnergy.Name" xml:space="preserve">
+    <value>lblMinEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblMinEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinEnergy.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMinEnergy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblMaxMental.Name" xml:space="preserve">
+    <value>lblMaxMental</value>
+  </data>
+  <data name="&gt;&gt;lblMaxMental.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxMental.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMaxMental.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblMinMental.Name" xml:space="preserve">
+    <value>lblMinMental</value>
+  </data>
+  <data name="&gt;&gt;lblMinMental.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinMental.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMinMental.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevel.Name" xml:space="preserve">
+    <value>lblMentalLevel</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevel.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMentalLevel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;prgrsMental.Name" xml:space="preserve">
+    <value>prgrsMental</value>
+  </data>
+  <data name="&gt;&gt;prgrsMental.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prgrsMental.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;prgrsMental.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers10.Name" xml:space="preserve">
+    <value>picHomeEnergizers10</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers10.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers8.Name" xml:space="preserve">
+    <value>picHomeEnergizers8</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers8.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers6.Name" xml:space="preserve">
+    <value>picHomeEnergizers6</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers6.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers4.Name" xml:space="preserve">
+    <value>picHomeEnergizers4</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers4.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers2.Name" xml:space="preserve">
+    <value>picHomeEnergizers2</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers2.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers9.Name" xml:space="preserve">
+    <value>picHomeEnergizers9</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers9.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers7.Name" xml:space="preserve">
+    <value>picHomeEnergizers7</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers7.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers5.Name" xml:space="preserve">
+    <value>picHomeEnergizers5</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers5.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers3.Name" xml:space="preserve">
+    <value>picHomeEnergizers3</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers3.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers1.Name" xml:space="preserve">
+    <value>picHomeEnergizers1</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeEnergizers1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental10.Name" xml:space="preserve">
+    <value>picHomeSpecialMental10</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental10.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental10.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental8.Name" xml:space="preserve">
+    <value>picHomeSpecialMental8</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental8.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental6.Name" xml:space="preserve">
+    <value>picHomeSpecialMental6</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental6.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental4.Name" xml:space="preserve">
+    <value>picHomeSpecialMental4</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental4.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental2.Name" xml:space="preserve">
+    <value>picHomeSpecialMental2</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental2.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental9.Name" xml:space="preserve">
+    <value>picHomeSpecialMental9</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental9.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental7.Name" xml:space="preserve">
+    <value>picHomeSpecialMental7</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental7.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental7.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental5.Name" xml:space="preserve">
+    <value>picHomeSpecialMental5</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental5.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental5.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental3.Name" xml:space="preserve">
+    <value>picHomeSpecialMental3</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental3.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental1.Name" xml:space="preserve">
+    <value>picHomeSpecialMental1</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialMental1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental10.Name" xml:space="preserve">
+    <value>picHomeMental10</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental10.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental10.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental8.Name" xml:space="preserve">
+    <value>picHomeMental8</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental8.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental8.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental6.Name" xml:space="preserve">
+    <value>picHomeMental6</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental6.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental6.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental4.Name" xml:space="preserve">
+    <value>picHomeMental4</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental4.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental4.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental2.Name" xml:space="preserve">
+    <value>picHomeMental2</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental2.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental2.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental9.Name" xml:space="preserve">
+    <value>picHomeMental9</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental9.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental9.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental7.Name" xml:space="preserve">
+    <value>picHomeMental7</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental7.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental7.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental5.Name" xml:space="preserve">
+    <value>picHomeMental5</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental5.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental5.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental3.Name" xml:space="preserve">
+    <value>picHomeMental3</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental3.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental3.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental1.Name" xml:space="preserve">
+    <value>picHomeMental1</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeMental1.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce10.Name" xml:space="preserve">
+    <value>picHomeForce10</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce10.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce10.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce8.Name" xml:space="preserve">
+    <value>picHomeForce8</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce8.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce8.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce6.Name" xml:space="preserve">
+    <value>picHomeForce6</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce6.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce6.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce4.Name" xml:space="preserve">
+    <value>picHomeForce4</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce4.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce4.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce2.Name" xml:space="preserve">
+    <value>picHomeForce2</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce2.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce2.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce9.Name" xml:space="preserve">
+    <value>picHomeForce9</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce9.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce9.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce7.Name" xml:space="preserve">
+    <value>picHomeForce7</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce7.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce7.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce5.Name" xml:space="preserve">
+    <value>picHomeForce5</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce5.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce5.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce3.Name" xml:space="preserve">
+    <value>picHomeForce3</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce3.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce3.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce1.Name" xml:space="preserve">
+    <value>picHomeForce1</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeForce1.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce10.Name" xml:space="preserve">
+    <value>picHomeSpecialForce10</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce10.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce10.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce8.Name" xml:space="preserve">
+    <value>picHomeSpecialForce8</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce8.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce8.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce6.Name" xml:space="preserve">
+    <value>picHomeSpecialForce6</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce6.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce6.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce4.Name" xml:space="preserve">
+    <value>picHomeSpecialForce4</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce4.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce4.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce2.Name" xml:space="preserve">
+    <value>picHomeSpecialForce2</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce2.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce2.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce9.Name" xml:space="preserve">
+    <value>picHomeSpecialForce9</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce9.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce9.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce7.Name" xml:space="preserve">
+    <value>picHomeSpecialForce7</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce7.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce7.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce5.Name" xml:space="preserve">
+    <value>picHomeSpecialForce5</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce5.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce5.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce3.Name" xml:space="preserve">
+    <value>picHomeSpecialForce3</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce3.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce3.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce1.Name" xml:space="preserve">
+    <value>picHomeSpecialForce1</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;picHomeSpecialForce1.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;lblMaxForce.Name" xml:space="preserve">
+    <value>lblMaxForce</value>
+  </data>
+  <data name="&gt;&gt;lblMaxForce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxForce.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMaxForce.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;lblMinForce.Name" xml:space="preserve">
+    <value>lblMinForce</value>
+  </data>
+  <data name="&gt;&gt;lblMinForce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinForce.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMinForce.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Name" xml:space="preserve">
+    <value>btnLoad</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevel.Name" xml:space="preserve">
+    <value>lblForceLevel</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevel.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblForceLevel.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;prgrsForce.Name" xml:space="preserve">
+    <value>prgrsForce</value>
+  </data>
+  <data name="&gt;&gt;prgrsForce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prgrsForce.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;prgrsForce.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;lblLevelValue.Name" xml:space="preserve">
+    <value>lblLevelValue</value>
+  </data>
+  <data name="&gt;&gt;lblLevelValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLevelValue.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblLevelValue.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;lblLevelStatus.Name" xml:space="preserve">
+    <value>lblLevelStatus</value>
+  </data>
+  <data name="&gt;&gt;lblLevelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLevelStatus.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblLevelStatus.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;lblCashValue.Name" xml:space="preserve">
+    <value>lblCashValue</value>
+  </data>
+  <data name="&gt;&gt;lblCashValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCashValue.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblCashValue.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;lblCashStatus.Name" xml:space="preserve">
+    <value>lblCashStatus</value>
+  </data>
+  <data name="&gt;&gt;lblCashStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCashStatus.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblCashStatus.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;lblMaxEnergy.Name" xml:space="preserve">
+    <value>lblMaxEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblMaxEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxEnergy.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMaxEnergy.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyLevel.Name" xml:space="preserve">
+    <value>lblEnergyLevel</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyLevel.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyLevel.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;prgrEnergy.Name" xml:space="preserve">
+    <value>prgrEnergy</value>
+  </data>
+  <data name="&gt;&gt;prgrEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prgrEnergy.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;prgrEnergy.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;lblEnergizers.Name" xml:space="preserve">
+    <value>lblEnergizers</value>
+  </data>
+  <data name="&gt;&gt;lblEnergizers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnergizers.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblEnergizers.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialMentalPowers.Name" xml:space="preserve">
+    <value>lblSpecialMentalPowers</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialMentalPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialMentalPowers.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialMentalPowers.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialForcePowers.Name" xml:space="preserve">
+    <value>lblSpecialForcePowers</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialForcePowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialForcePowers.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialForcePowers.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;lblMentalPowers.Name" xml:space="preserve">
+    <value>lblMentalPowers</value>
+  </data>
+  <data name="&gt;&gt;lblMentalPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMentalPowers.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblMentalPowers.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;lblForcePowers.Name" xml:space="preserve">
+    <value>lblForcePowers</value>
+  </data>
+  <data name="&gt;&gt;lblForcePowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblForcePowers.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;lblForcePowers.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="pnlHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="pnlHome.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="pnlHome.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlHome.Name" xml:space="preserve">
+    <value>pnlHome</value>
+  </data>
+  <data name="&gt;&gt;pnlHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlHome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlHome.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="lblMentalLevelValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -14436,18 +15387,6 @@
   <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, -9</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 249</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
   </data>
@@ -14481,32 +15420,788 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="pnlHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="pnlHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, -9</value>
   </data>
-  <data name="pnlHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 562</value>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 249</value>
   </data>
-  <data name="pnlHome.TabIndex" type="System.Int32, mscorlib">
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFightEvil.Name" xml:space="preserve">
+    <value>lblFightEvil</value>
+  </data>
+  <data name="&gt;&gt;lblFightEvil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFightEvil.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;lblFightEvil.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFightNinja.Name" xml:space="preserve">
+    <value>lblFightNinja</value>
+  </data>
+  <data name="&gt;&gt;lblFightNinja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFightNinja.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;lblFightNinja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;progressBar2.Name" xml:space="preserve">
+    <value>progressBar2</value>
+  </data>
+  <data name="&gt;&gt;progressBar2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;progressBar2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy10.Name" xml:space="preserve">
+    <value>btnFightEnergy10</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy10.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy8.Name" xml:space="preserve">
+    <value>btnFightEnergy8</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy8.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy6.Name" xml:space="preserve">
+    <value>btnFightEnergy6</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy6.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy4.Name" xml:space="preserve">
+    <value>btnFightEnergy4</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy4.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy2.Name" xml:space="preserve">
+    <value>btnFightEnergy2</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy9.Name" xml:space="preserve">
+    <value>btnFightEnergy9</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy9.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy7.Name" xml:space="preserve">
+    <value>btnFightEnergy7</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy7.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy5.Name" xml:space="preserve">
+    <value>btnFightEnergy5</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy5.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy3.Name" xml:space="preserve">
+    <value>btnFightEnergy3</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy3.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy1.Name" xml:space="preserve">
+    <value>btnFightEnergy1</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightEnergy1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental10.Name" xml:space="preserve">
+    <value>btnSpecialMental10</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental10.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental10.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental8.Name" xml:space="preserve">
+    <value>btnSpecialMental8</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental8.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental6.Name" xml:space="preserve">
+    <value>btnSpecialMental6</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental6.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental6.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="pnlHome.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;btnSpecialMental4.Name" xml:space="preserve">
+    <value>btnSpecialMental4</value>
   </data>
-  <data name="&gt;&gt;pnlHome.Name" xml:space="preserve">
-    <value>pnlHome</value>
+  <data name="&gt;&gt;btnSpecialMental4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlHome.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnSpecialMental4.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental2.Name" xml:space="preserve">
+    <value>btnSpecialMental2</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental9.Name" xml:space="preserve">
+    <value>btnSpecialMental9</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental9.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental7.Name" xml:space="preserve">
+    <value>btnSpecialMental7</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental7.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental5.Name" xml:space="preserve">
+    <value>btnSpecialMental5</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental5.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental3.Name" xml:space="preserve">
+    <value>btnSpecialMental3</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental3.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental1.Name" xml:space="preserve">
+    <value>btnSpecialMental1</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnSpecialMental1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental10.Name" xml:space="preserve">
+    <value>btnFightMental10</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental10.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental10.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental8.Name" xml:space="preserve">
+    <value>btnFightMental8</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental8.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental8.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental6.Name" xml:space="preserve">
+    <value>btnFightMental6</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental6.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental6.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental4.Name" xml:space="preserve">
+    <value>btnFightMental4</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental4.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental2.Name" xml:space="preserve">
+    <value>btnFightMental2</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental2.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental9.Name" xml:space="preserve">
+    <value>btnFightMental9</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental9.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental9.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental7.Name" xml:space="preserve">
+    <value>btnFightMental7</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental7.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental7.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental5.Name" xml:space="preserve">
+    <value>btnFightMental5</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental5.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental5.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental3.Name" xml:space="preserve">
+    <value>btnFightMental3</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental3.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental3.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental1.Name" xml:space="preserve">
+    <value>btnFightMental1</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightMental1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce10.Name" xml:space="preserve">
+    <value>btnFightForce10</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce10.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce10.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce8.Name" xml:space="preserve">
+    <value>btnFightForce8</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce8.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce8.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce6.Name" xml:space="preserve">
+    <value>btnFightForce6</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce6.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce6.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce4.Name" xml:space="preserve">
+    <value>btnFightForce4</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce4.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce4.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce2.Name" xml:space="preserve">
+    <value>btnFightForce2</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce2.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce9.Name" xml:space="preserve">
+    <value>btnFightForce9</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce9.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce9.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce7.Name" xml:space="preserve">
+    <value>btnFightForce7</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce7.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce7.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce5.Name" xml:space="preserve">
+    <value>btnFightForce5</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce5.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce5.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce3.Name" xml:space="preserve">
+    <value>btnFightForce3</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce3.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce3.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce1.Name" xml:space="preserve">
+    <value>btnFightForce1</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightForce1.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;label37.Name" xml:space="preserve">
+    <value>label37</value>
+  </data>
+  <data name="&gt;&gt;label37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label37.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;label37.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce10.Name" xml:space="preserve">
+    <value>btnFightSpecialForce10</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce10.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce10.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce8.Name" xml:space="preserve">
+    <value>btnFightSpecialForce8</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce8.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce8.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce6.Name" xml:space="preserve">
+    <value>btnFightSpecialForce6</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce6.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce6.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce4.Name" xml:space="preserve">
+    <value>btnFightSpecialForce4</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce4.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce4.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce2.Name" xml:space="preserve">
+    <value>btnFightSpecialForce2</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce2.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce2.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce9.Name" xml:space="preserve">
+    <value>btnFightSpecialForce9</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce9.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce9.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce7.Name" xml:space="preserve">
+    <value>btnFightSpecialForce7</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce7.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce7.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce5.Name" xml:space="preserve">
+    <value>btnFightSpecialForce5</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce5.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce5.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce3.Name" xml:space="preserve">
+    <value>btnFightSpecialForce3</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce3.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce3.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce1.Name" xml:space="preserve">
+    <value>btnFightSpecialForce1</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce1.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;btnFightSpecialForce1.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.Name" xml:space="preserve">
+    <value>pnlRing</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlHome.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlRing.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;lblFight.Name" xml:space="preserve">
+    <value>lblFight</value>
+  </data>
+  <data name="&gt;&gt;lblFight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFight.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;lblFight.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="pnlFight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlFight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlFight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="pnlFight.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="pnlFight.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlFight.Name" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;pnlFight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFight.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlHome.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;pnlFight.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lblFightEvil.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -27726,6 +29421,51 @@
   <data name="pnlRing.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="&gt;&gt;picEvil.Name" xml:space="preserve">
+    <value>picEvil</value>
+  </data>
+  <data name="&gt;&gt;picEvil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picEvil.Parent" xml:space="preserve">
+    <value>pnlRing</value>
+  </data>
+  <data name="&gt;&gt;picEvil.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picNinja.Name" xml:space="preserve">
+    <value>picNinja</value>
+  </data>
+  <data name="&gt;&gt;picNinja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picNinja.Parent" xml:space="preserve">
+    <value>pnlRing</value>
+  </data>
+  <data name="&gt;&gt;picNinja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlRing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 40</value>
+  </data>
+  <data name="pnlRing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 276</value>
+  </data>
+  <data name="pnlRing.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.Name" xml:space="preserve">
+    <value>pnlRing</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.Parent" xml:space="preserve">
+    <value>pnlFight</value>
+  </data>
+  <data name="&gt;&gt;pnlRing.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
   <data name="picEvil.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -27780,27 +29520,6 @@
   <data name="&gt;&gt;picNinja.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pnlRing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 40</value>
-  </data>
-  <data name="pnlRing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>760, 276</value>
-  </data>
-  <data name="pnlRing.TabIndex" type="System.Int32, mscorlib">
-    <value>110</value>
-  </data>
-  <data name="&gt;&gt;pnlRing.Name" xml:space="preserve">
-    <value>pnlRing</value>
-  </data>
-  <data name="&gt;&gt;pnlRing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRing.Parent" xml:space="preserve">
-    <value>pnlFight</value>
-  </data>
-  <data name="&gt;&gt;pnlRing.ZOrder" xml:space="preserve">
-    <value>59</value>
-  </data>
   <data name="lblFight.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -27833,33 +29552,6 @@
   </data>
   <data name="&gt;&gt;lblFight.ZOrder" xml:space="preserve">
     <value>60</value>
-  </data>
-  <data name="pnlFight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlFight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlFight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 562</value>
-  </data>
-  <data name="pnlFight.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
-  </data>
-  <data name="pnlFight.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlFight.Name" xml:space="preserve">
-    <value>pnlFight</value>
-  </data>
-  <data name="&gt;&gt;pnlFight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlFight.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlFight.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="pnlMall.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -28164,6 +29856,9 @@
   <data name="&gt;&gt;lblMallShurikanPower.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btnMallVirus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -28179,9 +29874,6 @@
   <data name="btnMallVirus.TabIndex" type="System.Int32, mscorlib">
     <value>132</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="btnMallVirus.ToolTip" xml:space="preserve">
     <value>Virus</value>
   </data>
@@ -28957,7 +30649,310 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlMall.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCashValue.Name" xml:space="preserve">
+    <value>lblPizzaCashValue</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCashValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCashValue.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCashValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCash.Name" xml:space="preserve">
+    <value>lblPizzaCash</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCash.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCash.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkEnergy.Name" xml:space="preserve">
+    <value>lblPizzaEnergydrinkEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkEnergy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaEnergyDrink.Name" xml:space="preserve">
+    <value>btnPizzaEnergyDrink</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaEnergyDrink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaEnergyDrink.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaEnergyDrink.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkPrice.Name" xml:space="preserve">
+    <value>lblPizzaEnergydrinkPrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkPrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaEnergydrinkPrice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaEnergy.Name" xml:space="preserve">
+    <value>lblPizzaPizzaEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaEnergy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerEnergy.Name" xml:space="preserve">
+    <value>lblPizzaHamburgerEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerEnergy.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamEnergy.Name" xml:space="preserve">
+    <value>lblPizzaIceCreamEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamEnergy.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeeEnergy.Name" xml:space="preserve">
+    <value>lblPizzaCoffeeEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeeEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeeEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeeEnergy.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokeEnergy.Name" xml:space="preserve">
+    <value>lblPizzaCokeEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokeEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokeEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokeEnergy.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoffee.Name" xml:space="preserve">
+    <value>btnPizzaCoffee</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoffee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoffee.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoffee.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaIceCream.Name" xml:space="preserve">
+    <value>btnPizzaIceCream</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaIceCream.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaIceCream.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaIceCream.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBurger.Name" xml:space="preserve">
+    <value>btnPizzaBurger</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBurger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBurger.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBurger.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaPizza.Name" xml:space="preserve">
+    <value>btnPizzaPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaPizza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaPizza.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaPizza.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaPrice.Name" xml:space="preserve">
+    <value>lblPizzaPizzaPrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaPrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaPizzaPrice.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerPrice.Name" xml:space="preserve">
+    <value>lblPizzaHamburgerPrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerPrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaHamburgerPrice.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamPrice.Name" xml:space="preserve">
+    <value>lblPizzaIceCreamPrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamPrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaIceCreamPrice.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeePrice.Name" xml:space="preserve">
+    <value>lblPizzaCoffeePrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeePrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCoffeePrice.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokePrice.Name" xml:space="preserve">
+    <value>lblPizzaCokePrice</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokePrice.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblPizzaCokePrice.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoke.Name" xml:space="preserve">
+    <value>btnPizzaCoke</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoke.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaCoke.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBack.Name" xml:space="preserve">
+    <value>btnPizzaBack</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBack.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;btnPizzaBack.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblEnergy.Name" xml:space="preserve">
+    <value>lblEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnergy.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;lblEnergy.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;picPizza.Name" xml:space="preserve">
+    <value>picPizza</value>
+  </data>
+  <data name="&gt;&gt;picPizza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picPizza.Parent" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;picPizza.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="pnlPizza.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlPizza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlPizza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="pnlPizza.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="pnlPizza.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlPizza.Name" xml:space="preserve">
+    <value>pnlPizza</value>
+  </data>
+  <data name="&gt;&gt;pnlPizza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPizza.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPizza.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblPizzaCashValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -29640,32 +31635,104 @@
   <data name="&gt;&gt;picPizza.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="pnlPizza.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="&gt;&gt;lblCinemaCashValue.Name" xml:space="preserve">
+    <value>lblCinemaCashValue</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCashValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCashValue.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCashValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCash.Name" xml:space="preserve">
+    <value>lblCinemaCash</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCash.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;lblCinemaCash.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaBack.Name" xml:space="preserve">
+    <value>btnCinemaBack</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaBack.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaWatchMovie.Name" xml:space="preserve">
+    <value>btnCinemaWatchMovie</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaWatchMovie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaWatchMovie.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaWatchMovie.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaPlayBilliard.Name" xml:space="preserve">
+    <value>btnCinemaPlayBilliard</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaPlayBilliard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaPlayBilliard.Parent" xml:space="preserve">
+    <value>pnlCinema</value>
+  </data>
+  <data name="&gt;&gt;btnCinemaPlayBilliard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pnlCinema.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="pnlPizza.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="pnlCinema.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="pnlPizza.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pnlCinema.Size" type="System.Drawing.Size, System.Drawing">
     <value>784, 562</value>
   </data>
-  <data name="pnlPizza.TabIndex" type="System.Int32, mscorlib">
-    <value>111</value>
+  <data name="pnlCinema.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
   </data>
-  <data name="pnlPizza.Visible" type="System.Boolean, mscorlib">
+  <data name="pnlCinema.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;pnlPizza.Name" xml:space="preserve">
-    <value>pnlPizza</value>
+  <data name="&gt;&gt;pnlCinema.Name" xml:space="preserve">
+    <value>pnlCinema</value>
   </data>
-  <data name="&gt;&gt;pnlPizza.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnlCinema.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlPizza.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlCinema.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlPizza.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;pnlCinema.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="lblCinemaCashValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -29829,33 +31896,9 @@
   <data name="&gt;&gt;btnCinemaPlayBilliard.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="pnlCinema.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlCinema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlCinema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 562</value>
-  </data>
-  <data name="pnlCinema.TabIndex" type="System.Int32, mscorlib">
-    <value>112</value>
-  </data>
-  <data name="pnlCinema.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlCinema.Name" xml:space="preserve">
-    <value>pnlCinema</value>
-  </data>
-  <data name="&gt;&gt;pnlCinema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlCinema.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlCinema.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>491, 336</value>
   </data>
