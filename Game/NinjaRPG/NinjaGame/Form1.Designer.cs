@@ -191,16 +191,16 @@
             this.picNinja = new System.Windows.Forms.PictureBox();
             this.lblFight = new System.Windows.Forms.Label();
             this.pnlMall = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblMallVirusPower = new System.Windows.Forms.Label();
+            this.lblHelpFromTrainerPower = new System.Windows.Forms.Label();
+            this.lblHelpFromTeamPower = new System.Windows.Forms.Label();
+            this.lblCSharpBookPower = new System.Windows.Forms.Label();
+            this.lblMallForumflagPower = new System.Windows.Forms.Label();
+            this.lblMallPoisonDartPower = new System.Windows.Forms.Label();
+            this.lblMallTomahawkPower = new System.Windows.Forms.Label();
+            this.lblMallHammerPower = new System.Windows.Forms.Label();
+            this.lblMallBaseballPower = new System.Windows.Forms.Label();
+            this.lblMallShurikanPower = new System.Windows.Forms.Label();
             this.btnMallVirus = new System.Windows.Forms.PictureBox();
             this.btnMallHelpFromTrainer = new System.Windows.Forms.PictureBox();
             this.btnMallHelpFromTeammate = new System.Windows.Forms.PictureBox();
@@ -210,18 +210,18 @@
             this.btnmallHammer = new System.Windows.Forms.PictureBox();
             this.btnMallTomahawk = new System.Windows.Forms.PictureBox();
             this.btnMallPoisonDarts = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblMallVirusPrice = new System.Windows.Forms.Label();
+            this.lblHelpFromTrainerPrice = new System.Windows.Forms.Label();
+            this.lblMallHelpFromTeamPrice = new System.Windows.Forms.Label();
+            this.lblCSharpBookPrice = new System.Windows.Forms.Label();
+            this.lblMallForumflagPrice = new System.Windows.Forms.Label();
+            this.lblMallPoisonDartPrice = new System.Windows.Forms.Label();
+            this.lblMallTomahawkPrice = new System.Windows.Forms.Label();
+            this.lblMallHammerPrice = new System.Windows.Forms.Label();
+            this.lblMallBaseballPrice = new System.Windows.Forms.Label();
+            this.lblMallShurikanPrice = new System.Windows.Forms.Label();
             this.btnMallShurikan = new System.Windows.Forms.PictureBox();
-            this.lblCurrValue = new System.Windows.Forms.Label();
+            this.lblMallCash = new System.Windows.Forms.Label();
             this.lblCash = new System.Windows.Forms.Label();
             this.btnMallBack = new System.Windows.Forms.Button();
             this.lblSpecialMentalPower = new System.Windows.Forms.Label();
@@ -230,23 +230,23 @@
             this.pnlPizza = new System.Windows.Forms.Panel();
             this.lblPizzaCashValue = new System.Windows.Forms.Label();
             this.lblPizzaCash = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.lblPizzaEnergydrinkEnergy = new System.Windows.Forms.Label();
             this.btnPizzaEnergyDrink = new System.Windows.Forms.PictureBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.lblPizzaEnergydrinkPrice = new System.Windows.Forms.Label();
+            this.lblPizzaPizzaEnergy = new System.Windows.Forms.Label();
+            this.lblPizzaHamburgerEnergy = new System.Windows.Forms.Label();
+            this.lblPizzaIceCreamEnergy = new System.Windows.Forms.Label();
+            this.lblPizzaCoffeeEnergy = new System.Windows.Forms.Label();
+            this.lblPizzaCokeEnergy = new System.Windows.Forms.Label();
             this.btnPizzaCoffee = new System.Windows.Forms.PictureBox();
             this.btnPizzaIceCream = new System.Windows.Forms.PictureBox();
             this.btnPizzaBurger = new System.Windows.Forms.PictureBox();
             this.btnPizzaPizza = new System.Windows.Forms.PictureBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.lblPizzaPizzaPrice = new System.Windows.Forms.Label();
+            this.lblPizzaHamburgerPrice = new System.Windows.Forms.Label();
+            this.lblPizzaIceCreamPrice = new System.Windows.Forms.Label();
+            this.lblPizzaCoffeePrice = new System.Windows.Forms.Label();
+            this.lblPizzaCokePrice = new System.Windows.Forms.Label();
             this.btnPizzaCoke = new System.Windows.Forms.PictureBox();
             this.btnPizzaBack = new System.Windows.Forms.Button();
             this.lblEnergy = new System.Windows.Forms.Label();
@@ -1643,16 +1643,16 @@
             // 
             this.pnlMall.BackColor = System.Drawing.Color.PowderBlue;
             resources.ApplyResources(this.pnlMall, "pnlMall");
-            this.pnlMall.Controls.Add(this.label11);
-            this.pnlMall.Controls.Add(this.label12);
-            this.pnlMall.Controls.Add(this.label13);
-            this.pnlMall.Controls.Add(this.label14);
-            this.pnlMall.Controls.Add(this.label15);
-            this.pnlMall.Controls.Add(this.label16);
-            this.pnlMall.Controls.Add(this.label17);
-            this.pnlMall.Controls.Add(this.label18);
-            this.pnlMall.Controls.Add(this.label19);
-            this.pnlMall.Controls.Add(this.label20);
+            this.pnlMall.Controls.Add(this.lblMallVirusPower);
+            this.pnlMall.Controls.Add(this.lblHelpFromTrainerPower);
+            this.pnlMall.Controls.Add(this.lblHelpFromTeamPower);
+            this.pnlMall.Controls.Add(this.lblCSharpBookPower);
+            this.pnlMall.Controls.Add(this.lblMallForumflagPower);
+            this.pnlMall.Controls.Add(this.lblMallPoisonDartPower);
+            this.pnlMall.Controls.Add(this.lblMallTomahawkPower);
+            this.pnlMall.Controls.Add(this.lblMallHammerPower);
+            this.pnlMall.Controls.Add(this.lblMallBaseballPower);
+            this.pnlMall.Controls.Add(this.lblMallShurikanPower);
             this.pnlMall.Controls.Add(this.btnMallVirus);
             this.pnlMall.Controls.Add(this.btnMallHelpFromTrainer);
             this.pnlMall.Controls.Add(this.btnMallHelpFromTeammate);
@@ -1662,18 +1662,18 @@
             this.pnlMall.Controls.Add(this.btnmallHammer);
             this.pnlMall.Controls.Add(this.btnMallTomahawk);
             this.pnlMall.Controls.Add(this.btnMallPoisonDarts);
-            this.pnlMall.Controls.Add(this.label10);
-            this.pnlMall.Controls.Add(this.label9);
-            this.pnlMall.Controls.Add(this.label8);
-            this.pnlMall.Controls.Add(this.label7);
-            this.pnlMall.Controls.Add(this.label6);
-            this.pnlMall.Controls.Add(this.label5);
-            this.pnlMall.Controls.Add(this.label4);
-            this.pnlMall.Controls.Add(this.label3);
-            this.pnlMall.Controls.Add(this.label2);
-            this.pnlMall.Controls.Add(this.label1);
+            this.pnlMall.Controls.Add(this.lblMallVirusPrice);
+            this.pnlMall.Controls.Add(this.lblHelpFromTrainerPrice);
+            this.pnlMall.Controls.Add(this.lblMallHelpFromTeamPrice);
+            this.pnlMall.Controls.Add(this.lblCSharpBookPrice);
+            this.pnlMall.Controls.Add(this.lblMallForumflagPrice);
+            this.pnlMall.Controls.Add(this.lblMallPoisonDartPrice);
+            this.pnlMall.Controls.Add(this.lblMallTomahawkPrice);
+            this.pnlMall.Controls.Add(this.lblMallHammerPrice);
+            this.pnlMall.Controls.Add(this.lblMallBaseballPrice);
+            this.pnlMall.Controls.Add(this.lblMallShurikanPrice);
             this.pnlMall.Controls.Add(this.btnMallShurikan);
-            this.pnlMall.Controls.Add(this.lblCurrValue);
+            this.pnlMall.Controls.Add(this.lblMallCash);
             this.pnlMall.Controls.Add(this.lblCash);
             this.pnlMall.Controls.Add(this.btnMallBack);
             this.pnlMall.Controls.Add(this.lblSpecialMentalPower);
@@ -1681,55 +1681,55 @@
             this.pnlMall.Controls.Add(this.pictureBox1);
             this.pnlMall.Name = "pnlMall";
             // 
-            // label11
+            // lblMallVirusPower
             // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
+            resources.ApplyResources(this.lblMallVirusPower, "lblMallVirusPower");
+            this.lblMallVirusPower.Name = "lblMallVirusPower";
             // 
-            // label12
+            // lblHelpFromTrainerPower
             // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
+            resources.ApplyResources(this.lblHelpFromTrainerPower, "lblHelpFromTrainerPower");
+            this.lblHelpFromTrainerPower.Name = "lblHelpFromTrainerPower";
             // 
-            // label13
+            // lblHelpFromTeamPower
             // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
+            resources.ApplyResources(this.lblHelpFromTeamPower, "lblHelpFromTeamPower");
+            this.lblHelpFromTeamPower.Name = "lblHelpFromTeamPower";
             // 
-            // label14
+            // lblCSharpBookPower
             // 
-            resources.ApplyResources(this.label14, "label14");
-            this.label14.Name = "label14";
+            resources.ApplyResources(this.lblCSharpBookPower, "lblCSharpBookPower");
+            this.lblCSharpBookPower.Name = "lblCSharpBookPower";
             // 
-            // label15
+            // lblMallForumflagPower
             // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.Name = "label15";
+            resources.ApplyResources(this.lblMallForumflagPower, "lblMallForumflagPower");
+            this.lblMallForumflagPower.Name = "lblMallForumflagPower";
             // 
-            // label16
+            // lblMallPoisonDartPower
             // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.Name = "label16";
+            resources.ApplyResources(this.lblMallPoisonDartPower, "lblMallPoisonDartPower");
+            this.lblMallPoisonDartPower.Name = "lblMallPoisonDartPower";
             // 
-            // label17
+            // lblMallTomahawkPower
             // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.Name = "label17";
+            resources.ApplyResources(this.lblMallTomahawkPower, "lblMallTomahawkPower");
+            this.lblMallTomahawkPower.Name = "lblMallTomahawkPower";
             // 
-            // label18
+            // lblMallHammerPower
             // 
-            resources.ApplyResources(this.label18, "label18");
-            this.label18.Name = "label18";
+            resources.ApplyResources(this.lblMallHammerPower, "lblMallHammerPower");
+            this.lblMallHammerPower.Name = "lblMallHammerPower";
             // 
-            // label19
+            // lblMallBaseballPower
             // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.Name = "label19";
+            resources.ApplyResources(this.lblMallBaseballPower, "lblMallBaseballPower");
+            this.lblMallBaseballPower.Name = "lblMallBaseballPower";
             // 
-            // label20
+            // lblMallShurikanPower
             // 
-            resources.ApplyResources(this.label20, "label20");
-            this.label20.Name = "label20";
+            resources.ApplyResources(this.lblMallShurikanPower, "lblMallShurikanPower");
+            this.lblMallShurikanPower.Name = "lblMallShurikanPower";
             // 
             // btnMallVirus
             // 
@@ -1812,55 +1812,55 @@
             this.toolTip1.SetToolTip(this.btnMallPoisonDarts, resources.GetString("btnMallPoisonDarts.ToolTip"));
             this.btnMallPoisonDarts.Click += new System.EventHandler(this.btnMallPoisonDarts_Click);
             // 
-            // label10
+            // lblMallVirusPrice
             // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
+            resources.ApplyResources(this.lblMallVirusPrice, "lblMallVirusPrice");
+            this.lblMallVirusPrice.Name = "lblMallVirusPrice";
             // 
-            // label9
+            // lblHelpFromTrainerPrice
             // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
+            resources.ApplyResources(this.lblHelpFromTrainerPrice, "lblHelpFromTrainerPrice");
+            this.lblHelpFromTrainerPrice.Name = "lblHelpFromTrainerPrice";
             // 
-            // label8
+            // lblMallHelpFromTeamPrice
             // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
+            resources.ApplyResources(this.lblMallHelpFromTeamPrice, "lblMallHelpFromTeamPrice");
+            this.lblMallHelpFromTeamPrice.Name = "lblMallHelpFromTeamPrice";
             // 
-            // label7
+            // lblCSharpBookPrice
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.lblCSharpBookPrice, "lblCSharpBookPrice");
+            this.lblCSharpBookPrice.Name = "lblCSharpBookPrice";
             // 
-            // label6
+            // lblMallForumflagPrice
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
+            resources.ApplyResources(this.lblMallForumflagPrice, "lblMallForumflagPrice");
+            this.lblMallForumflagPrice.Name = "lblMallForumflagPrice";
             // 
-            // label5
+            // lblMallPoisonDartPrice
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.lblMallPoisonDartPrice, "lblMallPoisonDartPrice");
+            this.lblMallPoisonDartPrice.Name = "lblMallPoisonDartPrice";
             // 
-            // label4
+            // lblMallTomahawkPrice
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.lblMallTomahawkPrice, "lblMallTomahawkPrice");
+            this.lblMallTomahawkPrice.Name = "lblMallTomahawkPrice";
             // 
-            // label3
+            // lblMallHammerPrice
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.lblMallHammerPrice, "lblMallHammerPrice");
+            this.lblMallHammerPrice.Name = "lblMallHammerPrice";
             // 
-            // label2
+            // lblMallBaseballPrice
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.lblMallBaseballPrice, "lblMallBaseballPrice");
+            this.lblMallBaseballPrice.Name = "lblMallBaseballPrice";
             // 
-            // label1
+            // lblMallShurikanPrice
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.lblMallShurikanPrice, "lblMallShurikanPrice");
+            this.lblMallShurikanPrice.Name = "lblMallShurikanPrice";
             // 
             // btnMallShurikan
             // 
@@ -1871,10 +1871,10 @@
             this.toolTip1.SetToolTip(this.btnMallShurikan, resources.GetString("btnMallShurikan.ToolTip"));
             this.btnMallShurikan.Click += new System.EventHandler(this.btnMallShurikan_Click);
             // 
-            // lblCurrValue
+            // lblMallCash
             // 
-            resources.ApplyResources(this.lblCurrValue, "lblCurrValue");
-            this.lblCurrValue.Name = "lblCurrValue";
+            resources.ApplyResources(this.lblMallCash, "lblMallCash");
+            this.lblMallCash.Name = "lblMallCash";
             // 
             // lblCash
             // 
@@ -1911,23 +1911,23 @@
             this.pnlPizza.BackColor = System.Drawing.Color.LightSalmon;
             this.pnlPizza.Controls.Add(this.lblPizzaCashValue);
             this.pnlPizza.Controls.Add(this.lblPizzaCash);
-            this.pnlPizza.Controls.Add(this.label31);
+            this.pnlPizza.Controls.Add(this.lblPizzaEnergydrinkEnergy);
             this.pnlPizza.Controls.Add(this.btnPizzaEnergyDrink);
-            this.pnlPizza.Controls.Add(this.label32);
-            this.pnlPizza.Controls.Add(this.label21);
-            this.pnlPizza.Controls.Add(this.label22);
-            this.pnlPizza.Controls.Add(this.label23);
-            this.pnlPizza.Controls.Add(this.label24);
-            this.pnlPizza.Controls.Add(this.label25);
+            this.pnlPizza.Controls.Add(this.lblPizzaEnergydrinkPrice);
+            this.pnlPizza.Controls.Add(this.lblPizzaPizzaEnergy);
+            this.pnlPizza.Controls.Add(this.lblPizzaHamburgerEnergy);
+            this.pnlPizza.Controls.Add(this.lblPizzaIceCreamEnergy);
+            this.pnlPizza.Controls.Add(this.lblPizzaCoffeeEnergy);
+            this.pnlPizza.Controls.Add(this.lblPizzaCokeEnergy);
             this.pnlPizza.Controls.Add(this.btnPizzaCoffee);
             this.pnlPizza.Controls.Add(this.btnPizzaIceCream);
             this.pnlPizza.Controls.Add(this.btnPizzaBurger);
             this.pnlPizza.Controls.Add(this.btnPizzaPizza);
-            this.pnlPizza.Controls.Add(this.label26);
-            this.pnlPizza.Controls.Add(this.label27);
-            this.pnlPizza.Controls.Add(this.label28);
-            this.pnlPizza.Controls.Add(this.label29);
-            this.pnlPizza.Controls.Add(this.label30);
+            this.pnlPizza.Controls.Add(this.lblPizzaPizzaPrice);
+            this.pnlPizza.Controls.Add(this.lblPizzaHamburgerPrice);
+            this.pnlPizza.Controls.Add(this.lblPizzaIceCreamPrice);
+            this.pnlPizza.Controls.Add(this.lblPizzaCoffeePrice);
+            this.pnlPizza.Controls.Add(this.lblPizzaCokePrice);
             this.pnlPizza.Controls.Add(this.btnPizzaCoke);
             this.pnlPizza.Controls.Add(this.btnPizzaBack);
             this.pnlPizza.Controls.Add(this.lblEnergy);
@@ -1945,10 +1945,10 @@
             resources.ApplyResources(this.lblPizzaCash, "lblPizzaCash");
             this.lblPizzaCash.Name = "lblPizzaCash";
             // 
-            // label31
+            // lblPizzaEnergydrinkEnergy
             // 
-            resources.ApplyResources(this.label31, "label31");
-            this.label31.Name = "label31";
+            resources.ApplyResources(this.lblPizzaEnergydrinkEnergy, "lblPizzaEnergydrinkEnergy");
+            this.lblPizzaEnergydrinkEnergy.Name = "lblPizzaEnergydrinkEnergy";
             // 
             // btnPizzaEnergyDrink
             // 
@@ -1959,35 +1959,35 @@
             this.toolTip1.SetToolTip(this.btnPizzaEnergyDrink, resources.GetString("btnPizzaEnergyDrink.ToolTip"));
             this.btnPizzaEnergyDrink.Click += new System.EventHandler(this.btnPizzaEnergyDrink_Click);
             // 
-            // label32
+            // lblPizzaEnergydrinkPrice
             // 
-            resources.ApplyResources(this.label32, "label32");
-            this.label32.Name = "label32";
+            resources.ApplyResources(this.lblPizzaEnergydrinkPrice, "lblPizzaEnergydrinkPrice");
+            this.lblPizzaEnergydrinkPrice.Name = "lblPizzaEnergydrinkPrice";
             // 
-            // label21
+            // lblPizzaPizzaEnergy
             // 
-            resources.ApplyResources(this.label21, "label21");
-            this.label21.Name = "label21";
+            resources.ApplyResources(this.lblPizzaPizzaEnergy, "lblPizzaPizzaEnergy");
+            this.lblPizzaPizzaEnergy.Name = "lblPizzaPizzaEnergy";
             // 
-            // label22
+            // lblPizzaHamburgerEnergy
             // 
-            resources.ApplyResources(this.label22, "label22");
-            this.label22.Name = "label22";
+            resources.ApplyResources(this.lblPizzaHamburgerEnergy, "lblPizzaHamburgerEnergy");
+            this.lblPizzaHamburgerEnergy.Name = "lblPizzaHamburgerEnergy";
             // 
-            // label23
+            // lblPizzaIceCreamEnergy
             // 
-            resources.ApplyResources(this.label23, "label23");
-            this.label23.Name = "label23";
+            resources.ApplyResources(this.lblPizzaIceCreamEnergy, "lblPizzaIceCreamEnergy");
+            this.lblPizzaIceCreamEnergy.Name = "lblPizzaIceCreamEnergy";
             // 
-            // label24
+            // lblPizzaCoffeeEnergy
             // 
-            resources.ApplyResources(this.label24, "label24");
-            this.label24.Name = "label24";
+            resources.ApplyResources(this.lblPizzaCoffeeEnergy, "lblPizzaCoffeeEnergy");
+            this.lblPizzaCoffeeEnergy.Name = "lblPizzaCoffeeEnergy";
             // 
-            // label25
+            // lblPizzaCokeEnergy
             // 
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.Name = "label25";
+            resources.ApplyResources(this.lblPizzaCokeEnergy, "lblPizzaCokeEnergy");
+            this.lblPizzaCokeEnergy.Name = "lblPizzaCokeEnergy";
             // 
             // btnPizzaCoffee
             // 
@@ -2025,30 +2025,30 @@
             this.toolTip1.SetToolTip(this.btnPizzaPizza, resources.GetString("btnPizzaPizza.ToolTip"));
             this.btnPizzaPizza.Click += new System.EventHandler(this.btnPizzaPizza_Click);
             // 
-            // label26
+            // lblPizzaPizzaPrice
             // 
-            resources.ApplyResources(this.label26, "label26");
-            this.label26.Name = "label26";
+            resources.ApplyResources(this.lblPizzaPizzaPrice, "lblPizzaPizzaPrice");
+            this.lblPizzaPizzaPrice.Name = "lblPizzaPizzaPrice";
             // 
-            // label27
+            // lblPizzaHamburgerPrice
             // 
-            resources.ApplyResources(this.label27, "label27");
-            this.label27.Name = "label27";
+            resources.ApplyResources(this.lblPizzaHamburgerPrice, "lblPizzaHamburgerPrice");
+            this.lblPizzaHamburgerPrice.Name = "lblPizzaHamburgerPrice";
             // 
-            // label28
+            // lblPizzaIceCreamPrice
             // 
-            resources.ApplyResources(this.label28, "label28");
-            this.label28.Name = "label28";
+            resources.ApplyResources(this.lblPizzaIceCreamPrice, "lblPizzaIceCreamPrice");
+            this.lblPizzaIceCreamPrice.Name = "lblPizzaIceCreamPrice";
             // 
-            // label29
+            // lblPizzaCoffeePrice
             // 
-            resources.ApplyResources(this.label29, "label29");
-            this.label29.Name = "label29";
+            resources.ApplyResources(this.lblPizzaCoffeePrice, "lblPizzaCoffeePrice");
+            this.lblPizzaCoffeePrice.Name = "lblPizzaCoffeePrice";
             // 
-            // label30
+            // lblPizzaCokePrice
             // 
-            resources.ApplyResources(this.label30, "label30");
-            this.label30.Name = "label30";
+            resources.ApplyResources(this.lblPizzaCokePrice, "lblPizzaCokePrice");
+            this.lblPizzaCokePrice.Name = "lblPizzaCokePrice";
             // 
             // btnPizzaCoke
             // 
@@ -2153,11 +2153,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
+            this.Controls.Add(this.pnlPizza);
+            this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlFight);
-            this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlCinema);
-            this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.prgrsEnergy);
             this.Controls.Add(this.lblSchool);
             this.Controls.Add(this.lblCinema);
@@ -2370,7 +2370,7 @@
         private System.Windows.Forms.Panel pnlPizza;
         private System.Windows.Forms.PictureBox picPizza;
         private System.Windows.Forms.Panel pnlCinema;
-        private System.Windows.Forms.Label lblCurrValue;
+        private System.Windows.Forms.Label lblMallCash;
         private System.Windows.Forms.Label lblCash;
         private System.Windows.Forms.Button btnMallBack;
         private System.Windows.Forms.Label lblEnergy;
@@ -2380,16 +2380,16 @@
         private System.Windows.Forms.Button btnCinemaPlayBilliard;
         private System.Windows.Forms.Button btnCinemaBack;
         private System.Windows.Forms.PictureBox btnMallShurikan;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblMallVirusPower;
+        private System.Windows.Forms.Label lblHelpFromTrainerPower;
+        private System.Windows.Forms.Label lblHelpFromTeamPower;
+        private System.Windows.Forms.Label lblCSharpBookPower;
+        private System.Windows.Forms.Label lblMallForumflagPower;
+        private System.Windows.Forms.Label lblMallPoisonDartPower;
+        private System.Windows.Forms.Label lblMallTomahawkPower;
+        private System.Windows.Forms.Label lblMallHammerPower;
+        private System.Windows.Forms.Label lblMallBaseballPower;
+        private System.Windows.Forms.Label lblMallShurikanPower;
         private System.Windows.Forms.PictureBox btnMallVirus;
         private System.Windows.Forms.PictureBox btnMallHelpFromTrainer;
         private System.Windows.Forms.PictureBox btnMallHelpFromTeammate;
@@ -2399,34 +2399,34 @@
         private System.Windows.Forms.PictureBox btnmallHammer;
         private System.Windows.Forms.PictureBox btnMallTomahawk;
         private System.Windows.Forms.PictureBox btnMallPoisonDarts;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMallVirusPrice;
+        private System.Windows.Forms.Label lblHelpFromTrainerPrice;
+        private System.Windows.Forms.Label lblMallHelpFromTeamPrice;
+        private System.Windows.Forms.Label lblCSharpBookPrice;
+        private System.Windows.Forms.Label lblMallForumflagPrice;
+        private System.Windows.Forms.Label lblMallPoisonDartPrice;
+        private System.Windows.Forms.Label lblMallTomahawkPrice;
+        private System.Windows.Forms.Label lblMallHammerPrice;
+        private System.Windows.Forms.Label lblMallBaseballPrice;
+        private System.Windows.Forms.Label lblMallShurikanPrice;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label lblPizzaEnergydrinkEnergy;
         private System.Windows.Forms.PictureBox btnPizzaEnergyDrink;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label lblPizzaEnergydrinkPrice;
+        private System.Windows.Forms.Label lblPizzaPizzaEnergy;
+        private System.Windows.Forms.Label lblPizzaHamburgerEnergy;
+        private System.Windows.Forms.Label lblPizzaIceCreamEnergy;
+        private System.Windows.Forms.Label lblPizzaCoffeeEnergy;
+        private System.Windows.Forms.Label lblPizzaCokeEnergy;
         private System.Windows.Forms.PictureBox btnPizzaCoffee;
         private System.Windows.Forms.PictureBox btnPizzaIceCream;
         private System.Windows.Forms.PictureBox btnPizzaBurger;
         private System.Windows.Forms.PictureBox btnPizzaPizza;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label lblPizzaPizzaPrice;
+        private System.Windows.Forms.Label lblPizzaHamburgerPrice;
+        private System.Windows.Forms.Label lblPizzaIceCreamPrice;
+        private System.Windows.Forms.Label lblPizzaCoffeePrice;
+        private System.Windows.Forms.Label lblPizzaCokePrice;
         private System.Windows.Forms.PictureBox btnPizzaCoke;
         private System.Windows.Forms.Label lblPizzaCashValue;
         private System.Windows.Forms.Label lblPizzaCash;

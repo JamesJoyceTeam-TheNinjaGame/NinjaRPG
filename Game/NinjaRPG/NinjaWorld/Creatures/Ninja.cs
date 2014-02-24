@@ -35,11 +35,11 @@
             this.GetItem(Gym.ListOfPowers[0]);
         }
 
-        public List<IAttack> ForcePowers { get; private set; }
+        public IList<IAttack> ForcePowers { get; private set; }
 
-        public List<IAttack> MentalPowers { get; private set; }
+        public IList<IAttack> MentalPowers { get; private set; }
 
-        public List<ICommercial> BagOfItems { get; private set; }
+        public IList<ICommercial> BagOfItems { get; private set; }
 
         public int Cash { get; private set; }
 
@@ -105,11 +105,12 @@
             if (this.Cash >= commercialItem.Price)
             {
                 this.Cash -= commercialItem.Price;
+                BagOfItems.Add(commercialItem);
                 return true;
             }
             else
             {
-                return false;
+                throw new ArgumentException("You don't have enough money to by it.");
             }
         }
 

@@ -3,7 +3,7 @@
     public class Energizer : Item, ICommercial, IItem
     {
         private const int PricePerHeal = 1;
-        private EnergizerEnum energizer;
+        protected EnergizerEnum energizer;
 
         private int price;
 

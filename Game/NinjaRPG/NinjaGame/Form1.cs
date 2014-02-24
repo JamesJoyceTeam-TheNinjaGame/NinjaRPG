@@ -24,6 +24,8 @@ namespace NinjaGame
         static Evil evil;
         static Ninja ninja;
         static Arena arena;
+        CommercialBuilding mall;
+        CommercialBuilding fastFood;
 
         PictureBox[] forcePowerButtons;
         PictureBox[] mentalPowerButtons;
@@ -150,19 +152,22 @@ namespace NinjaGame
             {
                 if (item is Energizer)
                 {
-                    energyButtons[energyIndex].BackgroundImage = GiveBackgroundImage(energyButtons[energyIndex].Name);
+                    energyButtons[energyIndex].BackgroundImage = GiveBackgroundImage(item.Name);
+                    energyButtons[energyIndex].Visible = true;
                     energyIndex++;
                 }
                 else
                 {
                     if ((item as IAttack).AttackType == AttackTypeEnum.ForceAttack)
                     {
-                        forcePowerButtons[forceIndex].BackgroundImage = GiveBackgroundImage(forcePowerButtons[forceIndex].Name);
+                        specialForcePowerButtons[forceIndex].BackgroundImage = GiveBackgroundImage(item.Name);
+                        specialForcePowerButtons[forceIndex].Visible = true;
                         forceIndex++;
                     }
                     else
                     {
-                        mentalPowerButtons[mentalIndex].BackgroundImage = GiveBackgroundImage(mentalPowerButtons[mentalIndex].Name);
+                        specialMentalPowerButtons[mentalIndex].BackgroundImage = GiveBackgroundImage(item.Name);
+                        specialMentalPowerButtons[mentalIndex].Visible = true;
                         mentalIndex++;
                     }
                 }
@@ -246,12 +251,12 @@ namespace NinjaGame
 
             switch (name)
             {
-                case "Coke": return Resources.Coke;
-                case "Coffee": return Resources.Coffee;
-                case "Icecream": return Resources.Icecream;
-                case "Burger": return Resources.Burger;
-                case "Pizza": return Resources.Pizza1;
-                case "Energidrink": return Resources.Energydrink;
+                case "dr.Peter": return Resources.Coke;
+                case "LaVisio": return Resources.Coffee;
+                case "Icegida": return Resources.Icecream;
+                case "Big Max": return Resources.Burger;
+                case "A la Programa": return Resources.Pizza1;
+                case "Doberman": return Resources.Energydrink;
                 case "Shuriken": return Resources.Shurikan;
                 case "Baseball Bat": return Resources.BaseballBatt;
                 case "Hammer": return Resources.Hammer1;
@@ -265,6 +270,20 @@ namespace NinjaGame
                 default: return Resources.Empty;
             }
         }
+        
+        private void BuyItem(ICommercial item, Button button)
+        {
+            try
+            {
+                ninja.PayForItem(item);                                          //must to fix it with the real method
+                MessageBox.Show("You bought " + ninja.BagOfItems[ninja.BagOfItems.Count - 1].Name);
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            button.PerformClick();
+        }
 
         private void btnJobAgency_Click(object sender, EventArgs e)
         {
@@ -275,7 +294,22 @@ namespace NinjaGame
        
         private void btnPizza_Click(object sender, EventArgs e)
         {
+            fastFood = FastFood.Instance;
+
             pnlPizza.Visible = true;
+            lblPizzaCashValue.Text = ninja.Cash.ToString();
+            lblPizzaCokePrice.Text = "Price:" + fastFood.Goods[0].Price;
+            lblPizzaCokeEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[0]).HealingPoints;
+            lblPizzaCoffeePrice.Text = "Price:" + fastFood.Goods[1].Price;
+            lblPizzaCoffeeEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[1]).HealingPoints;
+            lblPizzaIceCreamPrice.Text = "Price:" + fastFood.Goods[2].Price;
+            lblPizzaIceCreamEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[2]).HealingPoints; ;
+            lblPizzaHamburgerPrice.Text = "Price:" + fastFood.Goods[3].Price;
+            lblPizzaHamburgerEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[3]).HealingPoints;
+            lblPizzaPizzaPrice.Text = "Price:" + fastFood.Goods[4].Price;
+            lblPizzaPizzaEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[4]).HealingPoints;
+            lblPizzaEnergydrinkPrice.Text = "Price:" + fastFood.Goods[5].Price;
+            lblPizzaEnergydrinkEnergy.Text = "Energy: " + ((Energizer)fastFood.Goods[5]).HealingPoints;
         }
 
         private void btnGym_Click(object sender, EventArgs e)
@@ -288,9 +322,32 @@ namespace NinjaGame
 
         private void btnMall_Click(object sender, EventArgs e)
         {
-          pnlMall.Visible = true;
-        }
+            mall = ShoppingMall.Instance;
 
+            pnlMall.Visible = true;
+            lblMallCash.Text = ninja.Cash.ToString();
+            lblMallShurikanPrice.Text = "Price:" + mall.Goods[2].Price;
+            lblMallShurikanPower.Text = "Power: " + ((Power)mall.Goods[2]).AttackPower;
+            lblMallBaseballPrice.Text = "Price:" + mall.Goods[1].Price;
+            lblMallBaseballPower.Text = "Power: " + ((Power)mall.Goods[1]).AttackPower;
+            lblMallHammerPrice.Text = "Price:" + mall.Goods[0].Price;
+            lblMallHammerPower.Text = "Power: " + ((Power)mall.Goods[0]).AttackPower; ;
+            lblMallTomahawkPrice.Text = "Price:" + mall.Goods[3].Price;
+            lblMallTomahawkPower.Text = "Power: " + ((Power)mall.Goods[3]).AttackPower;
+            lblMallPoisonDartPrice.Text = "Price:" + mall.Goods[4].Price;
+            lblMallPoisonDartPower.Text = "Power: " + ((Power)mall.Goods[4]).AttackPower;
+            lblMallForumflagPrice.Text = "Price:" + mall.Goods[5].Price;
+            lblMallForumflagPower.Text = "Power: " + ((Power)mall.Goods[5]).AttackPower;
+            lblCSharpBookPrice.Text = "Price:" + mall.Goods[7].Price;
+            lblCSharpBookPower.Text = "Power: " + ((Power)mall.Goods[7]).AttackPower;
+            lblMallHelpFromTeamPrice.Text = "Price:" + mall.Goods[8].Price;
+            lblHelpFromTeamPower.Text = "Power: " + ((Power)mall.Goods[8]).AttackPower;
+            lblHelpFromTrainerPrice.Text = "Price:" + mall.Goods[9].Price;
+            lblHelpFromTrainerPower.Text = "Power: " + ((Power)mall.Goods[9]).AttackPower;
+            lblMallVirusPrice.Text = "Price:" + mall.Goods[6].Price;
+            lblMallVirusPower.Text = "Power: " + ((Power)mall.Goods[6]).AttackPower;
+        }
+        
         private void btnDreamJob_Click(object sender, EventArgs e)
         {
             pnlFight.Visible = true;
@@ -631,82 +688,82 @@ namespace NinjaGame
 
         private void btnMallShurikan_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[2], btnMall);
         }
 
         private void btnMallBaseball_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[1], btnMall);
         }
 
         private void btnmallHammer_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[0], btnMall);
         }
 
         private void btnMallTomahawk_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[3], btnMall);
         }
 
         private void btnMallPoisonDarts_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[4], btnMall);
         }
 
         private void btnMallForumFlag_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[5], btnMall);
         }
 
         private void btnMallCSharpBook_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[7], btnMall);
         }
 
         private void btnMallHelpFromTeammate_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[8], btnMall);
         }
 
         private void btnMallHelpFromTrainer_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[9], btnMall);
         }
 
         private void btnMallVirus_Click(object sender, EventArgs e)
         {
-
+            BuyItem(mall.Goods[6], btnMall);
         }
 
         private void btnPizzaCoke_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[0], btnPizza);
         }
 
         private void btnPizzaCoffee_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[1], btnPizza);
         }
 
         private void btnPizzaIceCream_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[2], btnPizza);
         }
 
         private void btnPizzaBurger_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[3], btnPizza);
         }
 
         private void btnPizzaPizza_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[4], btnPizza);
         }
 
         private void btnPizzaEnergyDrink_Click(object sender, EventArgs e)
         {
-
+            BuyItem(fastFood.Goods[5], btnPizza);
         }
 
         private void btnOK_Click(object sender, EventArgs e)
