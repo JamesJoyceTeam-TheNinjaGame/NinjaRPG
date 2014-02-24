@@ -1,16 +1,19 @@
 ﻿namespace NinjaWorld.Creatures
 {
+    using System;
     using System.Text.RegularExpressions;
 
+    [Serializable]
     public abstract class Creature
     {     
         private string name;
         private int currentEnergy;
 
-        public Creature(string name)
+        public Creature(string name, int startEnergy)
         {
             this.Name = name;
             this.CreatureType = this.GetType().Name;
+            this.TotalEnergy = startEnergy;
             this.CurrentEnergy = this.TotalEnergy;
         }
 
@@ -44,7 +47,7 @@
                 return this.name;
             }
 
-            private set
+            protected set
             {
                 if (!Regex.IsMatch(value, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
                 {

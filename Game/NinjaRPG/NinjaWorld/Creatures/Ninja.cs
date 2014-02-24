@@ -4,7 +4,9 @@
     using System.Linq;
     using Buildings;
     using NinjaWorld.Items;
+    using System;
 
+    [Serializable]
     public class Ninja : Creature
     {
         private const int MaxForceLevel = 10;
@@ -17,9 +19,8 @@
         private const int MaxItems = 20;
 
         public Ninja(string name)
-            : base(name)
+            : base(name, StartEnergy)
         {
-            this.TotalEnergy = StartEnergy;
             this.ForceLevel = InitialLevel;
             this.MentalLevel = InitialLevel;
             this.CurrentStepForceLevel = InitialStep;
@@ -72,6 +73,10 @@
             return false;
         }
 
+        public void SetNinjaName(string name)
+        {
+            this.Name = name;
+        }
         public bool UpMentalLevel()
         {
             if (this.MentalLevel < MaxMentalLevel &&

@@ -13,6 +13,9 @@ using NinjaWorld.Buildings;
 using NinjaWorld.Creatures;
 using NinjaWorld.Items;
 using NinjaWorld.Jobs;
+using System.Text.RegularExpressions;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace NinjaGame
 {
@@ -21,6 +24,7 @@ namespace NinjaGame
         static Evil evil;
         static Ninja ninja;
         static Arena arena;
+
         PictureBox[] forcePowerButtons;
         PictureBox[] mentalPowerButtons;
         PictureBox[] specialForcePowerButtons;
@@ -30,6 +34,8 @@ namespace NinjaGame
         {
             InitializeComponent();
             ninja = new Ninja("Ninja");
+            prgrsEnergy.Maximum = ninja.TotalEnergy;
+            prgrsEnergy.Value = ninja.CurrentEnergy;
         }
        
         private void btnHome_Click(object sender, EventArgs e)
@@ -38,9 +44,12 @@ namespace NinjaGame
 
             lblCashValue.Text = ninja.Cash.ToString();
             lblLevelValue.Text = ninja.ForceLevel.ToString();
+            prgrsForce.Maximum = ninja.TotalStepsToNextForceLevel;
             prgrsForce.Value = ninja.CurrentStepForceLevel;
+            prgrsMental.Maximum = ninja.TotalStepsToNextMentalLevel;
             prgrsMental.Value = ninja.CurrentStepMentalLevel;
-            prgrsEnergy.Value = ninja.CurrentEnergy;
+            prgrEnergy.Maximum = ninja.TotalEnergy;
+            prgrEnergy.Value = ninja.CurrentEnergy;
             lblForceLevelValue.Text = ninja.ForceLevel.ToString();
             lblMentalLevelValue.Text = ninja.MentalLevel.ToString();
             lblMaxForce.Text = ninja.TotalStepsToNextMentalLevel.ToString();
@@ -243,15 +252,15 @@ namespace NinjaGame
                 case "Burger": return Resources.Burger;
                 case "Pizza": return Resources.Pizza1;
                 case "Energidrink": return Resources.Energydrink;
-                case "Shurikan": return Resources.Shurikan;
-                case "BaseballBat": return Resources.Coffee;
+                case "Shuriken": return Resources.Shurikan;
+                case "Baseball Bat": return Resources.BaseballBatt;
                 case "Hammer": return Resources.Hammer1;
                 case "Tomahawk": return Resources.Tomahawk;
-                case "PoisonDart": return Resources.PoisonDart;
-                case "ForumFlag": return Resources.ForumFlag;
-                case "CSharpBook": return Resources.CSharpBook;
-                case "HelpFromTeamMate": return Resources.HelpFromTeamMate;
-                case "HelpFromTrainer": return Resources.HelpFromTrainer;
+                case "Poison Dart": return Resources.PoisonDart;
+                case "Forum Flag": return Resources.ForumFlag;
+                case "Csharp Book": return Resources.CSharpBook;
+                case "Help from Teammate": return Resources.HelpFromTeamMate;
+                case "Help from Trainer": return Resources.HelpFromTrainer;
                 case "Virus": return Resources.Virus;
                 default: return Resources.Empty;
             }
@@ -304,12 +313,35 @@ namespace NinjaGame
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
+            OpenFileDialog openDialog = new OpenFileDialog();
 
+            if (openDialog.ShowDialog() == DialogResult.OK)
+            {
+                using (Stream file = openDialog.OpenFile())
+                {
+                    BinaryFormatter formatter = new BinaryFormatter();
+                    ninja = (Ninja)formatter.Deserialize(file);
+                    btnOK.Visible = false;
+                    lblName.Text = ninja.Name;
+                    txtName.Visible = false;
+                    lblName.Visible = true;
+                }
+            }
+            btnHome_Click(sender, e);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            SaveFileDialog saveDialog = new SaveFileDialog();
 
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                using (Stream file = saveDialog.OpenFile())
+                {
+                    BinaryFormatter formatter = new BinaryFormatter();
+                    formatter.Serialize(file, ninja);
+                }
+            }
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -679,18 +711,18 @@ namespace NinjaGame
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            if (!Regex.IsMatch(txtName.Text, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
+            try
             {
-                MessageBox.Show("Name must be at least 3 symbols and could contain only latin letters");
+                ninja.SetNinjaName(txtName.Text);
+                btnOK.Visible = false;
+                lblName.Text = txtName.Text;
+                txtName.Visible = false;
+                lblName.Visible = true;
             }
-            else
+            catch(ImproperlyDefinedCreatureException ex)
             {
-            ninja = new Ninja(txtName.Text);
-            btnOK.Visible = false;
-            lblName.Text = txtName.Text;
-            txtName.Visible = false;
-            lblName.Visible = true;
-        }
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
 
         bool isFirstClick = true;
@@ -700,6 +732,14 @@ namespace NinjaGame
             {
                 txtName.Text = "";
                 isFirstClick = false;
+            }
+        }
+
+        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13 && txtName.Focused == true)
+            {
+                btnOK_Click(sender, e);
             }
         }
     }

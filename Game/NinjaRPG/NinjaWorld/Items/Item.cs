@@ -1,7 +1,10 @@
 ﻿namespace NinjaWorld.Items
 {
     using System.Text.RegularExpressions;
+    
+    using System;
 
+    [Serializable]
     public abstract class Item : IItem
     {
         private string name;        

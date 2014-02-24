@@ -124,6 +124,8 @@
             this.lblSpecialForcePowers = new System.Windows.Forms.Label();
             this.lblMentalPowers = new System.Windows.Forms.Label();
             this.lblForcePowers = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlFight = new System.Windows.Forms.Panel();
             this.lblFightEvil = new System.Windows.Forms.Label();
             this.lblFightNinja = new System.Windows.Forms.Label();
@@ -260,8 +262,6 @@
             this.btnOK = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers8)).BeginInit();
@@ -313,6 +313,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlFight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy8)).BeginInit();
@@ -389,8 +391,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).BeginInit();
             this.pnlCinema.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHome
@@ -1098,6 +1098,21 @@
             resources.ApplyResources(this.lblForcePowers, "lblForcePowers");
             this.lblForcePowers.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblForcePowers.Name = "lblForcePowers";
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::NinjaGame.Properties.Resources.HomeSweetHome;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Name = "panel1";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaBig;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // pnlFight
             // 
@@ -2125,26 +2140,12 @@
             resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
             this.txtName.Click += new System.EventHandler(this.txtName_Click);
+            this.txtName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
             // 
             // lblName
             // 
             resources.ApplyResources(this.lblName, "lblName");
             this.lblName.Name = "lblName";
-            // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::NinjaGame.Properties.Resources.HomeSweetHome;
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Name = "panel1";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaBig;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
             // 
             // frmStart
             // 
@@ -2234,6 +2235,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeSpecialForce1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlFight.ResumeLayout(false);
             this.pnlFight.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFightEnergy10)).EndInit();
@@ -2314,8 +2317,6 @@
             this.pnlCinema.ResumeLayout(false);
             this.pnlCinema.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

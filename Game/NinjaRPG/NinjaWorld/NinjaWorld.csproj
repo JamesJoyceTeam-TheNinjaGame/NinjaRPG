@@ -53,7 +53,6 @@
     <Compile Include="FightRulesEnum.cs" />
     <Compile Include="Buildings\Gym.cs" />
     <Compile Include="Jobs\HeadworkEnum.cs" />
-    <Compile Include="Home.cs" />
     <Compile Include="Items\IAttack.cs" />
     <Compile Include="Items\IItem.cs" />
     <Compile Include="Jobs\Job.cs" />

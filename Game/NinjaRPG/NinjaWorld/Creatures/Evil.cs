@@ -7,10 +7,9 @@
         private const int TotalEnergyToLevelRatio = 100; 
 
         public Evil(string name, int level)
-            : base(name)
+            : base(name, level * TotalEnergyToLevelRatio)
         {
             this.Level = level;
-            this.TotalEnergy = level * TotalEnergyToLevelRatio;
         }
 
         public int Level { get; private set; }

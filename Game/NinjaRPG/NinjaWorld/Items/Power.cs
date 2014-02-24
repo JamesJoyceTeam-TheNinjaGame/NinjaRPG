@@ -1,5 +1,9 @@
 ﻿namespace NinjaWorld.Items
 {
+    
+    using System;
+
+    [Serializable]
     public class Power : Item, IAttack, IItem
     {
         private int attack;
