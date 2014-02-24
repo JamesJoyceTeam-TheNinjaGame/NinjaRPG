@@ -10,14 +10,14 @@
     {
         private const int HitPrecision = 10;
         private const int WrontHitPenaltyDenominator = 4;
-
+        public static FightRulesEnum Rules;
         /// <summary>
         /// Calculate and returns the damage to be removed
         /// </summary>
         /// <param name="power">attack power</param>
         /// <param name="rules">attack success</param>
         /// <returns>damage to be removed from hitted enemy</returns>
-        public static int DynamicDamageCalculator(IAttack power, FightRulesEnum rules)
+        public static int DynamicDamageCalculator(IAttack power)
         {
             int powerNumerator = new int();
             for (int i = 0; i < HitPrecision; i++)
@@ -27,9 +27,9 @@
                     powerNumerator += power.AttackPower;
                 }
             }
-            
-            if ((power.AttackType == AttackTypeEnum.ForceAttack && rules == FightRulesEnum.MentalFight) ||
-            (power.AttackType == AttackTypeEnum.MindAttack && rules == FightRulesEnum.BrutalFight))
+
+            if ((power.AttackType == AttackTypeEnum.ForceAttack && Rules == FightRulesEnum.MentalFight) ||
+            (power.AttackType == AttackTypeEnum.MindAttack && Rules == FightRulesEnum.BrutalFight))
             {
                 return powerNumerator / (HitPrecision * WrontHitPenaltyDenominator);
             }

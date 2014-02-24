@@ -13,7 +13,6 @@ namespace NinjaWorld.Buildings
     {
         public static readonly List<IAttack> ListOfPowers = new List<IAttack>()
         {
-            new Power(AttackTypeEnum.MindAttack, "Diversion", 10, 80),
             new Power(AttackTypeEnum.MindAttack, "Numeral Systems", 20, 80),
             new Power(AttackTypeEnum.MindAttack, "Classes and Objects", 30, 90),
             new Power(AttackTypeEnum.MindAttack, "Exception Handling", 40, 80),
@@ -51,7 +50,7 @@ namespace NinjaWorld.Buildings
             {
                 if (ninja.UpMentalLevel())
                 {
-                    ninja.GetItem(ListOfPowers[ninja.MentalLevel - 1]);
+                    ninja.GetItem(ListOfPowers[ninja.MentalLevel - 2]);
                 }
             }
             else

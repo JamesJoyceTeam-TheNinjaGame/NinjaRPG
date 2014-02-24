@@ -22,9 +22,9 @@
             this.mentalAttack = new Power(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
         }
 
-        public override int Attack(FightRulesEnum rules)
+        public override int Attack()
         {
-            return HitCalculator.DynamicDamageCalculator(this.mentalAttack, rules);
+            return HitCalculator.DynamicDamageCalculator(this.mentalAttack);
         }
     }
 }

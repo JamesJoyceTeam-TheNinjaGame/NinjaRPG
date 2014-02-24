@@ -8,7 +8,6 @@
     {
         public static readonly List<IAttack> ListOfPowers = new List<IAttack>()
         {
-            new Power(AttackTypeEnum.ForceAttack, "Fist Fight", 10, 60),
             new Power(AttackTypeEnum.ForceAttack, "Boxing", 20, 90),
             new Power(AttackTypeEnum.ForceAttack, "Judo", 30, 80),
             new Power(AttackTypeEnum.ForceAttack, "Aikido", 40, 70),
@@ -39,7 +38,7 @@
             {
                 if (ninja.UpForceLevel())
                 {
-                    ninja.GetItem(ListOfPowers[ninja.ForceLevel - 1]);
+                    ninja.GetItem(ListOfPowers[ninja.ForceLevel - 2]);
                 }
             }
             else

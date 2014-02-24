@@ -22,9 +22,9 @@
             this.forceAttack = new Power(AttackTypeEnum.ForceAttack, ForceAttackName, this.forcePower, this.forceSuccess);
         }
 
-        public override int Attack(FightRulesEnum rules)
+        public override int Attack()
         {
-            return HitCalculator.DynamicDamageCalculator(this.forceAttack, rules);
+            return HitCalculator.DynamicDamageCalculator(this.forceAttack);
         }
     }
 }

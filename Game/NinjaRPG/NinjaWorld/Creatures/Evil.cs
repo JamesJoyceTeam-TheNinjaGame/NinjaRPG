@@ -14,6 +14,6 @@
 
         public int Level { get; private set; }
 
-        public abstract int Attack(FightRulesEnum rules);
+        public abstract int Attack();
     }
 }

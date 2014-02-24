@@ -1,10 +1,9 @@
 ﻿namespace NinjaWorld.Creatures
 {
+    using System;    
     using System.Collections.Generic;
     using System.Linq;
-    using Buildings;
     using NinjaWorld.Items;
-    using System;
 
     [Serializable]
     public class Ninja : Creature
@@ -31,8 +30,8 @@
             this.ForcePowers = new List<IAttack>();
             this.MentalPowers = new List<IAttack>();
             this.BagOfItems = new List<ICommercial>();
-            this.GetItem(Academy.ListOfPowers[0]);
-            this.GetItem(Gym.ListOfPowers[0]);
+            this.GetItem(new Power(AttackTypeEnum.ForceAttack, "Fist Fight", 10, 60));
+            this.GetItem(new Power(AttackTypeEnum.MindAttack, "Diversion", 10, 80));
         }
 
         public IList<IAttack> ForcePowers { get; private set; }
@@ -153,7 +152,7 @@
             return false;
         }
 
-        public int Attack(IItem item, FightRulesEnum rules)
+        public int Attack(IItem item)
         {
             var power = this.UseItem(item) as IAttack;
             
@@ -163,7 +162,7 @@
             }
             else
             {
-                return HitCalculator.DynamicDamageCalculator(power, rules);
+                return HitCalculator.DynamicDamageCalculator(power);
             }
         }
         

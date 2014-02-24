@@ -5,6 +5,10 @@
     using System.Linq;
     using System.Text;
     using NinjaWorld;
+    using NinjaWorld.Buildings;
+    using NinjaWorld.Creatures;
+    using NinjaWorld.Items;
+    using NinjaWorld.Jobs;
 
     public class Instatest
     {
@@ -29,7 +33,7 @@
             };
 
             check.Insert(0, new Recreation("ssss"));
-            check.
+            
 
             foreach (IItem item in check)
             {

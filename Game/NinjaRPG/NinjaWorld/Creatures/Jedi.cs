@@ -34,15 +34,15 @@
             this.mentalAttack = new Power(AttackTypeEnum.ForceAttack, MentalAttackName, this.mentalPower, this.mentalSuccess);
         }
 
-        public override int Attack(FightRulesEnum rules)
+        public override int Attack()
         {
             if (Randomizer.Rand.Next(2) == 1)
             {
-                return HitCalculator.DynamicDamageCalculator(this.forceAttack, rules);
+                return HitCalculator.DynamicDamageCalculator(this.forceAttack);
             }
             else
             {
-                return HitCalculator.DynamicDamageCalculator(this.mentalAttack, rules);
+                return HitCalculator.DynamicDamageCalculator(this.mentalAttack);
             }
         }
     }

@@ -18,9 +18,9 @@
             this.CurrentEnergy += hitPower / BossHealPerHitRation;
         }
 
-        public override int Attack(FightRulesEnum rules)
+        public override int Attack()
         {
-            int damage = base.Attack(rules);
+            int damage = base.Attack();
             this.Regenerate(damage);
             return damage;
         }
