@@ -5,6 +5,12 @@
     using System.Linq;
     using NinjaWorld.Items;
 
+    /// <summary>
+    /// НИНДЖАТА ТРЯБВА ДА Е НЕЗАВИСИМ ОТ ВИДОВЕТЕ АХТЪМИ И ЗГРАДИ. НЕ МОЖЕ ДА СЕ ПРАВИ ЗАВИСИМОСТ НА НИНДЖАТА С ТРИТЕ ВИДА АЙТЪМИ ЗАЩОТО АКО ИГРАТАСЕ НАДГРАЖДА НЕ МОЖЕ ДА СЕ ДОБАВЯТ НОВИ ВИДОВЕ АЙТЪМИ.
+    /// 
+    /// In object-oriented programming, the open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"
+    /// </summary>
+
     [Serializable]
     public class Ninja : Creature
     {
@@ -15,11 +21,13 @@
         private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
         private const int InitialCash = 100050;
-        private const int MaxItems = 30;
-        private const int MaxItemsPerCategory = 10;
-        private int forceItems;
-        private int mentalItems;
-        private int energyItems;
+      
+        private const int MaxItems = 30; // няма смисъл от 30 итема нито от категории
+
+        //private const int MaxItemsPerCategory = 10;
+        //private int forceItems;
+        //private int mentalItems;
+        //private int energyItems;
 
         public Ninja(string name)
             : base(name, StartEnergy)
@@ -36,9 +44,6 @@
             this.BagOfItems = new List<ICommercial>();
             this.GetItem(new Power(AttackTypeEnum.ForceAttack, "Fist Fight", 10, 60));
             this.GetItem(new Power(AttackTypeEnum.MindAttack, "Diversion", 10, 80));
-            forceItems = 0;
-            mentalItems = 0;
-            energyItems = 0;
         }
 
         public IList<IAttack> ForcePowers { get; private set; }

@@ -4,6 +4,9 @@
     using System.Collections.Generic;
     using NinjaWorld.Creatures;
     using NinjaWorld.Items;
+    
+    // ако искаш връщаш съобщения какъв итем не си успял да продадеш го прави от този клас
+
 
     public class CommercialBuilding : Building
     {
@@ -42,7 +45,9 @@
                 }
                 else
                 {
-                    // Return money
+                    // TODO: Е Тука можеш да кажеш в торбата няама място
+
+                    // Return money                    
                     ninja.GetCash(commercialItem.Price);
                 }
             }
