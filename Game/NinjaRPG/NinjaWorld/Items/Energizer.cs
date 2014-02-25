@@ -1,5 +1,8 @@
 ﻿namespace NinjaWorld.Items
 {
+    using System;
+
+    [Serializable]
     public class Energizer : Item, ICommercial, IItem
     {
         private const int PricePerHeal = 1;

@@ -133,6 +133,16 @@ namespace NinjaGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap career_bg {
+            get {
+                object obj = ResourceManager.GetObject("career-bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cinema {
             get {
                 object obj = ResourceManager.GetObject("Cinema", resourceCulture);
@@ -453,9 +463,29 @@ namespace NinjaGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Inheritance {
             get {
                 object obj = ResourceManager.GetObject("Inheritance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JobAgency {
+            get {
+                object obj = ResourceManager.GetObject("JobAgency", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -703,6 +733,16 @@ namespace NinjaGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap School {
+            get {
+                object obj = ResourceManager.GetObject("School", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap schoolNoBackground {
             get {
                 object obj = ResourceManager.GetObject("schoolNoBackground", resourceCulture);
@@ -766,6 +806,16 @@ namespace NinjaGame.Properties {
         internal static System.Drawing.Bitmap Tomahawk {
             get {
                 object obj = ResourceManager.GetObject("Tomahawk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trainer {
+            get {
+                object obj = ResourceManager.GetObject("trainer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

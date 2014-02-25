@@ -2,6 +2,7 @@
 {
     using System;
 
+    [Serializable]
     public class SpecialPower : Power, ICommercial, IAttack, IItem
     {
         private int price;

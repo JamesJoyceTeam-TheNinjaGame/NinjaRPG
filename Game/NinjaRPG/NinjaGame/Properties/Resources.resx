@@ -145,6 +145,9 @@
   <data name="Diversion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diversion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EnemyGoblinHitted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnemyGoblinHitted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="schoolNoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\schoolNoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -153,6 +156,9 @@
   </data>
   <data name="ninjaBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ninjaBig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="career-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\career-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Energydrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Energydrink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="Coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="School" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\School.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -198,6 +207,9 @@
   </data>
   <data name="Karate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Karate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobAgency" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JobAgency.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boxing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,20 +238,17 @@
   <data name="Virus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Virus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Recursion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FistFight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FistFight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NinjaChampion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NinjaChampion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trainer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trainer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EnemyJediDead" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnemyJediDead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ExceptionHandling" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExceptionHandling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ninjutsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ninjutsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,26 +280,26 @@
   <data name="dreamjobNoBackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dreamjobNoBackGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NinjaFightDead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NinjaFightDead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EnemyJediHit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnemyJediHit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pizzaNoBackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizzaNoBackGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EnemyGoblinHitted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EnemyGoblinHitted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Judo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Judo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NinjaFightDead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NinjaFightDead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ExceptionHandling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExceptionHandling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="playgroundNoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\playgroundNoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Recursion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Shurikan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shurikan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,11 +307,17 @@
   <data name="DesignPatterns" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DesignPatterns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="playgroundNoBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playgroundNoBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NumeralSystems" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NumeralSystems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Encapsulation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Encapsulation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeSweetHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HomeSweetHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EnemyRoboDead" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnemyRoboDead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,7 +346,7 @@
   <data name="Polymorphism" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Polymorphism.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HomeSweetHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HomeSweetHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

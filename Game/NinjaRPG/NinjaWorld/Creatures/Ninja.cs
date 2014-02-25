@@ -14,7 +14,7 @@
         private const int InitialLevel = 1;
         private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
-        private const int InitialCash = 100050;
+        private const int InitialCash = 50;
         private const int MaxItems = 30;
         private const int MaxItemsPerCategory = 10;
         private int forceItems;
@@ -110,45 +110,6 @@
         {
             if (this.Cash >= commercialItem.Price)
             {
-                //TODO : THIS SHOULD NOT BE HERE!
-                // also it will not work couse there is not counter--
-                // There is no sense to make abstract bag that keep different types of items if the you can put exactly 3 types of Items and only
-                // 10 items by type.
-                
-                
-                //if ((commercialItem is Energizer))
-                //{
-                //    if (energyItems >= MaxItemsPerCategory)
-                //    {
-                //        throw new ArgumentException("Your list with energy items is full");
-                //    }
-                //    else
-                //    {
-                //        energyItems++;
-                //    }
-                //}
-                //else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.ForceAttack)
-                //    {
-                //        if (forceItems >= MaxItemsPerCategory)
-                //        {
-                //            throw new ArgumentException("Your list with special power items is full");
-                //        }
-                //        else
-                //        {
-                //            forceItems++;
-                //        }
-                //    }
-                // else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.MindAttack)
-                // {
-                //     if (mentalItems >= MaxItemsPerCategory)
-                //        {
-                //            throw new ArgumentException("Your list with special mental items is full");
-                //        }
-                //     else
-                //     {
-                //         mentalItems++;
-                //     }
-                // }
                 this.Cash -= commercialItem.Price;
                 return true;
             }
@@ -163,12 +124,50 @@
             if (item is Recreation)
             {
                 this.TotalEnergy += (item as Recreation).UpgradeTotalEnergy;
+                this.CurrentEnergy += (item as Recreation).UpgradeTotalEnergy;
                 
                 return true;
             }
-            else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
+            else if (item is ICommercial)
             {
-                //TODO: NEED TO CHECK IF THERE IS A PLACE IN THE BAG here.
+                 //TODO: NEED TO CHECK IF THERE IS A PLACE IN THE BAG here.
+
+                if ((item is Energizer))  //If these checks are missing the program blows in Home and Fight panels
+                {
+                    if (energyItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        energyItems++;
+                    }
+                }
+                else if ((item as IAttack).AttackType == AttackTypeEnum.ForceAttack)
+                {
+                    if (forceItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        forceItems++;
+                    }
+                }
+                else if ((item as IAttack).AttackType == AttackTypeEnum.MindAttack)
+                {
+                    if (mentalItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        mentalItems++;
+                    }
+                }
+
+                //HAPPY ???
+
                 this.BagOfItems.Add(item as ICommercial);
                 
                 return true;
