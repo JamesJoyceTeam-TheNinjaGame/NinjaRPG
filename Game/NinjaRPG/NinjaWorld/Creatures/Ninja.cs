@@ -15,7 +15,11 @@
         private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
         private const int InitialCash = 50;
-        private const int MaxItems = 20;
+        private const int MaxItems = 30;
+        private const int MaxItemsPerCategory = 10;
+        private int forceItems;
+        private int mentalItems;
+        private int energyItems;
 
         public Ninja(string name)
             : base(name, StartEnergy)
@@ -32,6 +36,9 @@
             this.BagOfItems = new List<ICommercial>();
             this.GetItem(new Power(AttackTypeEnum.ForceAttack, "Fist Fight", 10, 60));
             this.GetItem(new Power(AttackTypeEnum.MindAttack, "Diversion", 10, 80));
+            forceItems = 0;
+            mentalItems = 0;
+            energyItems = 0;
         }
 
         public IList<IAttack> ForcePowers { get; private set; }
@@ -104,7 +111,6 @@
             if (this.Cash >= commercialItem.Price)
             {
                 this.Cash -= commercialItem.Price;
-                BagOfItems.Add(commercialItem);
                 return true;
             }
             else
@@ -118,16 +124,51 @@
             if (item is Recreation)
             {
                 this.TotalEnergy += (item as Recreation).UpgradeTotalEnergy;
+                this.CurrentEnergy += (item as Recreation).UpgradeTotalEnergy;
                 
                 return true;
             }
-            else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
+            else if (item is ICommercial)
             {
+                 //TODO: NEED TO CHECK IF THERE IS A PLACE IN THE BAG here.
+
+                if ((item is Energizer))  //If these checks are missing the program blows in Home and Fight panels
+                {
+                    if (energyItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        energyItems++;
+                    }
+                }
+                else if ((item as IAttack).AttackType == AttackTypeEnum.ForceAttack)
+                {
+                    if (forceItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        forceItems++;
+                    }
+                }
+                else if ((item as IAttack).AttackType == AttackTypeEnum.MindAttack)
+                {
+                    if (mentalItems >= MaxItemsPerCategory)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        mentalItems++;
+                    }
+                }
+
+                //HAPPY ???
+
                 this.BagOfItems.Add(item as ICommercial);
-                this.BagOfItems = this.BagOfItems
-                    .OrderBy(it => it.GetType().Name)
-                    .ThenBy(it => it.Price)
-                    .ToList();
                 
                 return true;
             }
@@ -152,19 +193,19 @@
             return false;
         }
 
-        //public int Attack(IItem item)
-        //{
-        //    var power = this.UseItem(item) as IAttack;
+        public int Attack(IItem item)
+        {
+            var power = this.UseItem(item) as IAttack;
             
-        //    if (power == null)
-        //    {
-        //        return 0;
-        //    }
-        //    else
-        //    {
-        //        return HitCalculator.DynamicDamageCalculator(power);
-        //    }
-        //}
+            if (power == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return HitCalculator.DynamicDamageCalculator(power);
+            }
+        }
         
         private IItem UseItem(IItem item)
         {

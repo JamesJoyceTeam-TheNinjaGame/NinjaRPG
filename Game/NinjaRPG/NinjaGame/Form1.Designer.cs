@@ -36,10 +36,10 @@
             this.lblGym = new System.Windows.Forms.Label();
             this.lblMall = new System.Windows.Forms.Label();
             this.lblDreamJob = new System.Windows.Forms.Label();
-            this.lblCinema = new System.Windows.Forms.Label();
+            this.lblPlayground = new System.Windows.Forms.Label();
             this.lblSchool = new System.Windows.Forms.Label();
             this.btnSchool = new System.Windows.Forms.Button();
-            this.btnCinema = new System.Windows.Forms.Button();
+            this.btnPlayground = new System.Windows.Forms.Button();
             this.btnDreamJob = new System.Windows.Forms.Button();
             this.btnMall = new System.Windows.Forms.Button();
             this.btnGym = new System.Windows.Forms.Button();
@@ -251,17 +251,47 @@
             this.btnPizzaBack = new System.Windows.Forms.Button();
             this.lblEnergy = new System.Windows.Forms.Label();
             this.picPizza = new System.Windows.Forms.PictureBox();
-            this.pnlCinema = new System.Windows.Forms.Panel();
-            this.lblCinemaCashValue = new System.Windows.Forms.Label();
+            this.pnlPlayground = new System.Windows.Forms.Panel();
+            this.lblPlaygroundDanceEnergy = new System.Windows.Forms.Label();
+            this.lblPlaygroundDancePrice = new System.Windows.Forms.Label();
+            this.lblPlaygroundBilliardsPrice = new System.Windows.Forms.Label();
+            this.lblPlaygroundBilliardsEnergy = new System.Windows.Forms.Label();
+            this.lblPlaygroundBowlingEnergy = new System.Windows.Forms.Label();
+            this.lblPlaygroundBowlingPrice = new System.Windows.Forms.Label();
+            this.lblPlaygroundVideoPrice = new System.Windows.Forms.Label();
+            this.lblPlaygroundVideoEnergy = new System.Windows.Forms.Label();
+            this.lblPlaygroundPokerEnergy = new System.Windows.Forms.Label();
+            this.lblPlaygroundPokerPrice = new System.Windows.Forms.Label();
+            this.btnPlaygroundDance = new System.Windows.Forms.Button();
+            this.btnPlaygroundBowling = new System.Windows.Forms.Button();
+            this.btnPlaygroundBilliard = new System.Windows.Forms.Button();
+            this.btnPlaygroundVideoGame = new System.Windows.Forms.Button();
+            this.lblPlaygroundCash = new System.Windows.Forms.Label();
             this.lblCinemaCash = new System.Windows.Forms.Label();
             this.btnCinemaBack = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnCinemaWatchMovie = new System.Windows.Forms.Button();
-            this.btnCinemaPlayBilliard = new System.Windows.Forms.Button();
+            this.btnPlaygroundPoker = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnOK = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
+            this.pnlJobAgency = new System.Windows.Forms.Panel();
+            this.btnJobAgencyFight = new System.Windows.Forms.Button();
+            this.btnJobAgencyBack = new System.Windows.Forms.Button();
+            this.picJobAgency = new System.Windows.Forms.PictureBox();
+            this.pnlSchool = new System.Windows.Forms.Panel();
+            this.btnSchoolBack = new System.Windows.Forms.Button();
+            this.btnSchoolFight = new System.Windows.Forms.Button();
+            this.picSchool = new System.Windows.Forms.PictureBox();
+            this.pnlGym = new System.Windows.Forms.Panel();
+            this.btnGymTrane = new System.Windows.Forms.Button();
+            this.btnGymBack = new System.Windows.Forms.Button();
+            this.picGym = new System.Windows.Forms.PictureBox();
+            this.pnlDreamJob = new System.Windows.Forms.Panel();
+            this.btnDreamJobFight = new System.Windows.Forms.Button();
+            this.btnDreamJobBack = new System.Windows.Forms.Button();
+            this.txtDreamJob = new System.Windows.Forms.Label();
+            this.picDreamJob = new System.Windows.Forms.PictureBox();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers8)).BeginInit();
@@ -389,8 +419,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnPizzaPizza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoke)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).BeginInit();
-            this.pnlCinema.SuspendLayout();
+            this.pnlPlayground.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pnlJobAgency.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picJobAgency)).BeginInit();
+            this.pnlSchool.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSchool)).BeginInit();
+            this.pnlGym.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGym)).BeginInit();
+            this.pnlDreamJob.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDreamJob)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHome
@@ -429,11 +467,11 @@
             this.lblDreamJob.BackColor = System.Drawing.Color.White;
             this.lblDreamJob.Name = "lblDreamJob";
             // 
-            // lblCinema
+            // lblPlayground
             // 
-            resources.ApplyResources(this.lblCinema, "lblCinema");
-            this.lblCinema.BackColor = System.Drawing.Color.White;
-            this.lblCinema.Name = "lblCinema";
+            resources.ApplyResources(this.lblPlayground, "lblPlayground");
+            this.lblPlayground.BackColor = System.Drawing.Color.White;
+            this.lblPlayground.Name = "lblPlayground";
             // 
             // lblSchool
             // 
@@ -451,15 +489,15 @@
             this.btnSchool.UseVisualStyleBackColor = false;
             this.btnSchool.Click += new System.EventHandler(this.btnSchool_Click);
             // 
-            // btnCinema
+            // btnPlayground
             // 
-            this.btnCinema.BackColor = System.Drawing.Color.White;
-            this.btnCinema.BackgroundImage = global::NinjaGame.Properties.Resources.playgroundNoBackground;
-            resources.ApplyResources(this.btnCinema, "btnCinema");
-            this.btnCinema.Name = "btnCinema";
-            this.btnCinema.TabStop = false;
-            this.btnCinema.UseVisualStyleBackColor = false;
-            this.btnCinema.Click += new System.EventHandler(this.btnCinema_Click);
+            this.btnPlayground.BackColor = System.Drawing.Color.White;
+            this.btnPlayground.BackgroundImage = global::NinjaGame.Properties.Resources.playgroundNoBackground;
+            resources.ApplyResources(this.btnPlayground, "btnPlayground");
+            this.btnPlayground.Name = "btnPlayground";
+            this.btnPlayground.TabStop = false;
+            this.btnPlayground.UseVisualStyleBackColor = false;
+            this.btnPlayground.Click += new System.EventHandler(this.btnPlayground_Click);
             // 
             // btnDreamJob
             // 
@@ -520,7 +558,7 @@
             this.btnHome.Name = "btnHome";
             this.btnHome.TabStop = false;
             this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            this.btnHome.Click += new System.EventHandler(this.BtnHomeClick);
             // 
             // prgrsEnergy
             // 
@@ -1607,7 +1645,7 @@
             resources.ApplyResources(this.btnFightSpecialForce1, "btnFightSpecialForce1");
             this.btnFightSpecialForce1.Name = "btnFightSpecialForce1";
             this.btnFightSpecialForce1.TabStop = false;
-            this.btnFightSpecialForce1.Click += new System.EventHandler(this.pictureBox63_Click);
+            this.btnFightSpecialForce1.Click += new System.EventHandler(this.btnFightSpecialForce1_Click);
             // 
             // pnlRing
             // 
@@ -2078,22 +2116,113 @@
             this.picPizza.Name = "picPizza";
             this.picPizza.TabStop = false;
             // 
-            // pnlCinema
+            // pnlPlayground
             // 
-            this.pnlCinema.BackColor = System.Drawing.Color.SandyBrown;
-            this.pnlCinema.Controls.Add(this.lblCinemaCashValue);
-            this.pnlCinema.Controls.Add(this.lblCinemaCash);
-            this.pnlCinema.Controls.Add(this.btnCinemaBack);
-            this.pnlCinema.Controls.Add(this.pictureBox3);
-            this.pnlCinema.Controls.Add(this.btnCinemaWatchMovie);
-            this.pnlCinema.Controls.Add(this.btnCinemaPlayBilliard);
-            resources.ApplyResources(this.pnlCinema, "pnlCinema");
-            this.pnlCinema.Name = "pnlCinema";
+            this.pnlPlayground.BackColor = System.Drawing.Color.SandyBrown;
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundDanceEnergy);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundDancePrice);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundBilliardsPrice);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundBilliardsEnergy);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundBowlingEnergy);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundBowlingPrice);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundVideoPrice);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundVideoEnergy);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundPokerEnergy);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundPokerPrice);
+            this.pnlPlayground.Controls.Add(this.btnPlaygroundDance);
+            this.pnlPlayground.Controls.Add(this.btnPlaygroundBowling);
+            this.pnlPlayground.Controls.Add(this.btnPlaygroundBilliard);
+            this.pnlPlayground.Controls.Add(this.btnPlaygroundVideoGame);
+            this.pnlPlayground.Controls.Add(this.lblPlaygroundCash);
+            this.pnlPlayground.Controls.Add(this.lblCinemaCash);
+            this.pnlPlayground.Controls.Add(this.btnCinemaBack);
+            this.pnlPlayground.Controls.Add(this.pictureBox3);
+            this.pnlPlayground.Controls.Add(this.btnPlaygroundPoker);
+            resources.ApplyResources(this.pnlPlayground, "pnlPlayground");
+            this.pnlPlayground.Name = "pnlPlayground";
             // 
-            // lblCinemaCashValue
+            // lblPlaygroundDanceEnergy
             // 
-            resources.ApplyResources(this.lblCinemaCashValue, "lblCinemaCashValue");
-            this.lblCinemaCashValue.Name = "lblCinemaCashValue";
+            resources.ApplyResources(this.lblPlaygroundDanceEnergy, "lblPlaygroundDanceEnergy");
+            this.lblPlaygroundDanceEnergy.Name = "lblPlaygroundDanceEnergy";
+            // 
+            // lblPlaygroundDancePrice
+            // 
+            resources.ApplyResources(this.lblPlaygroundDancePrice, "lblPlaygroundDancePrice");
+            this.lblPlaygroundDancePrice.Name = "lblPlaygroundDancePrice";
+            // 
+            // lblPlaygroundBilliardsPrice
+            // 
+            resources.ApplyResources(this.lblPlaygroundBilliardsPrice, "lblPlaygroundBilliardsPrice");
+            this.lblPlaygroundBilliardsPrice.Name = "lblPlaygroundBilliardsPrice";
+            // 
+            // lblPlaygroundBilliardsEnergy
+            // 
+            resources.ApplyResources(this.lblPlaygroundBilliardsEnergy, "lblPlaygroundBilliardsEnergy");
+            this.lblPlaygroundBilliardsEnergy.Name = "lblPlaygroundBilliardsEnergy";
+            // 
+            // lblPlaygroundBowlingEnergy
+            // 
+            resources.ApplyResources(this.lblPlaygroundBowlingEnergy, "lblPlaygroundBowlingEnergy");
+            this.lblPlaygroundBowlingEnergy.Name = "lblPlaygroundBowlingEnergy";
+            // 
+            // lblPlaygroundBowlingPrice
+            // 
+            resources.ApplyResources(this.lblPlaygroundBowlingPrice, "lblPlaygroundBowlingPrice");
+            this.lblPlaygroundBowlingPrice.Name = "lblPlaygroundBowlingPrice";
+            // 
+            // lblPlaygroundVideoPrice
+            // 
+            resources.ApplyResources(this.lblPlaygroundVideoPrice, "lblPlaygroundVideoPrice");
+            this.lblPlaygroundVideoPrice.Name = "lblPlaygroundVideoPrice";
+            // 
+            // lblPlaygroundVideoEnergy
+            // 
+            resources.ApplyResources(this.lblPlaygroundVideoEnergy, "lblPlaygroundVideoEnergy");
+            this.lblPlaygroundVideoEnergy.Name = "lblPlaygroundVideoEnergy";
+            // 
+            // lblPlaygroundPokerEnergy
+            // 
+            resources.ApplyResources(this.lblPlaygroundPokerEnergy, "lblPlaygroundPokerEnergy");
+            this.lblPlaygroundPokerEnergy.Name = "lblPlaygroundPokerEnergy";
+            // 
+            // lblPlaygroundPokerPrice
+            // 
+            resources.ApplyResources(this.lblPlaygroundPokerPrice, "lblPlaygroundPokerPrice");
+            this.lblPlaygroundPokerPrice.Name = "lblPlaygroundPokerPrice";
+            // 
+            // btnPlaygroundDance
+            // 
+            resources.ApplyResources(this.btnPlaygroundDance, "btnPlaygroundDance");
+            this.btnPlaygroundDance.Name = "btnPlaygroundDance";
+            this.btnPlaygroundDance.UseVisualStyleBackColor = true;
+            this.btnPlaygroundDance.Click += new System.EventHandler(this.btnPlaygroundDance_Click);
+            // 
+            // btnPlaygroundBowling
+            // 
+            resources.ApplyResources(this.btnPlaygroundBowling, "btnPlaygroundBowling");
+            this.btnPlaygroundBowling.Name = "btnPlaygroundBowling";
+            this.btnPlaygroundBowling.UseVisualStyleBackColor = true;
+            this.btnPlaygroundBowling.Click += new System.EventHandler(this.btnPlaygroundBowling_Click);
+            // 
+            // btnPlaygroundBilliard
+            // 
+            resources.ApplyResources(this.btnPlaygroundBilliard, "btnPlaygroundBilliard");
+            this.btnPlaygroundBilliard.Name = "btnPlaygroundBilliard";
+            this.btnPlaygroundBilliard.UseVisualStyleBackColor = true;
+            this.btnPlaygroundBilliard.Click += new System.EventHandler(this.btnPlaygroundBilliard_Click);
+            // 
+            // btnPlaygroundVideoGame
+            // 
+            resources.ApplyResources(this.btnPlaygroundVideoGame, "btnPlaygroundVideoGame");
+            this.btnPlaygroundVideoGame.Name = "btnPlaygroundVideoGame";
+            this.btnPlaygroundVideoGame.UseVisualStyleBackColor = true;
+            this.btnPlaygroundVideoGame.Click += new System.EventHandler(this.btnPlaygroundVideoGame_Click);
+            // 
+            // lblPlaygroundCash
+            // 
+            resources.ApplyResources(this.lblPlaygroundCash, "lblPlaygroundCash");
+            this.lblPlaygroundCash.Name = "lblPlaygroundCash";
             // 
             // lblCinemaCash
             // 
@@ -2114,19 +2243,12 @@
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
-            // btnCinemaWatchMovie
+            // btnPlaygroundPoker
             // 
-            resources.ApplyResources(this.btnCinemaWatchMovie, "btnCinemaWatchMovie");
-            this.btnCinemaWatchMovie.Name = "btnCinemaWatchMovie";
-            this.btnCinemaWatchMovie.UseVisualStyleBackColor = true;
-            this.btnCinemaWatchMovie.Click += new System.EventHandler(this.btnCinemaWatchMovie_Click);
-            // 
-            // btnCinemaPlayBilliard
-            // 
-            resources.ApplyResources(this.btnCinemaPlayBilliard, "btnCinemaPlayBilliard");
-            this.btnCinemaPlayBilliard.Name = "btnCinemaPlayBilliard";
-            this.btnCinemaPlayBilliard.UseVisualStyleBackColor = true;
-            this.btnCinemaPlayBilliard.Click += new System.EventHandler(this.btnCinemaPlayBilliard_Click);
+            resources.ApplyResources(this.btnPlaygroundPoker, "btnPlaygroundPoker");
+            this.btnPlaygroundPoker.Name = "btnPlaygroundPoker";
+            this.btnPlaygroundPoker.UseVisualStyleBackColor = true;
+            this.btnPlaygroundPoker.Click += new System.EventHandler(this.btnPlaygroundPoker_Click);
             // 
             // btnOK
             // 
@@ -2147,20 +2269,150 @@
             resources.ApplyResources(this.lblName, "lblName");
             this.lblName.Name = "lblName";
             // 
+            // pnlJobAgency
+            // 
+            this.pnlJobAgency.BackColor = System.Drawing.Color.SteelBlue;
+            this.pnlJobAgency.Controls.Add(this.btnJobAgencyFight);
+            this.pnlJobAgency.Controls.Add(this.btnJobAgencyBack);
+            this.pnlJobAgency.Controls.Add(this.picJobAgency);
+            resources.ApplyResources(this.pnlJobAgency, "pnlJobAgency");
+            this.pnlJobAgency.Name = "pnlJobAgency";
+            // 
+            // btnJobAgencyFight
+            // 
+            resources.ApplyResources(this.btnJobAgencyFight, "btnJobAgencyFight");
+            this.btnJobAgencyFight.Name = "btnJobAgencyFight";
+            this.btnJobAgencyFight.UseVisualStyleBackColor = true;
+            this.btnJobAgencyFight.Click += new System.EventHandler(this.btnJobAgencyFight_Click);
+            // 
+            // btnJobAgencyBack
+            // 
+            resources.ApplyResources(this.btnJobAgencyBack, "btnJobAgencyBack");
+            this.btnJobAgencyBack.Name = "btnJobAgencyBack";
+            this.btnJobAgencyBack.UseVisualStyleBackColor = true;
+            this.btnJobAgencyBack.Click += new System.EventHandler(this.btnJobAgencyBack_Click);
+            // 
+            // picJobAgency
+            // 
+            this.picJobAgency.BackColor = System.Drawing.Color.Wheat;
+            this.picJobAgency.BackgroundImage = global::NinjaGame.Properties.Resources.images;
+            resources.ApplyResources(this.picJobAgency, "picJobAgency");
+            this.picJobAgency.Name = "picJobAgency";
+            this.picJobAgency.TabStop = false;
+            // 
+            // pnlSchool
+            // 
+            this.pnlSchool.BackColor = System.Drawing.Color.DarkKhaki;
+            this.pnlSchool.Controls.Add(this.btnSchoolBack);
+            this.pnlSchool.Controls.Add(this.btnSchoolFight);
+            this.pnlSchool.Controls.Add(this.picSchool);
+            resources.ApplyResources(this.pnlSchool, "pnlSchool");
+            this.pnlSchool.Name = "pnlSchool";
+            // 
+            // btnSchoolBack
+            // 
+            resources.ApplyResources(this.btnSchoolBack, "btnSchoolBack");
+            this.btnSchoolBack.Name = "btnSchoolBack";
+            this.btnSchoolBack.UseVisualStyleBackColor = true;
+            this.btnSchoolBack.Click += new System.EventHandler(this.btnSchoolBack_Click);
+            // 
+            // btnSchoolFight
+            // 
+            resources.ApplyResources(this.btnSchoolFight, "btnSchoolFight");
+            this.btnSchoolFight.Name = "btnSchoolFight";
+            this.btnSchoolFight.UseVisualStyleBackColor = true;
+            this.btnSchoolFight.Click += new System.EventHandler(this.btnSchoolFight_Click);
+            // 
+            // picSchool
+            // 
+            this.picSchool.BackgroundImage = global::NinjaGame.Properties.Resources.School;
+            resources.ApplyResources(this.picSchool, "picSchool");
+            this.picSchool.Name = "picSchool";
+            this.picSchool.TabStop = false;
+            // 
+            // pnlGym
+            // 
+            this.pnlGym.Controls.Add(this.btnGymTrane);
+            this.pnlGym.Controls.Add(this.btnGymBack);
+            this.pnlGym.Controls.Add(this.picGym);
+            resources.ApplyResources(this.pnlGym, "pnlGym");
+            this.pnlGym.Name = "pnlGym";
+            // 
+            // btnGymTrane
+            // 
+            resources.ApplyResources(this.btnGymTrane, "btnGymTrane");
+            this.btnGymTrane.Name = "btnGymTrane";
+            this.btnGymTrane.UseVisualStyleBackColor = true;
+            this.btnGymTrane.Click += new System.EventHandler(this.btnGymTrane_Click);
+            // 
+            // btnGymBack
+            // 
+            resources.ApplyResources(this.btnGymBack, "btnGymBack");
+            this.btnGymBack.Name = "btnGymBack";
+            this.btnGymBack.UseVisualStyleBackColor = true;
+            this.btnGymBack.Click += new System.EventHandler(this.btnGymBack_Click);
+            // 
+            // picGym
+            // 
+            this.picGym.BackgroundImage = global::NinjaGame.Properties.Resources.trainer;
+            resources.ApplyResources(this.picGym, "picGym");
+            this.picGym.Name = "picGym";
+            this.picGym.TabStop = false;
+            // 
+            // pnlDreamJob
+            // 
+            this.pnlDreamJob.BackColor = System.Drawing.Color.Chocolate;
+            resources.ApplyResources(this.pnlDreamJob, "pnlDreamJob");
+            this.pnlDreamJob.Controls.Add(this.btnDreamJobFight);
+            this.pnlDreamJob.Controls.Add(this.btnDreamJobBack);
+            this.pnlDreamJob.Controls.Add(this.txtDreamJob);
+            this.pnlDreamJob.Controls.Add(this.picDreamJob);
+            this.pnlDreamJob.Name = "pnlDreamJob";
+            // 
+            // btnDreamJobFight
+            // 
+            resources.ApplyResources(this.btnDreamJobFight, "btnDreamJobFight");
+            this.btnDreamJobFight.Name = "btnDreamJobFight";
+            this.btnDreamJobFight.UseVisualStyleBackColor = true;
+            this.btnDreamJobFight.Click += new System.EventHandler(this.btnDreamJobFight_Click);
+            // 
+            // btnDreamJobBack
+            // 
+            resources.ApplyResources(this.btnDreamJobBack, "btnDreamJobBack");
+            this.btnDreamJobBack.Name = "btnDreamJobBack";
+            this.btnDreamJobBack.UseVisualStyleBackColor = true;
+            this.btnDreamJobBack.Click += new System.EventHandler(this.btnDreamJobBack_Click);
+            // 
+            // txtDreamJob
+            // 
+            resources.ApplyResources(this.txtDreamJob, "txtDreamJob");
+            this.txtDreamJob.Name = "txtDreamJob";
+            // 
+            // picDreamJob
+            // 
+            this.picDreamJob.BackgroundImage = global::NinjaGame.Properties.Resources.career_bg;
+            resources.ApplyResources(this.picDreamJob, "picDreamJob");
+            this.picDreamJob.Name = "picDreamJob";
+            this.picDreamJob.TabStop = false;
+            // 
             // frmStart
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
-            this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlHome);
+            this.Controls.Add(this.pnlPizza);
+            this.Controls.Add(this.pnlDreamJob);
+            this.Controls.Add(this.pnlJobAgency);
+            this.Controls.Add(this.pnlGym);
+            this.Controls.Add(this.pnlSchool);
+            this.Controls.Add(this.pnlPlayground);
             this.Controls.Add(this.pnlFight);
-            this.Controls.Add(this.pnlCinema);
             this.Controls.Add(this.prgrsEnergy);
             this.Controls.Add(this.lblSchool);
-            this.Controls.Add(this.lblCinema);
+            this.Controls.Add(this.lblPlayground);
             this.Controls.Add(this.lblDreamJob);
             this.Controls.Add(this.lblMall);
             this.Controls.Add(this.lblGym);
@@ -2168,7 +2420,7 @@
             this.Controls.Add(this.lbllJobAgency);
             this.Controls.Add(this.lblHome);
             this.Controls.Add(this.btnSchool);
-            this.Controls.Add(this.btnCinema);
+            this.Controls.Add(this.btnPlayground);
             this.Controls.Add(this.btnDreamJob);
             this.Controls.Add(this.btnMall);
             this.Controls.Add(this.btnGym);
@@ -2183,6 +2435,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmStart";
             this.TransparencyKey = System.Drawing.Color.DarkRed;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmStart_FormClosing);
             this.pnlHome.ResumeLayout(false);
             this.pnlHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).EndInit();
@@ -2314,9 +2567,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnPizzaPizza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoke)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).EndInit();
-            this.pnlCinema.ResumeLayout(false);
-            this.pnlCinema.PerformLayout();
+            this.pnlPlayground.ResumeLayout(false);
+            this.pnlPlayground.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.pnlJobAgency.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picJobAgency)).EndInit();
+            this.pnlSchool.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picSchool)).EndInit();
+            this.pnlGym.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picGym)).EndInit();
+            this.pnlDreamJob.ResumeLayout(false);
+            this.pnlDreamJob.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDreamJob)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2330,7 +2592,7 @@
         private System.Windows.Forms.Button btnGym;
         private System.Windows.Forms.Button btnMall;
         private System.Windows.Forms.Button btnDreamJob;
-        private System.Windows.Forms.Button btnCinema;
+        private System.Windows.Forms.Button btnPlayground;
         private System.Windows.Forms.Button btnSchool;
         private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.Label lbllJobAgency;
@@ -2338,7 +2600,7 @@
         private System.Windows.Forms.Label lblGym;
         private System.Windows.Forms.Label lblMall;
         private System.Windows.Forms.Label lblDreamJob;
-        private System.Windows.Forms.Label lblCinema;
+        private System.Windows.Forms.Label lblPlayground;
         private System.Windows.Forms.Label lblSchool;
         private System.Windows.Forms.ProgressBar prgrsEnergy;
         private System.Windows.Forms.Panel pnlHome;
@@ -2369,15 +2631,14 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel pnlPizza;
         private System.Windows.Forms.PictureBox picPizza;
-        private System.Windows.Forms.Panel pnlCinema;
+        private System.Windows.Forms.Panel pnlPlayground;
         private System.Windows.Forms.Label lblMallCash;
         private System.Windows.Forms.Label lblCash;
         private System.Windows.Forms.Button btnMallBack;
         private System.Windows.Forms.Label lblEnergy;
         private System.Windows.Forms.Button btnPizzaBack;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button btnCinemaWatchMovie;
-        private System.Windows.Forms.Button btnCinemaPlayBilliard;
+        private System.Windows.Forms.Button btnPlaygroundPoker;
         private System.Windows.Forms.Button btnCinemaBack;
         private System.Windows.Forms.PictureBox btnMallShurikan;
         private System.Windows.Forms.Label lblMallVirusPower;
@@ -2430,7 +2691,7 @@
         private System.Windows.Forms.PictureBox btnPizzaCoke;
         private System.Windows.Forms.Label lblPizzaCashValue;
         private System.Windows.Forms.Label lblPizzaCash;
-        private System.Windows.Forms.Label lblCinemaCashValue;
+        private System.Windows.Forms.Label lblPlaygroundCash;
         private System.Windows.Forms.Label lblCinemaCash;
         private System.Windows.Forms.PictureBox btnFightSpecialForce10;
         private System.Windows.Forms.PictureBox btnFightSpecialForce8;
@@ -2556,6 +2817,37 @@
         private System.Windows.Forms.Label lblForceLevelValue;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnPlaygroundDance;
+        private System.Windows.Forms.Button btnPlaygroundBowling;
+        private System.Windows.Forms.Button btnPlaygroundBilliard;
+        private System.Windows.Forms.Button btnPlaygroundVideoGame;
+        private System.Windows.Forms.Label lblPlaygroundDanceEnergy;
+        private System.Windows.Forms.Label lblPlaygroundDancePrice;
+        private System.Windows.Forms.Label lblPlaygroundBilliardsPrice;
+        private System.Windows.Forms.Label lblPlaygroundBilliardsEnergy;
+        private System.Windows.Forms.Label lblPlaygroundBowlingEnergy;
+        private System.Windows.Forms.Label lblPlaygroundBowlingPrice;
+        private System.Windows.Forms.Label lblPlaygroundVideoPrice;
+        private System.Windows.Forms.Label lblPlaygroundVideoEnergy;
+        private System.Windows.Forms.Label lblPlaygroundPokerEnergy;
+        private System.Windows.Forms.Label lblPlaygroundPokerPrice;
+        private System.Windows.Forms.Panel pnlJobAgency;
+        private System.Windows.Forms.PictureBox picJobAgency;
+        private System.Windows.Forms.Button btnJobAgencyBack;
+        private System.Windows.Forms.Panel pnlGym;
+        private System.Windows.Forms.PictureBox picGym;
+        private System.Windows.Forms.Button btnGymTrane;
+        private System.Windows.Forms.Button btnGymBack;
+        private System.Windows.Forms.Button btnJobAgencyFight;
+        private System.Windows.Forms.Panel pnlSchool;
+        private System.Windows.Forms.PictureBox picSchool;
+        private System.Windows.Forms.Button btnSchoolBack;
+        private System.Windows.Forms.Button btnSchoolFight;
+        private System.Windows.Forms.Panel pnlDreamJob;
+        private System.Windows.Forms.Button btnDreamJobFight;
+        private System.Windows.Forms.Button btnDreamJobBack;
+        private System.Windows.Forms.Label txtDreamJob;
+        private System.Windows.Forms.PictureBox picDreamJob;
     }
 }
 

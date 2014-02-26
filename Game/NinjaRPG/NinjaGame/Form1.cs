@@ -26,6 +26,7 @@ namespace NinjaGame
         static Arena arena;
         CommercialBuilding mall;
         CommercialBuilding fastFood;
+        CommercialBuilding playground;
 
         PictureBox[] forcePowerButtons;
         PictureBox[] mentalPowerButtons;
@@ -40,7 +41,7 @@ namespace NinjaGame
             prgrsEnergy.Value = ninja.CurrentEnergy;
         }
        
-        private void btnHome_Click(object sender, EventArgs e)
+        private void BtnHomeClick(object sender, EventArgs e)
         {
             pnlHome.Visible = true;
 
@@ -57,7 +58,6 @@ namespace NinjaGame
             lblMaxForce.Text = ninja.TotalStepsToNextMentalLevel.ToString();
             lblMaxMental.Text = ninja.TotalStepsToNextMentalLevel.ToString();
             lblMaxEnergy.Text = ninja.TotalEnergy.ToString();
-
 
             forcePowerButtons = new PictureBox[10]
             {
@@ -143,12 +143,17 @@ namespace NinjaGame
             {
                 mentalPowerButtons[i].Visible = true;
             }
+            var bagOfItems = ninja.BagOfItems
+                    .OrderBy(it => it.GetType().Name)
+                    .ThenBy(it => it.Price)
+                    .ToList();
+                
 
             int forceIndex = 0;
             int mentalIndex = 0;
             int energyIndex = 0;
 
-            foreach (var item in ninja.BagOfItems)
+            foreach (var item in bagOfItems)
             {
                 if (item is Energizer)
                 {
@@ -174,7 +179,7 @@ namespace NinjaGame
             }
         }
 
-        private void LoadFight()
+        private void DeclareFightButtons()
         {
             forcePowerButtons = new PictureBox[10] 
             { 
@@ -271,12 +276,16 @@ namespace NinjaGame
             }
         }
         
-        private void BuyItem(ICommercial item, Button button)
+        private void BuyItem(CommercialBuilding building, ICommercial item, Button button)
         {
             try
             {
-                ninja.PayForItem(item);                                          //must to fix it with the real method
-                MessageBox.Show("You bought " + ninja.BagOfItems[ninja.BagOfItems.Count - 1].Name);
+                int currentCash = ninja.Cash;
+                building.Sell(item, ninja);
+                if(currentCash == ninja.Cash)
+                {
+                    MessageBox.Show("You rich the maximum of items that you can hold (10 items per category)!");
+                }
             }
             catch (ArgumentException ex)
             {
@@ -287,9 +296,7 @@ namespace NinjaGame
 
         private void btnJobAgency_Click(object sender, EventArgs e)
         {
-            pnlFight.Visible = true;
-            LoadFight();
-            LoadButtons();
+            pnlJobAgency.Visible = true;
         }
        
         private void btnPizza_Click(object sender, EventArgs e)
@@ -314,10 +321,7 @@ namespace NinjaGame
 
         private void btnGym_Click(object sender, EventArgs e)
         {
-            pnlFight.Visible = true;
-            LoadFight();
-            LoadButtons();
-
+            pnlGym.Visible = true;
         }
 
         private void btnMall_Click(object sender, EventArgs e)
@@ -350,27 +354,47 @@ namespace NinjaGame
         
         private void btnDreamJob_Click(object sender, EventArgs e)
         {
-            pnlFight.Visible = true;
-            LoadFight();
-            LoadButtons();
+            pnlDreamJob.Visible = true;
 
         }
 
-        private void btnCinema_Click(object sender, EventArgs e)
+        private void btnPlayground_Click(object sender, EventArgs e)
         {
-            pnlCinema.Visible = true;
+            playground = Playground.Instance;
+            pnlPlayground.Visible = true;
+            lblPlaygroundCash.Text = ninja.Cash.ToString();
+            lblPlaygroundPokerPrice.Text = "Price: " + playground.Goods[0].Price;
+            lblPlaygroundPokerEnergy.Text = "Power: " + ((Recreation)playground.Goods[0]).UpgradeTotalEnergy; ;
+            lblPlaygroundVideoPrice.Text = "Price: " + playground.Goods[1].Price;
+            lblPlaygroundVideoEnergy.Text = "Power: " + ((Recreation)playground.Goods[1]).UpgradeTotalEnergy; ;
+            lblPlaygroundBowlingPrice.Text = "Price: " + playground.Goods[2].Price;
+            lblPlaygroundBowlingEnergy.Text = "Power: " + ((Recreation)playground.Goods[2]).UpgradeTotalEnergy; ;
+            lblPlaygroundBilliardsPrice.Text = "Price: " + playground.Goods[3].Price;
+            lblPlaygroundBilliardsEnergy.Text = "Power: " + ((Recreation)playground.Goods[3]).UpgradeTotalEnergy; ;
+            lblPlaygroundDancePrice.Text = "Price: " + playground.Goods[4].Price;
+            lblPlaygroundDanceEnergy.Text = "Power: " + ((Recreation)playground.Goods[4]).UpgradeTotalEnergy; ;
         }
 
         private void btnSchool_Click(object sender, EventArgs e)
         {
-            pnlFight.Visible = true;  
-            LoadFight();
-            LoadButtons();
+            pnlSchool.Visible = true;
         }
 
+        private void frmStart_FormClosing(object sender, FormClosingEventArgs e)
+        {
+                const string message = "Do you want to save changes?";
+                const string caption = "Ninja";
+                var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    btnSave_Click(sender, e);
+                }
+        }
         private void btnLoad_Click(object sender, EventArgs e)
         {
             OpenFileDialog openDialog = new OpenFileDialog();
+            openDialog.Filter = "Ninja Files | *.ninja";
 
             if (openDialog.ShowDialog() == DialogResult.OK)
             {
@@ -384,12 +408,13 @@ namespace NinjaGame
                     lblName.Visible = true;
                 }
             }
-            btnHome_Click(sender, e);
+            BtnHomeClick(sender, e);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "Ninja files | *.ninja";
 
             if (saveDialog.ShowDialog() == DialogResult.OK)
             {
@@ -416,29 +441,11 @@ namespace NinjaGame
             pnlPizza.Visible = false;
         }
 
-        private void btnCinemaPlayBilliard_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCinemaWatchMovie_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCinemaBack_Click(object sender, EventArgs e)
         {
-            pnlCinema.Visible = false;
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void pictureBox63_Click(object sender, EventArgs e)
-        {
-
+            pnlPlayground.Visible = false;
+            prgrsEnergy.Maximum = ninja.TotalEnergy;
+            prgrsEnergy.Value = ninja.CurrentEnergy;
         }
 
         private void btnFightForce1_Click(object sender, EventArgs e)
@@ -640,7 +647,12 @@ namespace NinjaGame
         {
 
         }
+        
+        private void btnFightSpecialForce1_Click(object sender, EventArgs e)
+        {
 
+        }
+        
         private void btnFightSpecialForce10_Click(object sender, EventArgs e)
         {
 
@@ -688,82 +700,82 @@ namespace NinjaGame
 
         private void btnMallShurikan_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[2], btnMall);
+            BuyItem(mall, mall.Goods[2], btnMall);
         }
 
         private void btnMallBaseball_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[1], btnMall);
+            BuyItem(mall, mall.Goods[1], btnMall);
         }
 
         private void btnmallHammer_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[0], btnMall);
+            BuyItem(mall, mall.Goods[0], btnMall);
         }
 
         private void btnMallTomahawk_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[3], btnMall);
+            BuyItem(mall, mall.Goods[3], btnMall);
         }
 
         private void btnMallPoisonDarts_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[4], btnMall);
+            BuyItem(mall, mall.Goods[4], btnMall);
         }
 
         private void btnMallForumFlag_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[5], btnMall);
+            BuyItem(mall, mall.Goods[5], btnMall);
         }
 
         private void btnMallCSharpBook_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[7], btnMall);
+            BuyItem(mall, mall.Goods[7], btnMall);
         }
 
         private void btnMallHelpFromTeammate_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[8], btnMall);
+            BuyItem(mall, mall.Goods[8], btnMall);
         }
 
         private void btnMallHelpFromTrainer_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[9], btnMall);
+            BuyItem(mall, mall.Goods[9], btnMall);
         }
 
         private void btnMallVirus_Click(object sender, EventArgs e)
         {
-            BuyItem(mall.Goods[6], btnMall);
+            BuyItem(mall, mall.Goods[6], btnMall);
         }
 
         private void btnPizzaCoke_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[0], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[0], btnPizza);
         }
 
         private void btnPizzaCoffee_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[1], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[1], btnPizza);
         }
 
         private void btnPizzaIceCream_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[2], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[2], btnPizza);
         }
 
         private void btnPizzaBurger_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[3], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[3], btnPizza);
         }
 
         private void btnPizzaPizza_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[4], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[4], btnPizza);
         }
 
         private void btnPizzaEnergyDrink_Click(object sender, EventArgs e)
         {
-            BuyItem(fastFood.Goods[5], btnPizza);
+            BuyItem(fastFood, fastFood.Goods[5], btnPizza);
         }
 
         private void btnOK_Click(object sender, EventArgs e)
@@ -798,6 +810,84 @@ namespace NinjaGame
             {
                 btnOK_Click(sender, e);
             }
+        }
+
+        private void btnPlaygroundPoker_Click(object sender, EventArgs e)
+        {
+            BuyItem(playground, playground.Goods[0], btnPlayground);
+        }
+
+        private void btnPlaygroundVideoGame_Click(object sender, EventArgs e)
+        {
+            BuyItem(playground, playground.Goods[1], btnPlayground);
+        }
+
+        private void btnPlaygroundBilliard_Click(object sender, EventArgs e)
+        {
+            BuyItem(playground, playground.Goods[3], btnPlayground);
+        }
+
+        private void btnPlaygroundBowling_Click(object sender, EventArgs e)
+        {
+            BuyItem(playground, playground.Goods[2], btnPlayground);
+        }
+
+        private void btnPlaygroundDance_Click(object sender, EventArgs e)
+        {
+            BuyItem(playground, playground.Goods[4], btnPlayground);
+        }
+
+        private void btnJobAgencyBack_Click(object sender, EventArgs e)
+        {
+            pnlJobAgency.Visible = false;
+        }
+
+        private void btnJobAgencyFight_Click(object sender, EventArgs e)
+        {
+            pnlJobAgency.Visible = false;
+            pnlFight.Visible = true;
+            DeclareFightButtons();
+            LoadButtons();
+        }
+
+        private void btnGymBack_Click(object sender, EventArgs e)
+        {
+            pnlGym.Visible = false;
+        }
+
+        private void btnGymTrane_Click(object sender, EventArgs e)
+        {
+            pnlGym.Visible = false;
+            pnlFight.Visible = true;
+            DeclareFightButtons();
+            LoadButtons();
+
+        }
+
+        private void btnSchoolBack_Click(object sender, EventArgs e)
+        {
+            pnlSchool.Visible = false;
+        }
+
+        private void btnSchoolFight_Click(object sender, EventArgs e)
+        {
+            pnlSchool.Visible = false;
+            pnlFight.Visible = true;
+            DeclareFightButtons();
+            LoadButtons();
+        }
+
+        private void btnDreamJobBack_Click(object sender, EventArgs e)
+        {
+            pnlDreamJob.Visible = false;
+        }
+
+        private void btnDreamJobFight_Click(object sender, EventArgs e)
+        {
+            pnlDreamJob.Visible = false;
+            pnlFight.Visible = true;
+            DeclareFightButtons();
+            LoadButtons();
         }
     }
 }
