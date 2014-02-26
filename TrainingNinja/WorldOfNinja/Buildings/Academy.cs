@@ -38,14 +38,14 @@
             get { return Lazy.Value; }
         }
 
-        protected override ICreature PickCreature(IHero hero)
-        {
-            return new Bot(hero.MentalLevel);
-        }
-
         public override void GiveReward(IHero hero)
         {
             hero.GetItem(ListOfPowers[hero.MentalLevel - 1]);
+        }
+
+        protected override ICreature PickCreature(IHero hero)
+        {
+            return new Bot(hero.MentalLevel);
         }
     }
 }

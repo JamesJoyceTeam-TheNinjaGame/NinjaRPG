@@ -37,8 +37,8 @@
             return new Arena(string.Format("Learning {0}"), this.rules, hero, enemy);
         }
 
-        protected abstract ICreature PickCreature(IHero hero);
-
         public abstract void GiveReward(IHero hero);
+
+        protected abstract ICreature PickCreature(IHero hero);
     }
 }

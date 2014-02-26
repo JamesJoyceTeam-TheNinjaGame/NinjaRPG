@@ -19,7 +19,10 @@
             this.hero = hero;
         }
 
-        public ICreature Creature { get { return this.creature; } }
+        public ICreature Creature 
+        { 
+            get { return this.creature; } 
+        }
 
         public bool IsHeroWinner { get; private set; }
 

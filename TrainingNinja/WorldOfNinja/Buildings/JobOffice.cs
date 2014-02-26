@@ -51,7 +51,6 @@
             EvilCreature enemy = this.ChooseEnemy(chosenJob);
 
             return new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFightRules, hero, enemy);
-
         }
 
         public IList<IJob> GenerateJobsFor(IHero hero)
@@ -71,6 +70,13 @@
                 .ToList();
         }
 
+        public void RewardNinja(IHero hero, IJob chosenJob)
+        {
+            int heroCashReward = chosenJob.Wage;
+            hero.GetCash(heroCashReward);
+            this.FightResult = string.Format("Congratulation hero is now working at {0}", chosenJob.ToString());
+        }
+
         private EvilCreature ChooseEnemy(IJob chosenJob)
         {
             if (chosenJob.JobFightRules.ForceAttackCoefficient > chosenJob.JobFightRules.MindAttackCoefficient)
@@ -85,14 +91,6 @@
             {
                 return new Jedi(chosenJob.JobLevel);
             }
-        }
-
-        public void RewardNinja(IHero hero, IJob chosenJob)
-        {
-            int heroCashReward = chosenJob.Wage;
-            hero.GetCash(heroCashReward);
-            this.FightResult = string.Format("Congratulation hero is now working at {0}", chosenJob.ToString());
-
-        }
+        }  
     }
 }

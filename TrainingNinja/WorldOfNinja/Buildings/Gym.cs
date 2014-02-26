@@ -38,14 +38,14 @@
             get { return Lazy.Value; }
         }
 
-        protected override ICreature PickCreature(IHero hero)
-        {
-            return new Assassin(hero.ForceLevel);
-        }
-
         public override void GiveReward(IHero hero)
         {
             hero.GetItem(ListOfPowers[hero.ForceLevel - 1]);
+        }
+
+        protected override ICreature PickCreature(IHero hero)
+        {
+            return new Assassin(hero.ForceLevel);
         }
     }
 }
