@@ -5,12 +5,6 @@
     using System.Linq;
     using NinjaWorld.Items;
 
-    /// <summary>
-    /// НИНДЖАТА ТРЯБВА ДА Е НЕЗАВИСИМ ОТ ВИДОВЕТЕ АХТЪМИ И ЗГРАДИ. НЕ МОЖЕ ДА СЕ ПРАВИ ЗАВИСИМОСТ НА НИНДЖАТА С ТРИТЕ ВИДА АЙТЪМИ ЗАЩОТО АКО ИГРАТАСЕ НАДГРАЖДА НЕ МОЖЕ ДА СЕ ДОБАВЯТ НОВИ ВИДОВЕ АЙТЪМИ.
-    /// 
-    /// In object-oriented programming, the open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"
-    /// </summary>
-
     [Serializable]
     public class Ninja : Creature
     {
@@ -20,14 +14,8 @@
         private const int InitialLevel = 1;
         private const int InitialStep = 1;
         private const int InitialTotalSteps = 5;
-        private const int InitialCash = 100050;
-      
-        private const int MaxItems = 30; // няма смисъл от 30 итема нито от категории
-
-        //private const int MaxItemsPerCategory = 10;
-        //private int forceItems;
-        //private int mentalItems;
-        //private int energyItems;
+        private const int InitialCash = 50;
+        private const int MaxItems = 20;
 
         public Ninja(string name)
             : base(name, StartEnergy)
@@ -115,46 +103,8 @@
         {
             if (this.Cash >= commercialItem.Price)
             {
-                //TODO : THIS SHOULD NOT BE HERE!
-                // also it will not work couse there is not counter--
-                // There is no sense to make abstract bag that keep different types of items if the you can put exactly 3 types of Items and only
-                // 10 items by type.
-                
-                
-                //if ((commercialItem is Energizer))
-                //{
-                //    if (energyItems >= MaxItemsPerCategory)
-                //    {
-                //        throw new ArgumentException("Your list with energy items is full");
-                //    }
-                //    else
-                //    {
-                //        energyItems++;
-                //    }
-                //}
-                //else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.ForceAttack)
-                //    {
-                //        if (forceItems >= MaxItemsPerCategory)
-                //        {
-                //            throw new ArgumentException("Your list with special power items is full");
-                //        }
-                //        else
-                //        {
-                //            forceItems++;
-                //        }
-                //    }
-                // else if ((commercialItem as IAttack).AttackType == AttackTypeEnum.MindAttack)
-                // {
-                //     if (mentalItems >= MaxItemsPerCategory)
-                //        {
-                //            throw new ArgumentException("Your list with special mental items is full");
-                //        }
-                //     else
-                //     {
-                //         mentalItems++;
-                //     }
-                // }
                 this.Cash -= commercialItem.Price;
+                BagOfItems.Add(commercialItem);
                 return true;
             }
             else
@@ -173,8 +123,11 @@
             }
             else if (item is ICommercial && this.BagOfItems.Count < MaxItems)
             {
-                //TODO: NEED TO CHECK IF THERE IS A PLACE IN THE BAG here.
                 this.BagOfItems.Add(item as ICommercial);
+                this.BagOfItems = this.BagOfItems
+                    .OrderBy(it => it.GetType().Name)
+                    .ThenBy(it => it.Price)
+                    .ToList();
                 
                 return true;
             }
@@ -199,19 +152,19 @@
             return false;
         }
 
-        public int Attack(IItem item)
-        {
-            var power = this.UseItem(item) as IAttack;
+        //public int Attack(IItem item)
+        //{
+        //    var power = this.UseItem(item) as IAttack;
             
-            if (power == null)
-            {
-                return 0;
-            }
-            else
-            {
-                return HitCalculator.DynamicDamageCalculator(power);
-            }
-        }
+        //    if (power == null)
+        //    {
+        //        return 0;
+        //    }
+        //    else
+        //    {
+        //        return HitCalculator.DynamicDamageCalculator(power);
+        //    }
+        //}
         
         private IItem UseItem(IItem item)
         {

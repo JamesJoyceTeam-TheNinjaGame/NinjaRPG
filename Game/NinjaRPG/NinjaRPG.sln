@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInstantationTester",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormTest", "WinFormTest\WinFormTest.csproj", "{960200CD-F4B0-481E-B594-7BFAFDC50E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaGame", "NinjaGame\NinjaGame.csproj", "{5DC9E76E-064C-4C07-887E-65A0A09B621A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUI", "NinjaGame\AppUI.csproj", "{5DC9E76E-064C-4C07-887E-65A0A09B621A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -25,7 +25,7 @@
             this.fightRules = fightRules;
             this.creature = creature;
             this.ninja = ninja;
-            HitCalculator.Rules = fightRules;
+            HitCalculator.SetFightRusles(fightRules);
         }
 
         /// <summary>

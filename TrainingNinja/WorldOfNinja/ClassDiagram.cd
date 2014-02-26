@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorldOfNinja.Buildings.Gym">
+    <Position X="28" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAAAAAAAAAAAACAAAAAAABAUAAAAAAAAAQ=</HashCode>
+      <FileName>Buildings\Gym.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.Arena" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEIAAAAAAAAAAAAAAAAIAAAAAgAAACAAAA=</HashCode>
+      <FileName>Buildings\Arena.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Assassin">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAgAAAIAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Assassin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Boss">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAIAAAAAAAEAAIAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Boss.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Bot">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAgAAAAAAIAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Creatures\Bot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.CommercialBuilding">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Buildings\CommercialBuilding.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Item.UsableItem">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item\UsableItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Creature">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAgAAAACAAAAAAAAYAAAAAEAAAABEAAAAA=</HashCode>
+      <FileName>Creatures\Creature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.DreamJob">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Buildings\DreamJob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Item.Energizer">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAACAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Item\Energizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.EvilCreature">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\EvilCreature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.FastFood">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAQA=</HashCode>
+      <FileName>Buildings\FastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.HitCalculator">
+    <Position X="2.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HitCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.ImproperlyDefinedCreatureException">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImproperlyDefinedCreatureException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.InitialEvilSettings" Collapsed="true">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQQEAAASCAAABgKIgAECCAAAAAAgBBEAIAAEAA=</HashCode>
+      <FileName>InitialEvilSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.InitialNinjaSettings" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBBQEQBAgACIEIAABAEIkABAABAAwABAAAIAAIYAQBE=</HashCode>
+      <FileName>InitialNinjaSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Jedi">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAgAAgAAAIAACAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Creatures\Jedi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Job">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAEABAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Job.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.JobOffice">
+    <Position X="26" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAACAAIAAAAAEABAABAAAAAAAAAUAAgAAAQAAQ=</HashCode>
+      <FileName>Buildings\JobOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Creatures.Ninja">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIARAAAwEAEAAAEABAAEHhIAEEAAIAAAEAAAAABA=</HashCode>
+      <FileName>Creatures\Ninja.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.Playground">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAACAAAAAA=</HashCode>
+      <FileName>Buildings\PlayGround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.RandomeEvilName">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>RandomeEvilName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Randomizer">
+    <Position X="2.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Randomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Item.Recreation">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAAAQAAAAABABAAAAAAAEEABAAAABA=</HashCode>
+      <FileName>Item\Recreation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.ShoppingMall">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAgA=</HashCode>
+      <FileName>Buildings\ShoppingMall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Item.Skill" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAKAAAAAAAAIABA=</HashCode>
+      <FileName>Item\Skills.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WorldOfNinja.Item.SpecialPower">
+    <Position X="13.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Item\SpecialPower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.TrainingCamps">
+    <Position X="29.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAABIAAAAIAAAAAAAAAACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\TrainingCamps.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.WorldObject">
+    <Position X="18.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorldObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfNinja.ImproperlyDefinedItemException">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImproperlyDefinedItemException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfNinja.Buildings.Academy">
+    <Position X="30" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAAAAAAAAAAAACAAAAAAABAUAAAAAAAAAQ=</HashCode>
+      <FileName>Buildings\Academy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WorldOfNinja.Hit">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAA=</HashCode>
+      <FileName>Hit.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WorldOfNinja.FightRules">
+    <Position X="4.25" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgQAAAAEABAAAAIQAAAAAAAAAAiA=</HashCode>
+      <FileName>FightRules.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WorldOfNinja.Interfaces.IGameObject">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.ICommercialItem">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICommercialItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.ICreature">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAgAAAACAAAAAAAAYAAAAAEAAAAAEAAAAA=</HashCode>
+      <FileName>Interfaces\ICreature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IEnergizer">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEnergizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IHero">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAEAAAEAAAAAChAAEAAAIAAAEAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IRegenerable">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRegenerable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.ISkill">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAIABA=</HashCode>
+      <FileName>Interfaces\ISkills.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IUsable">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IUsable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IEnergyExpandable">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyExpandable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfNinja.Interfaces.IJob">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WorldOfNinja.PowerEnum">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
