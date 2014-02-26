@@ -6,6 +6,7 @@
 
     public class Arena : WorldObject, IGameObject
     {
+        public const string Loser = "Hero is looser!";        
         private ICreature creature;
         private IHero hero;
         private FightRules fightRules;
@@ -17,6 +18,8 @@
             this.creature = creature;
             this.hero = hero;
         }
+
+        public ICreature Creature { get { return this.creature; } }
 
         public bool IsHeroWinner { get; private set; }
 

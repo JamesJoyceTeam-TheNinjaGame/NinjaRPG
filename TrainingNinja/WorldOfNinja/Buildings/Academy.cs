@@ -43,7 +43,7 @@
             return new Bot(hero.MentalLevel);
         }
 
-        protected override void GiveReward(IHero hero)
+        public override void GiveReward(IHero hero)
         {
             hero.GetItem(ListOfPowers[hero.MentalLevel - 1]);
         }

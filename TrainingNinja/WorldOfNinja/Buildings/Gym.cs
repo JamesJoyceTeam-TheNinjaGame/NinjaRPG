@@ -43,7 +43,7 @@
             return new Assassin(hero.ForceLevel);
         }
 
-        protected override void GiveReward(IHero hero)
+        public override void GiveReward(IHero hero)
         {
             hero.GetItem(ListOfPowers[hero.ForceLevel - 1]);
         }

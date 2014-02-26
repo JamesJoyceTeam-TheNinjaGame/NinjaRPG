@@ -46,31 +46,12 @@
 
         public string FightResult { get; private set; }
 
-        public void ApplyForJob(IHero hero, IJob chosenJob)
+        public Arena ApplyForJob(IHero hero, IJob chosenJob)
         {
             EvilCreature enemy = this.ChooseEnemy(chosenJob);
 
-            Arena fight = new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFightRules, hero, enemy);
+            return new Arena(string.Format("Fighting for '{0}' position", chosenJob.Possition), chosenJob.JobFightRules, hero, enemy);
 
-            // event?
-            IUsable item = hero.ListOfFightingSkills[0];
-            do
-            {
-                // IUsable item = selected Item!
-                item = hero.ListOfFightingSkills[0];
-            }
-            while (fight.Fight(item));
-            //// event end
-
-            if (fight.IsHeroWinner)
-            {
-                this.RewardNinja(hero, chosenJob);
-                this.FightResult = string.Format("Congratulation hero is now working at {0}", chosenJob.ToString());
-            }
-            else
-            {
-                this.FightResult = "The hero lost the battle and the job!";
-            }
         }
 
         public IList<IJob> GenerateJobsFor(IHero hero)
@@ -106,10 +87,12 @@
             }
         }
 
-        private void RewardNinja(IHero hero, IJob chosenJob)
+        public void RewardNinja(IHero hero, IJob chosenJob)
         {
             int heroCashReward = chosenJob.Wage;
             hero.GetCash(heroCashReward);
+            this.FightResult = string.Format("Congratulation hero is now working at {0}", chosenJob.ToString());
+
         }
     }
 }
