@@ -265,6 +265,42 @@
         {
             this.pnlJobAgency.Visible = true;
             jobOffice = JobOffice.Instance;
+            IList<IJob> listOfJobs = new List<IJob>();
+            listOfJobs = this.jobOffice.GenerateJobsFor(ninja);
+
+            RadioButton[] radioButtons = new RadioButton[]
+            {
+                this.radioButton1,
+                this.radioButton2,
+                this.radioButton3,
+                this.radioButton4,
+                this.radioButton5,
+                this.radioButton6,
+                this.radioButton7,
+                this.radioButton8,
+                this.radioButton9,
+            };
+
+            Label[] labelWages = new Label[]
+            {
+                this.lblWage1,
+                this.lblWage2,
+                this.lblWage3,
+                this.lblWage4,
+                this.lblWage5,
+                this.lblWage6,
+                this.lblWage7,
+                this.lblWage8,
+                this.lblWage9,
+            };
+
+            for (int i = 0; i < listOfJobs.Count; i++)
+            {
+                radioButtons[i].Visible = true;
+                radioButtons[i].Text = listOfJobs[i].Possition;
+                labelWages[i].Text = listOfJobs[i].Wage.ToString();
+                labelWages[i].Visible = true;
+            }
         }
 
         private void BtnPizza_Click(object sender, EventArgs e)
@@ -995,34 +1031,11 @@
             {
                 return list[7];
             }
-            else if (radioButton9.Checked == true)
+            else 
             {
                 return list[8];
             }
-            else if (radioButton10.Checked == true)
-            {
-                return list[9];
-            }
-            else if (radioButton11.Checked == true)
-            {
-                return list[10];
-            }
-            else if (radioButton12.Checked == true)
-            {
-                return list[11];
-            }
-            else if (radioButton13.Checked == true)
-            {
-                return list[12];
-            }
-            else if (radioButton14.Checked == true)
-            {
-                return list[13];
-            }
-            else 
-            {
-                return list[14];
-            }
+            
         }
 
         private void BtnGymBackClick(object sender, EventArgs e)
@@ -1074,6 +1087,11 @@
             this.temporaryBag = new List<IUsable>(this.ninja.BagOfItems);
             this.temporaryForceBag = new List<IUsable>(this.ninja.ListOfFightingSkills);
             this.temporaryMentalBag = new List<IUsable>(this.ninja.ListOfMentalSkills);
+        }
+
+        private void groupJob_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

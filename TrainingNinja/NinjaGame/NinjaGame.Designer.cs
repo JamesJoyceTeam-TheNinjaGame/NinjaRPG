@@ -272,13 +272,6 @@
             this.lblName = new System.Windows.Forms.Label();
             this.pnlJobAgency = new System.Windows.Forms.Panel();
             this.groupJob = new System.Windows.Forms.GroupBox();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
@@ -303,6 +296,16 @@
             this.btnDreamJobBack = new System.Windows.Forms.Button();
             this.txtDreamJob = new System.Windows.Forms.Label();
             this.picDreamJob = new System.Windows.Forms.PictureBox();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.lblWage1 = new System.Windows.Forms.Label();
+            this.lblWage2 = new System.Windows.Forms.Label();
+            this.lblWage3 = new System.Windows.Forms.Label();
+            this.lblWage4 = new System.Windows.Forms.Label();
+            this.lblWage5 = new System.Windows.Forms.Label();
+            this.lblWage6 = new System.Windows.Forms.Label();
+            this.lblWage7 = new System.Windows.Forms.Label();
+            this.lblWage8 = new System.Windows.Forms.Label();
+            this.lblWage9 = new System.Windows.Forms.Label();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers8)).BeginInit();
@@ -2252,12 +2255,15 @@
             // 
             // groupJob
             // 
-            this.groupJob.Controls.Add(this.radioButton15);
-            this.groupJob.Controls.Add(this.radioButton14);
-            this.groupJob.Controls.Add(this.radioButton13);
-            this.groupJob.Controls.Add(this.radioButton12);
-            this.groupJob.Controls.Add(this.radioButton11);
-            this.groupJob.Controls.Add(this.radioButton10);
+            this.groupJob.Controls.Add(this.lblWage9);
+            this.groupJob.Controls.Add(this.lblWage8);
+            this.groupJob.Controls.Add(this.lblWage7);
+            this.groupJob.Controls.Add(this.lblWage6);
+            this.groupJob.Controls.Add(this.lblWage5);
+            this.groupJob.Controls.Add(this.lblWage4);
+            this.groupJob.Controls.Add(this.lblWage3);
+            this.groupJob.Controls.Add(this.lblWage2);
+            this.groupJob.Controls.Add(this.lblWage1);
             this.groupJob.Controls.Add(this.radioButton9);
             this.groupJob.Controls.Add(this.radioButton8);
             this.groupJob.Controls.Add(this.radioButton7);
@@ -2271,55 +2277,7 @@
             resources.ApplyResources(this.groupJob, "groupJob");
             this.groupJob.Name = "groupJob";
             this.groupJob.TabStop = false;
-            // 
-            // radioButton15
-            // 
-            resources.ApplyResources(this.radioButton15, "radioButton15");
-            this.radioButton15.Name = "radioButton15";
-            this.radioButton15.TabStop = true;
-            this.radioButton15.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            resources.ApplyResources(this.radioButton14, "radioButton14");
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.TabStop = true;
-            this.radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // radioButton13
-            // 
-            resources.ApplyResources(this.radioButton13, "radioButton13");
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.TabStop = true;
-            this.radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            resources.ApplyResources(this.radioButton12, "radioButton12");
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.TabStop = true;
-            this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            resources.ApplyResources(this.radioButton11, "radioButton11");
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.TabStop = true;
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            resources.ApplyResources(this.radioButton10, "radioButton10");
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.TabStop = true;
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            resources.ApplyResources(this.radioButton9, "radioButton9");
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.TabStop = true;
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.groupJob.Enter += new System.EventHandler(this.groupJob_Enter);
             // 
             // radioButton8
             // 
@@ -2373,7 +2331,9 @@
             // radioButton1
             // 
             resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.Checked = true;
             this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // btnJobAgencyFight
@@ -2493,14 +2453,66 @@
             this.picDreamJob.Name = "picDreamJob";
             this.picDreamJob.TabStop = false;
             // 
+            // radioButton9
+            // 
+            resources.ApplyResources(this.radioButton9, "radioButton9");
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.TabStop = true;
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // lblWage1
+            // 
+            resources.ApplyResources(this.lblWage1, "lblWage1");
+            this.lblWage1.Name = "lblWage1";
+            // 
+            // lblWage2
+            // 
+            resources.ApplyResources(this.lblWage2, "lblWage2");
+            this.lblWage2.Name = "lblWage2";
+            // 
+            // lblWage3
+            // 
+            resources.ApplyResources(this.lblWage3, "lblWage3");
+            this.lblWage3.Name = "lblWage3";
+            // 
+            // lblWage4
+            // 
+            resources.ApplyResources(this.lblWage4, "lblWage4");
+            this.lblWage4.Name = "lblWage4";
+            // 
+            // lblWage5
+            // 
+            resources.ApplyResources(this.lblWage5, "lblWage5");
+            this.lblWage5.Name = "lblWage5";
+            // 
+            // lblWage6
+            // 
+            resources.ApplyResources(this.lblWage6, "lblWage6");
+            this.lblWage6.Name = "lblWage6";
+            // 
+            // lblWage7
+            // 
+            resources.ApplyResources(this.lblWage7, "lblWage7");
+            this.lblWage7.Name = "lblWage7";
+            // 
+            // lblWage8
+            // 
+            resources.ApplyResources(this.lblWage8, "lblWage8");
+            this.lblWage8.Name = "lblWage8";
+            // 
+            // lblWage9
+            // 
+            resources.ApplyResources(this.lblWage9, "lblWage9");
+            this.lblWage9.Name = "lblWage9";
+            // 
             // FrmStart
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
-            this.Controls.Add(this.pnlDreamJob);
             this.Controls.Add(this.pnlJobAgency);
+            this.Controls.Add(this.pnlDreamJob);
             this.Controls.Add(this.pnlFight);
             this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlGym);
@@ -2943,13 +2955,6 @@
         private System.Windows.Forms.Label txtDreamJob;
         private System.Windows.Forms.PictureBox picDreamJob;
         private System.Windows.Forms.GroupBox groupJob;
-        private System.Windows.Forms.RadioButton radioButton15;
-        private System.Windows.Forms.RadioButton radioButton14;
-        private System.Windows.Forms.RadioButton radioButton13;
-        private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton6;
@@ -2958,5 +2963,15 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.Label lblWage9;
+        private System.Windows.Forms.Label lblWage8;
+        private System.Windows.Forms.Label lblWage7;
+        private System.Windows.Forms.Label lblWage6;
+        private System.Windows.Forms.Label lblWage5;
+        private System.Windows.Forms.Label lblWage4;
+        private System.Windows.Forms.Label lblWage3;
+        private System.Windows.Forms.Label lblWage2;
+        private System.Windows.Forms.Label lblWage1;
     }
 }
