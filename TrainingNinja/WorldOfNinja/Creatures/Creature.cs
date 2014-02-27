@@ -23,7 +23,7 @@
                 return this.currentEnergy;
             }
 
-            set
+            private set
             {
                 if (value < 0)
                 {

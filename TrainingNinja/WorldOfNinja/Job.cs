@@ -5,8 +5,8 @@
 
     public class Job : WorldObject, IGameObject, IJob
     {
-        protected const int LowestBaseWage = 15;
-        protected const int HighestBaseWage = 30;
+        private const int LowestBaseWage = 15;
+        private const int HighestBaseWage = 30;
 
         public Job(FightRules fightRule, string jobPosition, int jobLevel)
             : base(jobPosition)
