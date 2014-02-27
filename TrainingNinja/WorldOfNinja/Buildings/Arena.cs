@@ -26,7 +26,7 @@
 
         public bool IsHeroWinner { get; private set; }
 
-        public bool Fight(IUsable pickedItem)
+        public virtual bool Fight(IUsable pickedItem)
         {
             if ((pickedItem is ICommercialItem &&
                 this.hero.BagOfItems.Contains(pickedItem as ICommercialItem)) ||
