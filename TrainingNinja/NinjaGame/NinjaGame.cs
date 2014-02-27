@@ -22,7 +22,7 @@
         private ICreature evil;
         private Ninja ninja;
         private Arena arena;
-        private Job job;
+        private IJob job;
         private JobOffice jobOffice;
         private bool isFirstClick = true;
 
@@ -479,7 +479,7 @@
 
                 if (fightForJob)
                 {
-                    jobOffice.RewardNinja(ninja, job);
+                    this.jobOffice.RewardNinja(ninja, job);
                 }
 
                 this.pnlFight.Refresh();
@@ -927,7 +927,8 @@
             ////this.building = JobOffice.Instance;
             ////building.ApplyForJob(ninja, job);
             ////building.ApplyForJob(ninja, job, evil);
-            arena = jobOffice.ApplyForJob(ninja, ReturnCheckedButton(list));
+            this.job = ReturnCheckedButton(list);
+            arena = jobOffice.ApplyForJob(ninja, job);
             evil = arena.Creature;
 
             this.pnlJobAgency.Visible = false;
