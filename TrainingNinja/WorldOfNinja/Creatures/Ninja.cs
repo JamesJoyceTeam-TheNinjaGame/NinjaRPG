@@ -71,7 +71,7 @@
             return false;
         }
 
-        public bool GetItem(IUsable item)
+        public virtual bool GetItem(IUsable item)
         {
             if (item is IEnergyExpandable)
             {
@@ -111,7 +111,7 @@
             return false;
         }
 
-        public void UseItem(IUsable item)
+        public virtual void UseItem(IUsable item)
         {
             if (item is ICommercialItem)
             {
