@@ -7,7 +7,7 @@
         private const int TotalEnergyToLevelRatio = 100;
         
         public EvilCreature(string name, int level)
-            : base(name, level, level, TotalEnergyToLevelRatio * level)
+            : base(name, TotalEnergyToLevelRatio * level, level, level)
         {
             this.Level = level;
         }

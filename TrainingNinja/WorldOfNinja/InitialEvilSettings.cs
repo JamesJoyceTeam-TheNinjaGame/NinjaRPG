@@ -16,7 +16,7 @@
         private static int mentalSuccessMax;
         private static int mentalSuccessMin;
         private static string mentalAttackName;
-          
+
         private static int energyToForcePowerRatio;
         private static int forceSuccessMax;
         private static int forceSuccessMin;
@@ -42,7 +42,7 @@
 
         public static string MentalAttackName
         {
-            get { return string.IsNullOrEmpty(mentalAttackName) ? mentalAttackName : DefaultMentalAttackName; }
+            get { return string.IsNullOrEmpty(mentalAttackName) ? DefaultMentalAttackName : mentalAttackName; }
             set { mentalAttackName = value; }
         }
 
@@ -66,7 +66,7 @@
 
         public static string ForceAttackName
         {
-            get { return string.IsNullOrEmpty(forceAttackName) ? forceAttackName : DefaultForceAttackName; }
+            get { return string.IsNullOrEmpty(forceAttackName) ? DefaultForceAttackName : forceAttackName; }
             set { forceAttackName = value; }
         }
     }

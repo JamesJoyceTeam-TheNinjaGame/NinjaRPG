@@ -15,7 +15,7 @@
             this.AttackType = engagedPower;
         }
 
-        public PowerEnum AttackType { get; private set; }   
+        public PowerEnum AttackType { get; private set; }
 
         public int SuccessRate
         {
@@ -44,9 +44,9 @@
 
             private set
             {
-                if (value < 1)
+                if (value < 0)
                 {
-                    throw new ImproperlyDefinedItemException("Attack Power must be greater than 0");
+                    throw new ImproperlyDefinedItemException("Attack Power can not be negative");
                 }
 
                 this.attack = value;

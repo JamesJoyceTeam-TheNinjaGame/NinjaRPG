@@ -65,7 +65,7 @@
                (job.JobFightRules == BallancedWorkRules &&
                 job.JobLevel >= ((hero.ForceLevel + hero.MentalLevel) / 2) - 1 &&
                 job.JobLevel <= ((hero.ForceLevel + hero.MentalLevel) / 2) + 1))
-                .OrderBy(rule => rule.JobFightRules)
+                .OrderBy(rule => rule.JobFightRules.ToString())
                 .ThenBy(wage => wage.Wage)
                 .ToList();
         }

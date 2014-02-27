@@ -1,7 +1,6 @@
 ﻿namespace WorldOfNinja
 {
     using System;
-    using System.Text.RegularExpressions;
     using Interfaces;
 
     public abstract class WorldObject : IGameObject
@@ -22,9 +21,9 @@
 
             private set
             {
-                if (!Regex.IsMatch(value, @"\b[A-Za-z][A-Za-z][A-Za-z]+\b"))
+                if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(string.Format("{0} name must be at least 3 symbols and could contain only latin letters", this.GetType().Name));
+                    throw new ArgumentException(string.Format("{0} name can not be null or epmty", this.GetType().Name));
                 }
 
                 this.name = value;

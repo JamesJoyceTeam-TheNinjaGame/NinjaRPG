@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DC9E76E-064C-4C07-887E-65A0A09B621A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NinjaGame</RootNamespace>
+    <AssemblyName>NinjaGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NinjaGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NinjaGame.Designer.cs">
+      <DependentUpon>NinjaGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NinjaGame.en.resx">
+      <DependentUpon>NinjaGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NinjaGame.resx">
+      <DependentUpon>NinjaGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjaBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assayNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dreamjobNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houseNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mallNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjaNoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzaNoBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playgroundNoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schoolNoBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5410038-425914-background-of-boxing-ring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyGoblin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyGoblinDead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyGoblinHitted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyJedi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyJediDead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyJediHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyRobo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyRoboDead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyRoboHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaChampion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaFight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaFightDead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaFightHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaFightRageMastery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NinjaWorking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaurburgers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinema.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shurikan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shurikan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaseballBatt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PoisonDart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomahawk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hammer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSharpBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForumFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpFromTeamMate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpFromTrainer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Energydrink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icecream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pizza1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorldOfNinja\WorldOfNinja.csproj">
+      <Project>{00b34a1a-7b09-4dde-b9dc-5f5f2af1b22b}</Project>
+      <Name>WorldOfNinja</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aikido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boxing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FistFight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Judo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jujitsu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KungFu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MuayThai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninjutsu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taekwondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abstraction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClassesAndObjects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DesignPatterns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diversion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encapsulation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExceptionHandling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inheritance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumeralSystems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polymorphism.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeSweetHome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\career-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JobAgency.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
