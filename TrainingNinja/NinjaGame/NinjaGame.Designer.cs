@@ -272,6 +272,16 @@
             this.lblName = new System.Windows.Forms.Label();
             this.pnlJobAgency = new System.Windows.Forms.Panel();
             this.groupJob = new System.Windows.Forms.GroupBox();
+            this.lblWage9 = new System.Windows.Forms.Label();
+            this.lblWage8 = new System.Windows.Forms.Label();
+            this.lblWage7 = new System.Windows.Forms.Label();
+            this.lblWage6 = new System.Windows.Forms.Label();
+            this.lblWage5 = new System.Windows.Forms.Label();
+            this.lblWage4 = new System.Windows.Forms.Label();
+            this.lblWage3 = new System.Windows.Forms.Label();
+            this.lblWage2 = new System.Windows.Forms.Label();
+            this.lblWage1 = new System.Windows.Forms.Label();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
@@ -296,16 +306,6 @@
             this.btnDreamJobBack = new System.Windows.Forms.Button();
             this.txtDreamJob = new System.Windows.Forms.Label();
             this.picDreamJob = new System.Windows.Forms.PictureBox();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.lblWage1 = new System.Windows.Forms.Label();
-            this.lblWage2 = new System.Windows.Forms.Label();
-            this.lblWage3 = new System.Windows.Forms.Label();
-            this.lblWage4 = new System.Windows.Forms.Label();
-            this.lblWage5 = new System.Windows.Forms.Label();
-            this.lblWage6 = new System.Windows.Forms.Label();
-            this.lblWage7 = new System.Windows.Forms.Label();
-            this.lblWage8 = new System.Windows.Forms.Label();
-            this.lblWage9 = new System.Windows.Forms.Label();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHomeEnergizers8)).BeginInit();
@@ -2279,53 +2279,97 @@
             this.groupJob.TabStop = false;
             this.groupJob.Enter += new System.EventHandler(this.groupJob_Enter);
             // 
+            // lblWage9
+            // 
+            resources.ApplyResources(this.lblWage9, "lblWage9");
+            this.lblWage9.Name = "lblWage9";
+            // 
+            // lblWage8
+            // 
+            resources.ApplyResources(this.lblWage8, "lblWage8");
+            this.lblWage8.Name = "lblWage8";
+            // 
+            // lblWage7
+            // 
+            resources.ApplyResources(this.lblWage7, "lblWage7");
+            this.lblWage7.Name = "lblWage7";
+            // 
+            // lblWage6
+            // 
+            resources.ApplyResources(this.lblWage6, "lblWage6");
+            this.lblWage6.Name = "lblWage6";
+            // 
+            // lblWage5
+            // 
+            resources.ApplyResources(this.lblWage5, "lblWage5");
+            this.lblWage5.Name = "lblWage5";
+            // 
+            // lblWage4
+            // 
+            resources.ApplyResources(this.lblWage4, "lblWage4");
+            this.lblWage4.Name = "lblWage4";
+            // 
+            // lblWage3
+            // 
+            resources.ApplyResources(this.lblWage3, "lblWage3");
+            this.lblWage3.Name = "lblWage3";
+            // 
+            // lblWage2
+            // 
+            resources.ApplyResources(this.lblWage2, "lblWage2");
+            this.lblWage2.Name = "lblWage2";
+            // 
+            // lblWage1
+            // 
+            resources.ApplyResources(this.lblWage1, "lblWage1");
+            this.lblWage1.Name = "lblWage1";
+            // 
+            // radioButton9
+            // 
+            resources.ApplyResources(this.radioButton9, "radioButton9");
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
             // radioButton8
             // 
             resources.ApplyResources(this.radioButton8, "radioButton8");
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.TabStop = true;
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // radioButton7
             // 
             resources.ApplyResources(this.radioButton7, "radioButton7");
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.TabStop = true;
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // radioButton6
             // 
             resources.ApplyResources(this.radioButton6, "radioButton6");
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.TabStop = true;
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton5
             // 
             resources.ApplyResources(this.radioButton5, "radioButton5");
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.TabStop = true;
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton4
             // 
             resources.ApplyResources(this.radioButton4, "radioButton4");
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.TabStop = true;
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
             resources.ApplyResources(this.radioButton3, "radioButton3");
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.TabStop = true;
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             resources.ApplyResources(this.radioButton2, "radioButton2");
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.TabStop = true;
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -2453,69 +2497,17 @@
             this.picDreamJob.Name = "picDreamJob";
             this.picDreamJob.TabStop = false;
             // 
-            // radioButton9
-            // 
-            resources.ApplyResources(this.radioButton9, "radioButton9");
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.TabStop = true;
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // lblWage1
-            // 
-            resources.ApplyResources(this.lblWage1, "lblWage1");
-            this.lblWage1.Name = "lblWage1";
-            // 
-            // lblWage2
-            // 
-            resources.ApplyResources(this.lblWage2, "lblWage2");
-            this.lblWage2.Name = "lblWage2";
-            // 
-            // lblWage3
-            // 
-            resources.ApplyResources(this.lblWage3, "lblWage3");
-            this.lblWage3.Name = "lblWage3";
-            // 
-            // lblWage4
-            // 
-            resources.ApplyResources(this.lblWage4, "lblWage4");
-            this.lblWage4.Name = "lblWage4";
-            // 
-            // lblWage5
-            // 
-            resources.ApplyResources(this.lblWage5, "lblWage5");
-            this.lblWage5.Name = "lblWage5";
-            // 
-            // lblWage6
-            // 
-            resources.ApplyResources(this.lblWage6, "lblWage6");
-            this.lblWage6.Name = "lblWage6";
-            // 
-            // lblWage7
-            // 
-            resources.ApplyResources(this.lblWage7, "lblWage7");
-            this.lblWage7.Name = "lblWage7";
-            // 
-            // lblWage8
-            // 
-            resources.ApplyResources(this.lblWage8, "lblWage8");
-            this.lblWage8.Name = "lblWage8";
-            // 
-            // lblWage9
-            // 
-            resources.ApplyResources(this.lblWage9, "lblWage9");
-            this.lblWage9.Name = "lblWage9";
-            // 
             // FrmStart
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
-            this.Controls.Add(this.pnlJobAgency);
-            this.Controls.Add(this.pnlDreamJob);
-            this.Controls.Add(this.pnlFight);
-            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlGym);
+            this.Controls.Add(this.pnlJobAgency);
+            this.Controls.Add(this.pnlFight);
+            this.Controls.Add(this.pnlDreamJob);
+            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlSchool);

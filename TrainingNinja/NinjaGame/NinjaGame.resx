@@ -1480,7 +1480,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlHome.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="lblMentalLevelValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -17868,6 +17868,321 @@
   <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
+  <data name="&gt;&gt;groupJob.Name" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;groupJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupJob.Parent" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;groupJob.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyFight.Name" xml:space="preserve">
+    <value>btnJobAgencyFight</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyFight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyFight.Parent" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyFight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyBack.Name" xml:space="preserve">
+    <value>btnJobAgencyBack</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyBack.Parent" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;btnJobAgencyBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picJobAgency.Name" xml:space="preserve">
+    <value>picJobAgency</value>
+  </data>
+  <data name="&gt;&gt;picJobAgency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picJobAgency.Parent" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;picJobAgency.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlJobAgency.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlJobAgency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlJobAgency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="pnlJobAgency.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="pnlJobAgency.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlJobAgency.Name" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;pnlJobAgency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlJobAgency.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlJobAgency.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWage9.Name" xml:space="preserve">
+    <value>lblWage9</value>
+  </data>
+  <data name="&gt;&gt;lblWage9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage9.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblWage8.Name" xml:space="preserve">
+    <value>lblWage8</value>
+  </data>
+  <data name="&gt;&gt;lblWage8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage8.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWage7.Name" xml:space="preserve">
+    <value>lblWage7</value>
+  </data>
+  <data name="&gt;&gt;lblWage7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage7.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblWage6.Name" xml:space="preserve">
+    <value>lblWage6</value>
+  </data>
+  <data name="&gt;&gt;lblWage6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage6.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblWage5.Name" xml:space="preserve">
+    <value>lblWage5</value>
+  </data>
+  <data name="&gt;&gt;lblWage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage5.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblWage4.Name" xml:space="preserve">
+    <value>lblWage4</value>
+  </data>
+  <data name="&gt;&gt;lblWage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage4.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblWage3.Name" xml:space="preserve">
+    <value>lblWage3</value>
+  </data>
+  <data name="&gt;&gt;lblWage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage3.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblWage2.Name" xml:space="preserve">
+    <value>lblWage2</value>
+  </data>
+  <data name="&gt;&gt;lblWage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage2.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblWage1.Name" xml:space="preserve">
+    <value>lblWage1</value>
+  </data>
+  <data name="&gt;&gt;lblWage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWage1.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;lblWage1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;radioButton9.Name" xml:space="preserve">
+    <value>radioButton9</value>
+  </data>
+  <data name="&gt;&gt;radioButton9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton9.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;radioButton8.Name" xml:space="preserve">
+    <value>radioButton8</value>
+  </data>
+  <data name="&gt;&gt;radioButton8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton8.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
+    <value>radioButton7</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
+    <value>radioButton6</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.Name" xml:space="preserve">
+    <value>radioButton5</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
+    <value>radioButton4</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="groupJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 309</value>
+  </data>
+  <data name="groupJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 246</value>
+  </data>
+  <data name="groupJob.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupJob.Text" xml:space="preserve">
+    <value>Choose Job</value>
+  </data>
+  <data name="&gt;&gt;groupJob.Name" xml:space="preserve">
+    <value>groupJob</value>
+  </data>
+  <data name="&gt;&gt;groupJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupJob.Parent" xml:space="preserve">
+    <value>pnlJobAgency</value>
+  </data>
+  <data name="&gt;&gt;groupJob.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="lblWage9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -18456,30 +18771,6 @@
   <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="groupJob.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 309</value>
-  </data>
-  <data name="groupJob.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 246</value>
-  </data>
-  <data name="groupJob.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="groupJob.Text" xml:space="preserve">
-    <value>Choose Job</value>
-  </data>
-  <data name="&gt;&gt;groupJob.Name" xml:space="preserve">
-    <value>groupJob</value>
-  </data>
-  <data name="&gt;&gt;groupJob.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupJob.Parent" xml:space="preserve">
-    <value>pnlJobAgency</value>
-  </data>
-  <data name="&gt;&gt;groupJob.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="btnJobAgencyFight.Location" type="System.Drawing.Point, System.Drawing">
     <value>638, 492</value>
   </data>
@@ -18551,33 +18842,6 @@
   </data>
   <data name="&gt;&gt;picJobAgency.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="pnlJobAgency.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlJobAgency.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlJobAgency.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 562</value>
-  </data>
-  <data name="pnlJobAgency.TabIndex" type="System.Int32, mscorlib">
-    <value>129</value>
-  </data>
-  <data name="pnlJobAgency.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlJobAgency.Name" xml:space="preserve">
-    <value>pnlJobAgency</value>
-  </data>
-  <data name="&gt;&gt;pnlJobAgency.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlJobAgency.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlJobAgency.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;btnSchoolBack.Name" xml:space="preserve">
     <value>btnSchoolBack</value>
@@ -18714,69 +18978,6 @@
   <data name="&gt;&gt;picSchool.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;btnGymTrane.Name" xml:space="preserve">
-    <value>btnGymTrane</value>
-  </data>
-  <data name="&gt;&gt;btnGymTrane.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGymTrane.Parent" xml:space="preserve">
-    <value>pnlGym</value>
-  </data>
-  <data name="&gt;&gt;btnGymTrane.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnGymBack.Name" xml:space="preserve">
-    <value>btnGymBack</value>
-  </data>
-  <data name="&gt;&gt;btnGymBack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGymBack.Parent" xml:space="preserve">
-    <value>pnlGym</value>
-  </data>
-  <data name="&gt;&gt;btnGymBack.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;picGym.Name" xml:space="preserve">
-    <value>picGym</value>
-  </data>
-  <data name="&gt;&gt;picGym.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picGym.Parent" xml:space="preserve">
-    <value>pnlGym</value>
-  </data>
-  <data name="&gt;&gt;picGym.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="pnlGym.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlGym.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlGym.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 562</value>
-  </data>
-  <data name="pnlGym.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="pnlGym.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlGym.Name" xml:space="preserve">
-    <value>pnlGym</value>
-  </data>
-  <data name="&gt;&gt;pnlGym.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlGym.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlGym.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="btnGymTrane.Location" type="System.Drawing.Point, System.Drawing">
     <value>325, 447</value>
   </data>
@@ -18787,7 +18988,7 @@
     <value>2</value>
   </data>
   <data name="btnGymTrane.Text" xml:space="preserve">
-    <value>Training</value>
+    <value>Practice</value>
   </data>
   <data name="&gt;&gt;btnGymTrane.Name" xml:space="preserve">
     <value>btnGymTrane</value>
@@ -18848,6 +19049,33 @@
   </data>
   <data name="&gt;&gt;picGym.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="pnlGym.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlGym.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlGym.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="pnlGym.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnlGym.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlGym.Name" xml:space="preserve">
+    <value>pnlGym</value>
+  </data>
+  <data name="&gt;&gt;pnlGym.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlGym.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlGym.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="pnlDreamJob.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -18925,7 +19153,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlDreamJob.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="btnDreamJobFight.Location" type="System.Drawing.Point, System.Drawing">
     <value>579, 416</value>

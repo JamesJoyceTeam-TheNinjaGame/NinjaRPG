@@ -34,7 +34,7 @@
         {
             ICreature enemy = this.PickCreature(hero);
 
-            return new Arena(string.Format("Learning {0}"), this.rules, hero, enemy);
+            return new Arena("Practicing", this.rules, hero, enemy);
         }
 
         public abstract void GiveReward(IHero hero);

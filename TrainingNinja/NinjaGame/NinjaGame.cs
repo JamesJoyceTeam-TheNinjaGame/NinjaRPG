@@ -25,6 +25,9 @@
         private IJob job;
         private JobOffice jobOffice;
         private bool isFirstClick = true;
+        private bool isGymFight = false;
+        private Academy academy;
+        private Gym gym;
 
         // DreamJob boss; 
         private CommercialBuilding mall;
@@ -517,19 +520,25 @@
                 {
                     this.jobOffice.RewardNinja(ninja, job);
                 }
+                else if (isGymFight)
+                {
+                    gym.GiveReward(ninja);
+                }
 
                 this.pnlFight.Refresh();
                 Thread.Sleep(1000);
                 MessageBox.Show("Congratilations! You Win!");
                 this.pnlFight.Visible = false;
-                fightForJob = false;
+                this.fightForJob = false;
+                this.isGymFight = false;
             }
             else if (this.prgrsFightNinja.Value <= 0)
             {
                 this.picNinja.BackgroundImage = Resources.NinjaFightDead;
                 this.ninja.CurrentEnergy = this.ninja.TotalEnergy;
                 this.pnlFight.Visible = false;
-                fightForJob = false;
+                this.fightForJob = false;
+                this.isGymFight = false;
             }
 
             this.pnlFight.Refresh();
@@ -967,6 +976,13 @@
             arena = jobOffice.ApplyForJob(ninja, job);
             evil = arena.Creature;
 
+            this.InitializeFight();
+
+            //arena = new Arena("Job Office", this.job.JobFightRules, this.ninja, this.evil);
+        }
+
+        private void InitializeFight()
+        {
             this.pnlJobAgency.Visible = false;
             this.pnlFight.Visible = true;
             this.DeclareFightButtons();
@@ -975,7 +991,7 @@
             {
                 this.picEvil.BackgroundImage = Resources.EnemyJedi;
             }
-            else if(evil.GetType().Name == "Assassin")
+            else if (evil.GetType().Name == "Assassin")
             {
                 this.picEvil.BackgroundImage = Resources.EnemyGoblin;
             }
@@ -993,8 +1009,6 @@
             this.temporaryBag = new List<IUsable>(this.ninja.BagOfItems);
             this.temporaryForceBag = new List<IUsable>(this.ninja.ListOfFightingSkills);
             this.temporaryMentalBag = new List<IUsable>(this.ninja.ListOfMentalSkills);
-
-            //arena = new Arena("Job Office", this.job.JobFightRules, this.ninja, this.evil);
         }
   
         private  IJob ReturnCheckedButton(IList<IJob> list)
@@ -1045,6 +1059,13 @@
 
         private void BtnGymTraneClick(object sender, EventArgs e)
         {
+            this.gym = Gym.Instance;
+            this.arena = gym.Practice(ninja);
+            this.evil = arena.Creature;
+            this.isGymFight = true;
+            this.InitializeFight();
+
+
             this.pnlGym.Visible = false;
             this.pnlFight.Visible = true;
             this.DeclareFightButtons();
