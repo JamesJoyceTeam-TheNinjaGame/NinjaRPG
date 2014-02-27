@@ -26,6 +26,7 @@
         private JobOffice jobOffice;
         private bool isFirstClick = true;
         private bool isGymFight = false;
+        private bool isSchoolFight = false;
         private Academy academy;
         private Gym gym;
 
@@ -524,6 +525,10 @@
                 {
                     gym.GiveReward(ninja);
                 }
+                else if(isSchoolFight)
+                {
+                    academy.GiveReward(ninja);
+                }
 
                 this.pnlFight.Refresh();
                 Thread.Sleep(1000);
@@ -531,6 +536,7 @@
                 this.pnlFight.Visible = false;
                 this.fightForJob = false;
                 this.isGymFight = false;
+                isSchoolFight = false;
             }
             else if (this.prgrsFightNinja.Value <= 0)
             {
@@ -539,6 +545,7 @@
                 this.pnlFight.Visible = false;
                 this.fightForJob = false;
                 this.isGymFight = false;
+                this.isSchoolFight = false;
             }
 
             this.pnlFight.Refresh();
@@ -1079,6 +1086,12 @@
 
         private void BtnSchoolFightClick(object sender, EventArgs e)
         {
+            this.academy = Academy.Instance;
+            this.arena = academy.Practice(ninja);
+            this.evil = arena.Creature;
+            this.isSchoolFight = true;
+            this.InitializeFight();
+
             this.pnlSchool.Visible = false;
             this.pnlFight.Visible = true;
             this.DeclareFightButtons();

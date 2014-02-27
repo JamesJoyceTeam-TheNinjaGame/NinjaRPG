@@ -40,7 +40,10 @@
 
         public override void GiveReward(IHero hero)
         {
-            hero.GetItem(ListOfPowers[hero.MentalLevel - 1]);
+            if (hero.UpMentalLevel())
+            {
+                hero.GetItem(ListOfPowers[hero.MentalLevel - 1]);                
+            }
         }
 
         protected override ICreature PickCreature(IHero hero)

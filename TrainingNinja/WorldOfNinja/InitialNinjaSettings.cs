@@ -11,7 +11,7 @@
         private const int DefaultNinjaInitialStepsToNextLevel = 5;
         
         private const int DefaultNinjaTotalEnergy = 100;
-        private const int DefaultNinjaCash = 100050;
+        private const int DefaultNinjaCash = 10000;
         private const int DefaultNinjaInitialForceLevel = 1; 
         private const int DefaultNinjaInitialMentalLevel = 1;
 

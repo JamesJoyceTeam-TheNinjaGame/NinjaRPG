@@ -40,7 +40,10 @@
 
         public override void GiveReward(IHero hero)
         {
-            hero.GetItem(ListOfPowers[hero.ForceLevel - 1]);
+            if (hero.UpForceLevel())
+            {
+                hero.GetItem(ListOfPowers[hero.ForceLevel - 1]);                
+            }
         }
 
         protected override ICreature PickCreature(IHero hero)
