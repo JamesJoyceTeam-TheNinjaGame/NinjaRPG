@@ -5,6 +5,7 @@
     using System.Linq;
     using Interfaces;
 
+    [Serializable]
     public class Ninja : Creature, IHero
     {
         private const int BagOfItemCapacity = 30;

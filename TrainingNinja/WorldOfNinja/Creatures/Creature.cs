@@ -2,6 +2,9 @@
 {
     using System.Text.RegularExpressions;
     using Interfaces;
+    using System;
+
+    [Serializable]
 
     public abstract class Creature : WorldObject, ICreature
     {
@@ -23,7 +26,7 @@
                 return this.currentEnergy;
             }
 
-            private set
+            set
             {
                 if (value < 0)
                 {

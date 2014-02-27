@@ -1,6 +1,9 @@
 ﻿namespace WorldOfNinja.Item
 {
     using Interfaces;
+    using System;
+
+    [Serializable]
 
     public class Energizer : UsableItem, ICommercialItem, IEnergizer
     {

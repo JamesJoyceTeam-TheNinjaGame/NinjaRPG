@@ -3,6 +3,7 @@
     using System;
     using Interfaces;
 
+    [Serializable]
     public abstract class WorldObject : IGameObject
     {
         private string name;
