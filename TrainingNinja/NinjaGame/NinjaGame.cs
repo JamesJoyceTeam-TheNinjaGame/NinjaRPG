@@ -9,7 +9,6 @@
     using System.Threading;
     using System.Windows.Forms;
     using NinjaGame.Properties;
-    using WorldOfNinja;
     using WorldOfNinja.Buildings;
     using WorldOfNinja.Creatures;
     using WorldOfNinja.Interfaces;
@@ -227,7 +226,7 @@
             switch (name)
             {
                 case "Dr.Peter's Cola": return Resources.Coke;
-                case "Coffee LaVasioo": return Resources.Coffee;
+                case "Coffee LaVasio": return Resources.Coffee;
                 case "Ice Cream Icegida": return Resources.Icecream;
                 case "Big Max Burger": return Resources.Burger;
                 case "Pizza A La Programa": return Resources.Pizza1;
@@ -313,7 +312,12 @@
 
             this.pnlPizza.Visible = true;
             this.lblPizzaCashValue.Text = this.ninja.Cash.ToString();
-            this.lblPizzaCokePrice.Text = "Price:" + this.fastFood.Goods[0].Price;
+            this.btnPizza1.BackgroundImage = GiveBackgroundImage(fastFood.Goods[0].Name);
+            this.btnPizza2.BackgroundImage = GiveBackgroundImage(fastFood.Goods[1].Name);
+            this.btnPizza3.BackgroundImage = GiveBackgroundImage(fastFood.Goods[2].Name);
+            this.btnPizza4.BackgroundImage = GiveBackgroundImage(fastFood.Goods[3].Name);
+            this.btnPizza5.BackgroundImage = GiveBackgroundImage(fastFood.Goods[4].Name);
+            this.btnPizza6.BackgroundImage = GiveBackgroundImage(fastFood.Goods[5].Name);
             this.lblPizzaCokeEnergy.Text = "Energy: " + ((IEnergizer)this.fastFood.Goods[0]).HealingPoints;
             this.lblPizzaCoffeePrice.Text = "Price:" + this.fastFood.Goods[1].Price;
             this.lblPizzaCoffeeEnergy.Text = "Energy: " + ((IEnergizer)this.fastFood.Goods[1]).HealingPoints;

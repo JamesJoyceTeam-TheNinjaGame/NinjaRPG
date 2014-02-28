@@ -37,8 +37,12 @@
                 if (this.hero.IsAlive())
                 {
                     this.hero.UseItem(pickedItem);
-                    int damage = this.AttackPowerModifier(this.hero);
-                    this.creature.DecreaseCurrentEnergy(damage);
+
+                    if (!(pickedItem is IEnergizer))
+                    {
+                        int damage = this.AttackPowerModifier(this.hero);
+                        this.creature.DecreaseCurrentEnergy(damage);
+                    }
                 }
                 else
                 {

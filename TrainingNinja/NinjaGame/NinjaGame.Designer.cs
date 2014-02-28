@@ -226,23 +226,23 @@
             this.lblPizzaCashValue = new System.Windows.Forms.Label();
             this.lblPizzaCash = new System.Windows.Forms.Label();
             this.lblPizzaEnergydrinkEnergy = new System.Windows.Forms.Label();
-            this.btnPizzaEnergyDrink = new System.Windows.Forms.PictureBox();
+            this.btnPizza6 = new System.Windows.Forms.PictureBox();
             this.lblPizzaEnergydrinkPrice = new System.Windows.Forms.Label();
             this.lblPizzaPizzaEnergy = new System.Windows.Forms.Label();
             this.lblPizzaHamburgerEnergy = new System.Windows.Forms.Label();
             this.lblPizzaIceCreamEnergy = new System.Windows.Forms.Label();
             this.lblPizzaCoffeeEnergy = new System.Windows.Forms.Label();
             this.lblPizzaCokeEnergy = new System.Windows.Forms.Label();
-            this.btnPizzaCoffee = new System.Windows.Forms.PictureBox();
-            this.btnPizzaIceCream = new System.Windows.Forms.PictureBox();
-            this.btnPizzaBurger = new System.Windows.Forms.PictureBox();
-            this.btnPizzaPizza = new System.Windows.Forms.PictureBox();
+            this.btnPizza2 = new System.Windows.Forms.PictureBox();
+            this.btnPizza3 = new System.Windows.Forms.PictureBox();
+            this.btnPizza4 = new System.Windows.Forms.PictureBox();
+            this.btnPizza5 = new System.Windows.Forms.PictureBox();
             this.lblPizzaPizzaPrice = new System.Windows.Forms.Label();
             this.lblPizzaHamburgerPrice = new System.Windows.Forms.Label();
             this.lblPizzaIceCreamPrice = new System.Windows.Forms.Label();
             this.lblPizzaCoffeePrice = new System.Windows.Forms.Label();
             this.lblPizzaCokePrice = new System.Windows.Forms.Label();
-            this.btnPizzaCoke = new System.Windows.Forms.PictureBox();
+            this.btnPizza1 = new System.Windows.Forms.PictureBox();
             this.btnPizzaBack = new System.Windows.Forms.Button();
             this.lblEnergy = new System.Windows.Forms.Label();
             this.picPizza = new System.Windows.Forms.PictureBox();
@@ -426,12 +426,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMallShurikan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlPizza.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaEnergyDrink)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoffee)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaIceCream)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaBurger)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaPizza)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).BeginInit();
             this.pnlPlayground.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1923,23 +1923,23 @@
             this.pnlPizza.Controls.Add(this.lblPizzaCashValue);
             this.pnlPizza.Controls.Add(this.lblPizzaCash);
             this.pnlPizza.Controls.Add(this.lblPizzaEnergydrinkEnergy);
-            this.pnlPizza.Controls.Add(this.btnPizzaEnergyDrink);
+            this.pnlPizza.Controls.Add(this.btnPizza6);
             this.pnlPizza.Controls.Add(this.lblPizzaEnergydrinkPrice);
             this.pnlPizza.Controls.Add(this.lblPizzaPizzaEnergy);
             this.pnlPizza.Controls.Add(this.lblPizzaHamburgerEnergy);
             this.pnlPizza.Controls.Add(this.lblPizzaIceCreamEnergy);
             this.pnlPizza.Controls.Add(this.lblPizzaCoffeeEnergy);
             this.pnlPizza.Controls.Add(this.lblPizzaCokeEnergy);
-            this.pnlPizza.Controls.Add(this.btnPizzaCoffee);
-            this.pnlPizza.Controls.Add(this.btnPizzaIceCream);
-            this.pnlPizza.Controls.Add(this.btnPizzaBurger);
-            this.pnlPizza.Controls.Add(this.btnPizzaPizza);
+            this.pnlPizza.Controls.Add(this.btnPizza2);
+            this.pnlPizza.Controls.Add(this.btnPizza3);
+            this.pnlPizza.Controls.Add(this.btnPizza4);
+            this.pnlPizza.Controls.Add(this.btnPizza5);
             this.pnlPizza.Controls.Add(this.lblPizzaPizzaPrice);
             this.pnlPizza.Controls.Add(this.lblPizzaHamburgerPrice);
             this.pnlPizza.Controls.Add(this.lblPizzaIceCreamPrice);
             this.pnlPizza.Controls.Add(this.lblPizzaCoffeePrice);
             this.pnlPizza.Controls.Add(this.lblPizzaCokePrice);
-            this.pnlPizza.Controls.Add(this.btnPizzaCoke);
+            this.pnlPizza.Controls.Add(this.btnPizza1);
             this.pnlPizza.Controls.Add(this.btnPizzaBack);
             this.pnlPizza.Controls.Add(this.lblEnergy);
             this.pnlPizza.Controls.Add(this.picPizza);
@@ -1961,14 +1961,14 @@
             resources.ApplyResources(this.lblPizzaEnergydrinkEnergy, "lblPizzaEnergydrinkEnergy");
             this.lblPizzaEnergydrinkEnergy.Name = "lblPizzaEnergydrinkEnergy";
             // 
-            // btnPizzaEnergyDrink
+            // btnPizza6
             // 
-            this.btnPizzaEnergyDrink.BackgroundImage = global::NinjaGame.Properties.Resources.Energydrink;
-            resources.ApplyResources(this.btnPizzaEnergyDrink, "btnPizzaEnergyDrink");
-            this.btnPizzaEnergyDrink.Name = "btnPizzaEnergyDrink";
-            this.btnPizzaEnergyDrink.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaEnergyDrink, resources.GetString("btnPizzaEnergyDrink.ToolTip"));
-            this.btnPizzaEnergyDrink.Click += new System.EventHandler(this.BtnPizzaEnergyDrinkClick);
+            this.btnPizza6.BackgroundImage = global::NinjaGame.Properties.Resources.Pizza1;
+            resources.ApplyResources(this.btnPizza6, "btnPizza6");
+            this.btnPizza6.Name = "btnPizza6";
+            this.btnPizza6.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza6, resources.GetString("btnPizza6.ToolTip"));
+            this.btnPizza6.Click += new System.EventHandler(this.BtnPizzaEnergyDrinkClick);
             // 
             // lblPizzaEnergydrinkPrice
             // 
@@ -2000,41 +2000,41 @@
             resources.ApplyResources(this.lblPizzaCokeEnergy, "lblPizzaCokeEnergy");
             this.lblPizzaCokeEnergy.Name = "lblPizzaCokeEnergy";
             // 
-            // btnPizzaCoffee
+            // btnPizza2
             // 
-            this.btnPizzaCoffee.BackgroundImage = global::NinjaGame.Properties.Resources.Coffee;
-            resources.ApplyResources(this.btnPizzaCoffee, "btnPizzaCoffee");
-            this.btnPizzaCoffee.Name = "btnPizzaCoffee";
-            this.btnPizzaCoffee.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaCoffee, resources.GetString("btnPizzaCoffee.ToolTip"));
-            this.btnPizzaCoffee.Click += new System.EventHandler(this.BtnPizzaCoffeeClick);
+            this.btnPizza2.BackgroundImage = global::NinjaGame.Properties.Resources.Coffee;
+            resources.ApplyResources(this.btnPizza2, "btnPizza2");
+            this.btnPizza2.Name = "btnPizza2";
+            this.btnPizza2.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza2, resources.GetString("btnPizza2.ToolTip"));
+            this.btnPizza2.Click += new System.EventHandler(this.BtnPizzaCoffeeClick);
             // 
-            // btnPizzaIceCream
+            // btnPizza3
             // 
-            this.btnPizzaIceCream.BackgroundImage = global::NinjaGame.Properties.Resources.Icecream;
-            resources.ApplyResources(this.btnPizzaIceCream, "btnPizzaIceCream");
-            this.btnPizzaIceCream.Name = "btnPizzaIceCream";
-            this.btnPizzaIceCream.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaIceCream, resources.GetString("btnPizzaIceCream.ToolTip"));
-            this.btnPizzaIceCream.Click += new System.EventHandler(this.BtnPizzaIceCreamClick);
+            this.btnPizza3.BackgroundImage = global::NinjaGame.Properties.Resources.Coke;
+            resources.ApplyResources(this.btnPizza3, "btnPizza3");
+            this.btnPizza3.Name = "btnPizza3";
+            this.btnPizza3.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza3, resources.GetString("btnPizza3.ToolTip"));
+            this.btnPizza3.Click += new System.EventHandler(this.BtnPizzaIceCreamClick);
             // 
-            // btnPizzaBurger
+            // btnPizza4
             // 
-            this.btnPizzaBurger.BackgroundImage = global::NinjaGame.Properties.Resources.Burger;
-            resources.ApplyResources(this.btnPizzaBurger, "btnPizzaBurger");
-            this.btnPizzaBurger.Name = "btnPizzaBurger";
-            this.btnPizzaBurger.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaBurger, resources.GetString("btnPizzaBurger.ToolTip"));
-            this.btnPizzaBurger.Click += new System.EventHandler(this.BtnPizzaBurgerClick);
+            this.btnPizza4.BackgroundImage = global::NinjaGame.Properties.Resources.Energydrink;
+            resources.ApplyResources(this.btnPizza4, "btnPizza4");
+            this.btnPizza4.Name = "btnPizza4";
+            this.btnPizza4.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza4, resources.GetString("btnPizza4.ToolTip"));
+            this.btnPizza4.Click += new System.EventHandler(this.BtnPizzaBurgerClick);
             // 
-            // btnPizzaPizza
+            // btnPizza5
             // 
-            this.btnPizzaPizza.BackgroundImage = global::NinjaGame.Properties.Resources.Pizza1;
-            resources.ApplyResources(this.btnPizzaPizza, "btnPizzaPizza");
-            this.btnPizzaPizza.Name = "btnPizzaPizza";
-            this.btnPizzaPizza.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaPizza, resources.GetString("btnPizzaPizza.ToolTip"));
-            this.btnPizzaPizza.Click += new System.EventHandler(this.BtnPizzaPizzaClick);
+            this.btnPizza5.BackgroundImage = global::NinjaGame.Properties.Resources.Icecream;
+            resources.ApplyResources(this.btnPizza5, "btnPizza5");
+            this.btnPizza5.Name = "btnPizza5";
+            this.btnPizza5.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza5, resources.GetString("btnPizza5.ToolTip"));
+            this.btnPizza5.Click += new System.EventHandler(this.BtnPizzaPizzaClick);
             // 
             // lblPizzaPizzaPrice
             // 
@@ -2061,14 +2061,14 @@
             resources.ApplyResources(this.lblPizzaCokePrice, "lblPizzaCokePrice");
             this.lblPizzaCokePrice.Name = "lblPizzaCokePrice";
             // 
-            // btnPizzaCoke
+            // btnPizza1
             // 
-            this.btnPizzaCoke.BackgroundImage = global::NinjaGame.Properties.Resources.Coke;
-            resources.ApplyResources(this.btnPizzaCoke, "btnPizzaCoke");
-            this.btnPizzaCoke.Name = "btnPizzaCoke";
-            this.btnPizzaCoke.TabStop = false;
-            this.toolTip1.SetToolTip(this.btnPizzaCoke, resources.GetString("btnPizzaCoke.ToolTip"));
-            this.btnPizzaCoke.Click += new System.EventHandler(this.BtnPizzaCokeClick);
+            this.btnPizza1.BackgroundImage = global::NinjaGame.Properties.Resources.Burger;
+            resources.ApplyResources(this.btnPizza1, "btnPizza1");
+            this.btnPizza1.Name = "btnPizza1";
+            this.btnPizza1.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnPizza1, resources.GetString("btnPizza1.ToolTip"));
+            this.btnPizza1.Click += new System.EventHandler(this.BtnPizzaCokeClick);
             // 
             // btnPizzaBack
             // 
@@ -2503,6 +2503,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
+            this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlSchool);
             this.Controls.Add(this.pnlGym);
@@ -2510,7 +2511,6 @@
             this.Controls.Add(this.pnlFight);
             this.Controls.Add(this.pnlDreamJob);
             this.Controls.Add(this.pnlMall);
-            this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlPlayground);
             this.Controls.Add(this.prgrsEnergy);
             this.Controls.Add(this.lblSchool);
@@ -2662,12 +2662,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlPizza.ResumeLayout(false);
             this.pnlPizza.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaEnergyDrink)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoffee)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaIceCream)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaBurger)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaPizza)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPizzaCoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPizza1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPizza)).EndInit();
             this.pnlPlayground.ResumeLayout(false);
             this.pnlPlayground.PerformLayout();
@@ -2772,23 +2772,23 @@
         private System.Windows.Forms.Label lblMallShurikanPrice;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lblPizzaEnergydrinkEnergy;
-        private System.Windows.Forms.PictureBox btnPizzaEnergyDrink;
+        private System.Windows.Forms.PictureBox btnPizza6;
         private System.Windows.Forms.Label lblPizzaEnergydrinkPrice;
         private System.Windows.Forms.Label lblPizzaPizzaEnergy;
         private System.Windows.Forms.Label lblPizzaHamburgerEnergy;
         private System.Windows.Forms.Label lblPizzaIceCreamEnergy;
         private System.Windows.Forms.Label lblPizzaCoffeeEnergy;
         private System.Windows.Forms.Label lblPizzaCokeEnergy;
-        private System.Windows.Forms.PictureBox btnPizzaCoffee;
-        private System.Windows.Forms.PictureBox btnPizzaIceCream;
-        private System.Windows.Forms.PictureBox btnPizzaBurger;
-        private System.Windows.Forms.PictureBox btnPizzaPizza;
+        private System.Windows.Forms.PictureBox btnPizza2;
+        private System.Windows.Forms.PictureBox btnPizza3;
+        private System.Windows.Forms.PictureBox btnPizza4;
+        private System.Windows.Forms.PictureBox btnPizza5;
         private System.Windows.Forms.Label lblPizzaPizzaPrice;
         private System.Windows.Forms.Label lblPizzaHamburgerPrice;
         private System.Windows.Forms.Label lblPizzaIceCreamPrice;
         private System.Windows.Forms.Label lblPizzaCoffeePrice;
         private System.Windows.Forms.Label lblPizzaCokePrice;
-        private System.Windows.Forms.PictureBox btnPizzaCoke;
+        private System.Windows.Forms.PictureBox btnPizza1;
         private System.Windows.Forms.Label lblPizzaCashValue;
         private System.Windows.Forms.Label lblPizzaCash;
         private System.Windows.Forms.Label lblPlaygroundCash;
