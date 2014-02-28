@@ -61,7 +61,7 @@
         {
             get
             {
-                return ninjaMaxForceLevel != 0 ? ninjaMaxForceLevel : DefaultNinjaInitialForceLevel;
+                return ninjaMaxForceLevel != 0 ? ninjaMaxForceLevel : DefaultNinjaMaxForceLevel;
             }
 
             set

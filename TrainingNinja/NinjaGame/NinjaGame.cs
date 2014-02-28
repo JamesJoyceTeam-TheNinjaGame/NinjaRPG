@@ -500,7 +500,6 @@
             this.picNinja.BackgroundImage = Resources.NinjaFightHit;
             this.pnlFight.Refresh();
             Thread.Sleep(200);
-            this.picNinja.BackgroundImage = Resources.NinjaFight;
 
             if (this.ninja.CurrentEnergy < 0)
             {
@@ -531,11 +530,11 @@
                 }
                 else if (isGymFight)
                 {
-                    gym.GiveReward(ninja);
+                    this.gym.GiveReward(ninja);
                 }
                 else if(isSchoolFight)
                 {
-                    academy.GiveReward(ninja);
+                    this.academy.GiveReward(ninja);
                 }
 
                 this.pnlFight.Refresh();
@@ -544,15 +543,17 @@
                 this.pnlFight.Visible = false;
                 this.fightForJob = false;
                 this.isGymFight = false;
-                isSchoolFight = false;
+                this.isSchoolFight = false;
                 for (int i = 0; i < this.speciaItemsButtons.Length; i++)
                 {
-                    speciaItemsButtons[i].Visible = false;
+                    this.speciaItemsButtons[i].Visible = false;
                 }
             }
             else if (this.prgrsFightNinja.Value <= 0)
             {
                 this.picNinja.BackgroundImage = Resources.NinjaFightDead;
+                this.pnlFight.Refresh();
+                MessageBox.Show("Looser!");
                 this.ninja.CurrentEnergy = this.ninja.TotalEnergy;
                 this.pnlFight.Visible = false;
                 this.fightForJob = false;
@@ -563,6 +564,8 @@
                     speciaItemsButtons[i].Visible = false;
                 }
             }
+
+            this.picNinja.BackgroundImage = Resources.NinjaFight;
 
             this.pnlFight.Refresh();
             Thread.Sleep(200);
