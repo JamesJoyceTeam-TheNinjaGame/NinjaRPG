@@ -126,6 +126,10 @@
                 this.picHomeEnergizers9,
                 this.picHomeEnergizers10 
             };
+            for (int i = 0; i < speciaItemsButtons.Length; i++)
+            {
+                speciaItemsButtons[i].Visible = false;
+            }
             this.LoadButtons();
         }
 
@@ -231,7 +235,7 @@
                 case "Big Max Burger": return Resources.Burger;
                 case "Pizza A La Programa": return Resources.Pizza1;
                 case "Doberman Energy Drink": return Resources.Energydrink;
-                case "Shuriken": return Resources.Shurikan;
+                case "Shuriken": return Resources.Shurikan1;
                 case "Baseball Bat": return Resources.BaseballBatt;
                 case "Hammer": return Resources.Hammer1;
                 case "Tomahawk": return Resources.Tomahawk;
@@ -541,6 +545,10 @@
                 this.fightForJob = false;
                 this.isGymFight = false;
                 isSchoolFight = false;
+                for (int i = 0; i < this.speciaItemsButtons.Length; i++)
+                {
+                    speciaItemsButtons[i].Visible = false;
+                }
             }
             else if (this.prgrsFightNinja.Value <= 0)
             {
@@ -550,6 +558,10 @@
                 this.fightForJob = false;
                 this.isGymFight = false;
                 this.isSchoolFight = false;
+                for (int i = 0; i < this.speciaItemsButtons.Length; i++)
+                {
+                    speciaItemsButtons[i].Visible = false;
+                }
             }
 
             this.pnlFight.Refresh();
@@ -988,7 +1000,9 @@
             evil = arena.Creature;
 
             this.InitializeFight();
-
+            this.temporaryBag = new List<IUsable>(this.ninja.BagOfItems);
+            this.temporaryForceBag = new List<IUsable>(this.ninja.ListOfFightingSkills);
+            this.temporaryMentalBag = new List<IUsable>(this.ninja.ListOfMentalSkills);
             //arena = new Arena("Job Office", this.job.JobFightRules, this.ninja, this.evil);
         }
 
@@ -1081,6 +1095,9 @@
             this.pnlFight.Visible = true;
             this.DeclareFightButtons();
             this.LoadButtons();
+            this.temporaryBag = new List<IUsable>(this.ninja.BagOfItems);
+            this.temporaryForceBag = new List<IUsable>(this.ninja.ListOfFightingSkills);
+            this.temporaryMentalBag = new List<IUsable>(this.ninja.ListOfMentalSkills);
         }
 
         private void BtnSchoolBackClick(object sender, EventArgs e)
@@ -1100,6 +1117,9 @@
             this.pnlFight.Visible = true;
             this.DeclareFightButtons();
             this.LoadButtons();
+            this.temporaryBag = new List<IUsable>(this.ninja.BagOfItems);
+            this.temporaryForceBag = new List<IUsable>(this.ninja.ListOfFightingSkills);
+            this.temporaryMentalBag = new List<IUsable>(this.ninja.ListOfMentalSkills);
         }
 
         private void BtnDreamJobBackClick(object sender, EventArgs e)

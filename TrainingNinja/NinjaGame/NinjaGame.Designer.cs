@@ -2503,14 +2503,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::NinjaGame.Properties.Resources.ninjaNoBackground;
+            this.Controls.Add(this.pnlFight);
+            this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlPizza);
             this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlSchool);
             this.Controls.Add(this.pnlGym);
             this.Controls.Add(this.pnlJobAgency);
-            this.Controls.Add(this.pnlFight);
             this.Controls.Add(this.pnlDreamJob);
-            this.Controls.Add(this.pnlMall);
             this.Controls.Add(this.pnlPlayground);
             this.Controls.Add(this.prgrsEnergy);
             this.Controls.Add(this.lblSchool);
